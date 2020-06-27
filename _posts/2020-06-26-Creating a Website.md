@@ -67,7 +67,7 @@ There are so many modifications that can be done to this skeleton folder that it
 **C.** If you now check your repo in Github, it'll have been populated with your Local Website files.  
 **D.** Type yourusername.github.io in your web browser & yay ! Your website's live !
 
-If you make further modifications akin to Step 4, just run 3 the commands in the git bash - _git add, git commit & git push_ - & you'll update your website.  
+If you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply jekyll serve) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
 If you're a swift computer wizard & if your internet speed is nice, you should be able to scull through these 7 steps within 10 minutes & create your website.  
 That's it folks ! If you've any queries, let me know in the comments. 
 
