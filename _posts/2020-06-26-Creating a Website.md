@@ -30,7 +30,7 @@ Let us now go through each of these steps in practical detail.
 ### Step 1
 **A.**	Go to the Downloads section of www.rubyinstaller.org & download the latest stable version of Ruby+Devkit  
 **B.**	Install it after downloading, preferably in C:/ drive of your PC  
-**C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. To check it run `git` on cmd & it should show no errors. If there are errors, go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables : if not, add it. Alternatively this can be done through the command line.  
+**C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. To check it run `gem` on cmd & it should show no errors. If there are errors, go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables : if not, add it. Alternatively this can be done through the command line.  
 
 ### Step 2
 **A.** Install gems 'jekyll' & 'bundler' using gem install jekyll bundler from cmd
@@ -45,7 +45,7 @@ There are so many modifications that can be done to this skeleton folder that it
 ### Step 5
 **A.** Go to the Downloads section in www.git-scm.com & download the latest stable version of Git  
 **B.** Install it in C:/ or C:/Program Files  
-**C.** Ensure that the folder containing the .exe files of Git has been added to system PATH.  
+**C.** Ensure that the folder containing the .exe files of Git has been added to system PATH.(Run `git` in cmd to check)  
 
 ### Step 6
 **A.** Right click in MyLocalSite folder & Git Bash   
