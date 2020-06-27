@@ -30,7 +30,7 @@ Let us now go through each of these steps in practical detail.
 ### Step 1
 **A.**	Go to the Downloads section of www.rubyinstaller.org & download the latest stable version of Ruby+Devkit  
 **B.**	Install it after downloading, preferably in C:/ drive of your PC  
-**C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. For this go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables. Alternatively this can be ensured in the command line.  
+**C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. To check it run `git` on cmd & it should show no errors. If there are errors, go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables : if not, add it. Alternatively this can be done through the command line.  
 
 ### Step 2
 **A.** Install gems 'jekyll' & 'bundler' using gem install jekyll bundler from cmd
@@ -43,7 +43,7 @@ Let us now go through each of these steps in practical detail.
 There are so many modifications that can be done to this skeleton folder that it will require a separate post for it. For the time being just go to the _config.yml file and edit the title : <> to your website title. That's it.
 
 ### Step 5
-**A.** Go to the Downloads section in www.git-scm.com & download the latest stable version  
+**A.** Go to the Downloads section in www.git-scm.com & download the latest stable version of Git  
 **B.** Install it in C:/ or C:/Program Files  
 **C.** Ensure that the folder containing the .exe files of Git has been added to system PATH.  
 
@@ -59,7 +59,8 @@ There are so many modifications that can be done to this skeleton folder that it
 	
 	
 ### Step 7	
-**A.** Now go to your Github web account & create a *completely empty* new repo in master branch named yourusername.github.io (You can also create it on a new branch & name it gh-pages branch but I won't recommend it since then your root username.github.io URL will stay blank & your site will be created on a branch of this root URL). Copy the https ID (say Y) displayed in the next page.   
+**A.** Now go to your Github web account & create a *completely empty* new repo in master branch named yourusername.github.io putting your github user name in place of 'yourusername'. You can also create it on a new branch & name it gh-pages branch but I won't recommend it since then your root username.github.io URL will stay blank & your site will be created on a branch of this root URL.  
+Copy the https ID (say Y) displayed in the next page.   
 **B.** In your Git Bash run :  
 	`git remote add origin Y` (where Y is the https ID) (This makes origin = Y)  
 	`git remote -v`  (This should display Y if everything's OK)  
@@ -67,7 +68,7 @@ There are so many modifications that can be done to this skeleton folder that it
 **C.** If you now check your repo in Github, it'll have been populated with your Local Website files.  
 **D.** Type yourusername.github.io in your web browser & yay ! Your website's live !
 
-If you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply jekyll serve) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
+After you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply jekyll serve) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
 If you're a swift computer wizard & if your internet speed is nice, you should be able to scull through these 7 steps within 10 minutes & create your website.  
 That's it folks ! If you've any queries, let me know in the comments. 
 
