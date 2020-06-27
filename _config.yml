@@ -37,6 +37,11 @@ disqus:
 theme: minima
 plugins:
   - jekyll-feed
+  
+# Settings for jekyll-sitemaps gem
+url: "https://galaxyeagle.github.io" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
