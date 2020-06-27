@@ -28,7 +28,10 @@ twitter_username: raman_butta
 github_username:  galaxyeagle
 
 # Disqus Comments
-disqus_shortname: galaxyeagle-github-io
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: galaxyeagle-github-io
 
 # Build settings
 theme: minima
