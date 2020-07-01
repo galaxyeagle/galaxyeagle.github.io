@@ -14,12 +14,13 @@ Indian Architecture can broadly be categorized into the following time phases :
 		- **Sculpture** Bronze(Dancing girl), Terracotta(Mother goddess), Sandstone(Torso), Steatite stone(Priest)
 		- **Pottery** Wheel-made R&B pottery  
   
+  
 2. **MAURYAN**    
 	  
 	- **Stupas** Burial mounds, [Image](https://images.app.goo.gl/Sau8aUf9dzVjVKYQ6), Stupa core made of unburnt bricks
 	- **Ashokan Pillars** Free standing, monolithic, chunar sandstone, Shaft+ Capital+ Abacus+ Animal-figure   
   
-3  . **POST-MAURYAN (_Sculptures_)**    
+3. **POST-MAURYAN (_Sculptures_)**    
 	    
   Gandhara,Mathura & Amravati schools - The complete table given in Nitin Singhania Chap.1 is important to know.
   
@@ -29,7 +30,8 @@ Indian Architecture can broadly be categorized into the following time phases :
 	- **Ellora** Later Gupta+ post-Gupta, on gentle mt.slope &#8756; courtyards present, Cave 14(Ravan ki khai), Cave 16(Kailash temple)
 	- **Bagh** 9 Buddhist caves @Bagh River in M.P.
 	- **Nasik** 23 Hinayana Buddhist caves, no images of Buddha, throne & footprints of Buddha present, also called 'Pandav Leni'  
-	
+  
+  
 5. **POST-GUPTA (_Temples_)**  
 	  
 	- **Nagara** in North India, [image](https://images.app.goo.gl/QUrytZCHmxbJbQYx9), Sub-schools : Odisa,Khajuraho & Solanki
@@ -41,6 +43,7 @@ Indian Architecture can broadly be categorized into the following time phases :
 	- **Vijaynagar** esp.@Hampi,Karnataka, Gopurams on all sides, Multiple mandapas(central one called kalyan mandap), secular bldgs. 
 	- **Pala** in Bengal, by Pala+Sena(so Hindu+Buddhist features), curved roof(Bangla roof), terracotta bricks, curving shikhara with large amalaka, eg. Vishnupur temples, 	            Siddheswar Mahadev temple @Barakar  
   
+
 6. **INDO-ISLAMIC**        
 	  
 	Also called Indo-Saracenic, Arcuade (cf.trabeat), Minars, Domes, Tombs, Mortars, Calligraphy, Arabesque method, symmetry, jaali works, use of water, Charbagh garden 		style, pietra-dura (parchin-kari) tech.,foresightening method
@@ -51,7 +54,8 @@ Indian Architecture can broadly be categorized into the following time phases :
 		- BIJAPUR SCHOOL : by Adil Shah, Bulbous dome, [3-arched facade](https://images.app.goo.gl/XLXxERdUrogbbGRV7), [Cornices](https://images.app.goo.gl/Eb7UzQVqktv7PeYA8), Iron Clamps, eg. Gol Gumbaj
 		- MALWA/PATHAN SCHOOL : in Mandu city(M.P.), eco-friendly &#8757; large windows,bauli reservoirs,battars, eg.Rani Roopmati pavilion @Mandu
 	- **Mughals** [Iwans](https://en.wikipedia.org/wiki/Iwan), red sandstone+marble, chattris, bulbous domes, Quran Inscr.(Persian+Arabic), [Ref](https://en.wikipedia.org/wiki/Mughal_architecture)  
-	
+  
+  
 7. **INDO-EUROPEAN**  
 	  
 	- **Portuguese** Iberian style : patio-houses & baroque curches, eg. St.Cathedral(Goa)
@@ -60,7 +64,8 @@ Indian Architecture can broadly be categorized into the following time phases :
 		- PRE-1911 : Gothic/Victorian style, thin walls, large windows, crucified ground plans for churches, rg. Victoria memorial,Gateway of India 
 		- POST-1911 : Neo-Roman style, Lutyens & Baker made Delhi the 'Rome of Hindustan', anonymous architec.,circular bldgs.,Upturned dome, eg. Rastrapati Bhawan  
   
- 8. **POST-INDEPENDENCE**  
+  
+8. **POST-INDEPENDENCE**  
 	  
 	- Le Corbusier(designed Chandigarh) 
 	- Laurie Baker('Architect of the poor', mass housing in Kerala, eco-friendly local materials, ventilation+thermal comfort, filler slab construction)
