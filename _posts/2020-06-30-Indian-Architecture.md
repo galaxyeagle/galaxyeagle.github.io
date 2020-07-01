@@ -1,6 +1,7 @@
 ---
 layout : post
 title : Indian Art & Architecture
+date : 2020-06-30
 ---
   
 Indian Architecture can broadly be categorized into the following time phases :  
