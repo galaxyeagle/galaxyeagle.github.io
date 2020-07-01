@@ -14,7 +14,8 @@ Indian Architecture can broadly be categorized into the following time phases :
 2. **MAURYAN**  
 	- **Stupas** Burial mounds, [Image](https://images.app.goo.gl/Sau8aUf9dzVjVKYQ6), Stupa core made of unburnt bricks
 	- **Ashokan Pillars** Free standing, monolithic, chunar sandstone, Shaft+ Capital+ Abacus+ Animal-figure 
-3. **POST-MAURYAN (_Sculptures_)**
+3. **POST-MAURYAN (_Sculptures_)**    
+	  
 	Gandhara,Mathura & Amravati schools - The complete table given in Nitin Singhania Chap.1 is important to know.
 4. **GUPTA (_Painted Caves_)**
 	- **Ajanta** Early Gupta, on steep mt.slope &#8756; courtyards absent, near Aurangabad, murals using fresco method (on moist surface), paintings outlined in red color     		      (blue color absent), on Buddhism, 29 caves (24 dev. during Mahayana phase), Cave 16(The dying princess), Cave 26(The temptation of Buddha)
@@ -31,15 +32,16 @@ Indian Architecture can broadly be categorized into the following time phases :
 	- **Hoysala** by Hoysalas in Karnataka(12th-13th ce.CE), Stellate/Panchayatan star based ground plan : Multiple shrines around a central pillared hall, Upraised platform 		        (Jagati), egs. : Chennakeshava temple @Belur, Hoysaleshwar temple @Halebidu
 	- **Vijaynagar** esp.@Hampi,Karnataka, Gopurams on all sides, Multiple mandapas(central one called kalyan mandap), secular bldgs. 
 	- **Pala** in Bengal, by Pala+Sena(so Hindu+Buddhist features), curved roof(Bangla roof), terracotta bricks, curving shikhara with large amalaka, eg. Vishnupur temples, 	            Siddheswar Mahadev temple @Barakar
-6. **INDO-ISLAMIC**    
-	Also called Indo-Saracenic, Arcuade (cf.trabeat), Minars, Domes, Tombs, Mortars, Calligraphy, Arabesque method, symmetry, jaali works, use of water, Charbagh garden 		style, pietra-dura tech.,foresightening method
+6. **INDO-ISLAMIC**        
+	  
+	Also called Indo-Saracenic, Arcuade (cf.trabeat), Minars, Domes, Tombs, Mortars, Calligraphy, Arabesque method, symmetry, jaali works, use of water, Charbagh garden 		style, pietra-dura (parchin-kari) tech.,foresightening method
 	- **Delhi Sultanate** Mamluk(remodelling Hindu structures), Khilji(Seljuk style, mortar), Tughlaq(battar ie. sloping walls, crisis period of architec.), Lodi (double 				      domes)
 	- **Provincial Sultanates** 
 		- BENGAL SCHOOL : Qadam Rasul Mosque @Gaur, Adina mosque @Pandua
 		- JAUNPUR SCHOOL : Sharqi rulers' style, avoided minars, eg. Atala mosque
 		- BIJAPUR SCHOOL : by Adil Shah, Bulbous dome, [3-arched facade](https://images.app.goo.gl/XLXxERdUrogbbGRV7), [Cornices](https://images.app.goo.gl/Eb7UzQVqktv7PeYA8), Iron Clamps, eg. Gol Gumbaj
 		- MALWA/PATHAN SCHOOL : in Mandu city(M.P.), eco-friendly &#8757; large windows,bauli reservoirs,battars, eg.Rani Roopmati pavilion @Mandu
-	- **Mughals** 
+	- **Mughals** [Iwans](https://en.wikipedia.org/wiki/Iwan), red sandstone+marble, chattris, bulbous domes, Quran Inscr.(Persian+Arabic), [Ref](https://en.wikipedia.org/wiki/Mughal_architecture)
 	
 7. **INDO-EUROPEAN**
 	- **Portuguese** Iberian style : patio-houses & baroque curches, eg. St.Cathedral(Goa)
@@ -47,5 +49,7 @@ Indian Architecture can broadly be categorized into the following time phases :
 	- **British** 
 		- PRE-1911 : Gothic/Victorian style, thin walls, large windows, crucified ground plans for churches, rg. Victoria memorial,Gateway of India 
 		- POST-1911 : Neo-Roman style, Lutyens & Baker made Delhi the 'Rome of Hindustan', anonymous architec.,circular bldgs.,Upturned dome, eg. Rastrapati Bhawan
-	
+8. **POST-INDEPENDENCE**
+	- Le Corbusier(designed Chandigarh) 
+	- Laurie Baker('Architect of the poor', mass housing in Kerala, eco-friendly local materials, ventilation+thermal comfort, filler slab construction)
 
