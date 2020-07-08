@@ -35,13 +35,13 @@ If you are sharing your local Git repo on Github, you will have 2 copies of your
 
 #### Pushing remote changes to local
 
-**1st time** 
+##### 1st time
 
 	<Create a new branch 'develop' in github & edit it>    
 	git fetch  
 	git branch develop origin/develop
 		
-**After 1st time**  
+##### After 1st time  
 
 	<Make changes in 'develop' in github>  
 	git fetch  
