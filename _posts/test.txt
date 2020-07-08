@@ -1,2 +1,3 @@
 A text file
 Another line
+3rd line here
