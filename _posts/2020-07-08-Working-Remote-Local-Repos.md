@@ -50,7 +50,8 @@ If you are sharing your local Git repo on Github, you will have 2 copies of your
 		
 ----------------------------------------------------------------------------------------  
 After changes to 'develop' branch are made, & you want to merge it with master branch
-```<On master branch> git merge develop
+```
+<On master branch> git merge develop
 ```
 	
 nb. There's a concept called "pull request" only in github where you can create a "pull request" in github while you're on the develop branch
@@ -58,5 +59,5 @@ nb. There's a concept called "pull request" only in github where you can create 
 	
 ### Deleting 'develop' branch after its merged with master & no longer needed 
   
-To delete local copy : ```git branch -d develop```
+To delete local copy : ```git branch -d develop```  
 To delete remote copy also : ```git push origin --delete develop```
