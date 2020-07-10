@@ -1,11 +1,7 @@
 ### A short story for kids written by Dr.Nishi Butta 
 
-<img src = "/images/rabbit-wolf.jpg" width="150" height = "100">
-```{css,echo=FALSE}
-img{
-	float : left
-   }
-```
+<img src = "/images/rabbit-wolf.jpg#thumbnail" width="150" height = "100">
+img[src *= thumbnail]{float:left}
 
 ##### (For Devnagri, scroll down)  
 Apne Mummy-Papa ke saath Baby Rabbit comfortably rahta tha. Ek din Rabbit ke Mummy-Papa bahar gaye aur rabbit ko bola "Hamare lautne tak 
