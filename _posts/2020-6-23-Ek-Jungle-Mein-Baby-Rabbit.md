@@ -6,7 +6,7 @@
 		img{float:left; max-width:150px; max-height:100px;width=auto;height=auto;}
 </style>
 
-##### (For Devnagri, scroll down)  
+##### (For Devnagri, click <a href="#Devnagri">here</a> )  
 Apne Mummy-Papa ke saath Baby Rabbit comfortably rahta tha. Ek din Rabbit ke Mummy-Papa bahar gaye aur rabbit ko bola "Hamare lautne tak 
 bahar mat jaana". Baby Rabbit ne kaha Okay. Mummy-rabbit aur Papa-rabbit chale gaye. Tabhi Baby Rabbit ka friend Kalu Bandar aaya. Usne 
 Rabbit se kaha chalo bahar ghumne chalte hain. Pehle Rabbit ne 'Na' kaha par baad mein maan gaya. Bahar ko mausam bahut achha tha. Usi 
@@ -21,6 +21,7 @@ Isse ye lesson milta hai ki musibat mein panic nahi hona chahiye.
 **_Dr Nishi Butta_**  
 ***************************************************************************************
   
+<span id="Devnagri"></span>
 अपने मम्मी -पापा के साथ बेबी रैबिट आराम से रहता था | एक दिन रैबिट के मम्मी-पापा बाहर गए और रैबिट को बोलै "हमारे लौटने तक बाहर मत जाना"| बेबी रैबिट ने कहा
 Okay. मम्मी-रैबिट और पापा-रैबिट चले गए | तभी बेबी रैबिट का दोस्त कालू बन्दर आया | उसने रैबिट से कहा चलो बाहर घूमने चलते हैं | पहले रैबिट ने 'ना'
 कहा पर बाद में मान गया | बाहर को मौसम बहुत अच्छा था | उसी समय एक वुल्फ नज़र आया | कालू बन्दर भाग कर बगल के पेड़ पर चढ़ गया | वुल्फ 
