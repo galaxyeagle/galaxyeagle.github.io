@@ -29,11 +29,25 @@ ILG happens in a country which is a prospective economy where global players wis
 So ILG & ELG both have their downsides. In both, a country is dependant on the rest of the world for their growth. But that can be avoided to a large extent. 
 The below figure depicts a 2-country model of imports & exports.
 
-![Exim](/images/exim1.png)
-
-<style>img{float:left; width:300px; height:200px; padding-right:20px}</style>
+<img class="exim" src="/images/exim1.png"> 
+<style> .exim{float:left; width:300px; height:200px; padding-right:20px} </style>
 
  Suppose both 'A' & 'B' are parts of a single large country called 'C'. Then theoretically 'C' will neither need to export abroad (of course it can export if it wants but it'll not be dependant on exports for its growth as in ELG) nor need to import anything from abroad (G&S or investments). This stage can be achieved when an ELG economy matures so much so as to generate sufficient domestic demand for the G&S it produces. Such a country should also be ideally large with a large population. India fits the latter criterion & has the potential to fulfill the former one. But India is not even an ELG yet.A lot needs to be done at the policy level in India. The country 'C' discussed in the SRG will actually not be detached from all imports, as there is always a set of natural resources that every country lacks but requires. For a large & diverse country like India, this set is minimal but &#8800; 0. But with development of alternatives, imports can be reduced (eg. substituting uranium import in India by domestic thorium). For man-made G&S, near-zero imports are reachable. Note that my SRG model will not be feasible for a small country like Singapore. Because of its size, ILG is timelessly the best strategy for its growth.
+ 
+ #### What happens when a country neither exports much nor attracts foreign investments ?
+ 
+ In such a situation, less exports would lead to high trade deficit. If there isn't FDI/FPI to balance the deficit, how'll BoP=0 ? Well actually trade deficit/surplus is a part of a larger concept called 'Current Account' of a country. But its the main part of current A/C. However FDI/FPI is a part of a larger concept called 'Capital Account' which has another important part called 'External Borrowings'. Thus Trade Deficit should instead be balanced against the Capital A/C & not FDI/FPI only, as depicted in Fig 1 below.
+  
+ <img class="pan" src="/images/pan.gif">
+ <style> .pan{float:left; width:300px; height:200px; padding-right:20px} </style>
+ 
+ Thus within Capital A/C, if foreign investments fall, then External Borrowings must rise in order to balance the trade deficit. External borrowings(or debts) may be borrowed by private players or by the govt. of the country. When borrowed by the govt., its called 'Soverign debt'.  
+Thus Total External Debt = Pvt. ext. debt + Govt. ext. debt  
+ (Also note that Govt. ext. debt + Govt. internal debt = Sovereign debt  
+  Also, &Sigma;(fiscal deficit of that country from -&infin;BCE till date) = Sovereign debt.  I'll discuss more on this later when I'll talk about fiscal deficit.)
+  But its clear for now that if a country is neither exporting nor attracting foreign investments that good, then it must resort to external borrowings in that FY. However this model isn't sustainable for long due to two reasons :  
+i)  Soon the country may become bankrupt repaying the loans (eg. Sovereign debt crisis of Greece),  AND  
+ii) Lack of both exports & foreign investments for a long time will lead to drying up of the forex reserves of that country to pay for import bills (eg. India(1990)), thus leading to severe depreciation of currency (ie. currency crisis) leading to hyperinflation (eg. Zimbabwe) 
 
 
 
