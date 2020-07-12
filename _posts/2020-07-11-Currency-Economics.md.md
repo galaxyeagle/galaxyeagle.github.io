@@ -42,9 +42,9 @@ The below figure depicts a 2-country model of imports & exports.
  <style> .pan{float:left; width:300px; height:200px; padding-right:20px} </style>
  
  Thus within Capital A/C, if foreign investments fall, then External Borrowings must rise in order to balance the trade deficit. External borrowings(or debts) may be borrowed by private players or by the govt. of the country. When borrowed by the govt., its called 'Soverign debt'.  
-Thus `Total External Debt = Pvt. ext. debt + Govt. ext. debt`  
+Thus `Total External Debt = Pvt. ext. debt(ECB) + Govt. ext. debt`  
  (Also note that `Govt. ext. debt + Govt. internal debt = Sovereign debt`  
-  Also, `&Sigma;(fiscal deficit of that country from -&infin; BCE till date) = Sovereign debt`.  I'll discuss more on this later when I'll talk about fiscal deficit.)
+  Also, ` &Sigma;(fiscal deficit of that country from -&infin; BCE till date) = Sovereign debt. `  I'll discuss more on this later when I'll talk about fiscal deficit.)
   But its clear for now that if a country is neither exporting nor attracting foreign investments that good, then it must resort to external borrowings in that FY. However this model isn't sustainable for long due to two reasons :  
 i)  Soon the country may become bankrupt repaying the loans (eg. Sovereign debt crisis of Greece),  AND  
 ii) Lack of both exports & foreign investments for a long time will lead to drying up of the forex reserves of that country to pay for import bills (eg. India(1990)), thus leading to severe depreciation of currency (ie. currency crisis) leading to hyperinflation (eg. Zimbabwe).  
