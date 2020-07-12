@@ -42,13 +42,27 @@ The below figure depicts a 2-country model of imports & exports.
  <style> .pan{float:left; width:300px; height:200px; padding-right:20px} </style>
  
  Thus within Capital A/C, if foreign investments fall, then External Borrowings must rise in order to balance the trade deficit. External borrowings(or debts) may be borrowed by private players or by the govt. of the country. When borrowed by the govt., its called 'Soverign debt'.  
-Thus Total External Debt = Pvt. ext. debt + Govt. ext. debt  
- (Also note that Govt. ext. debt + Govt. internal debt = Sovereign debt  
-  Also, &Sigma;(fiscal deficit of that country from -&infin;BCE till date) = Sovereign debt.  I'll discuss more on this later when I'll talk about fiscal deficit.)
+Thus `Total External Debt = Pvt. ext. debt + Govt. ext. debt`  
+ (Also note that `Govt. ext. debt + Govt. internal debt = Sovereign debt`  
+  Also, `&Sigma;(fiscal deficit of that country from -&infin; BCE till date) = Sovereign debt`.  I'll discuss more on this later when I'll talk about fiscal deficit.)
   But its clear for now that if a country is neither exporting nor attracting foreign investments that good, then it must resort to external borrowings in that FY. However this model isn't sustainable for long due to two reasons :  
 i)  Soon the country may become bankrupt repaying the loans (eg. Sovereign debt crisis of Greece),  AND  
-ii) Lack of both exports & foreign investments for a long time will lead to drying up of the forex reserves of that country to pay for import bills (eg. India(1990)), thus leading to severe depreciation of currency (ie. currency crisis) leading to hyperinflation (eg. Zimbabwe) 
+ii) Lack of both exports & foreign investments for a long time will lead to drying up of the forex reserves of that country to pay for import bills (eg. India(1990)), thus leading to severe depreciation of currency (ie. currency crisis) leading to hyperinflation (eg. Zimbabwe).  
+  
 
+#### What is an economic crisis for an emerging economy ?
+
+An economic crisis for any economy is a depression. But it has 2 predecessors, recession & inflation. When inflation starts rising & goes beyond control, it dries up the purchasing power of most people. This drying up leads to recession in which many businesses shut down, layoff employees & cause widespread unemployment & a further drop in purchasing power (demand). This vicious cycle leads to a total collapse of the economy called depression wherein both demand & supply reach their minima. So its evident that inflation started it all.
+In an emerging economy (ILG by assumption), widespread inflation can only occur due to 3 main reasons :  
+(i) Increase in the price of items it imports due to extraneous reasons (eg.War, sanction, oil embargoes, etc.)  
+(ii) Drop in supply from some key domestic industries due to accident, weather, etc.  
+(ii) Flight of foreign investments out from that ILG country  
+  
+Flight of foreign investments happens when foreign investors cease seeing the ILG country in question as very prospective for safe+high returns. This can happen due to many reasons. Consider India. During the Taper Tantrums of US Fed in 2013 & 2018 when it hiked up its interest rate, investors took their capital from India & invested in US. This caused a dip in India's forex reserves which led to depreciation of the rupee. This depreciation inevitably leads to inflation. (nb. Some argue that this depreciation leads to more exports so the forex reserves should re-increase. But they should remember India is an ILG & not an ELG.)  
+What's interesting is the steps GoI will take to fight this inflation. Alternatively, if the following steps are taken by GoI, it means they're fighting a crisis (sort of like our immune system response). Here are the steps :  
+(i) Increasing the interest rates (to attract more foreign investment + to contain inflation)
+(ii) Both govt. & pvt. players will start buying cheap foreign loans to fund themselves. This leads to &#8593;Total Ext. Debt 
+(ii) Increasing the (benchmark)10Y-bond yield (so that GoI can attract more bond-buyers to help it raise money) : this will cause dip in the bond prices
 
 
 
