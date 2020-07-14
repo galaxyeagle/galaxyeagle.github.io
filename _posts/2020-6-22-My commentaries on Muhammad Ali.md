@@ -40,4 +40,19 @@ Ali Spinks 2..................................."It is befitting that I achieve t
     Jurgen Blin. Ali's punches were like an avalanche, a single one may be insufficient but a cumulation can crumble mountains. You 
     initially feel that his jabs are bearable but by the time you realize the cumulative damage, its too late. Floyd Patterson once 
     remarked that Ali's punches won't knock you down, they'll rub you off and dizzy you down. He was right.
+	
+	<p id="mybutton"> <button onclick="change()">Contribute your thoughts to this post</button> </p>
+	<script>
+	function change()
+	{
+		v = document.getElementById("mybutton"); 
+		v.innerHTML= "DROP ME AN EMAIL AT raman.butta.nitdgp@gmail.com";
+	}
+	</script>
+	
+	
+	
+	
+	
+
 
