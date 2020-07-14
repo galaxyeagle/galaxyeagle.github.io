@@ -46,7 +46,7 @@ Ali Spinks 2..................................."It is befitting that I achieve t
 	function change()
 	{
 		v = document.getElementById("mybutton"); 
-		v.innerHTML= "DROP ME AN EMAIL AT raman.butta.nitdgp@gmail.com";
+		v.innerHTML= "COMMENT BELOW or DROP ME AN EMAIL AT raman.butta.nitdgp@gmail.com";
 	}
 	</script>
 	
