@@ -32,11 +32,11 @@ Ali Spinks 2..................................."It is befitting that I achieve t
 
 1.  The most invincible Ali was in the 1967 fight with Zora Folley. With umpteen tactics up his sleeve and an unmatched
     agility+strength, the concorde was at its highest then !
-2.  The last great fight of Ali was with Shavers in 1977. It was also the fight where Ali took some good face shots. Based on my     
-    observation, this fight contributed the most to his slowing down and Parkinson-like symptoms later on. His speech started slurring 
+2.  The last great fight of Ali was with Shavers in 1977. It was also the fight where Ali took some good face shots. Based on my 
+	observation, this fight contributed the most to his slowing down and Parkinson-like symptoms later on. His speech started slurring 
     only after this fight. The last round of this bout is one of the best and reveals the warrior-spirit of Ali.
-3.  Ali was too fast for Liston in the 2nd fight. Sonny felt like he was surrounded until a punch came from nowhere and knocked him     
-    down. Ali showed that punching power is not an indispensable ingredient of a knock-out. He proved it again in his fight with 
+3.  Ali was too fast for Liston in the 2nd fight. Sonny felt like he was surrounded until a punch came from nowhere and knocked him 
+	down. Ali showed that punching power is not an indispensable ingredient of a knock-out. He proved it again in his fight with 
     Jurgen Blin. Ali's punches were like an avalanche, a single one may be insufficient but a cumulation can crumble mountains. You 
     initially feel that his jabs are bearable but by the time you realize the cumulative damage, its too late. Floyd Patterson once 
     remarked that Ali's punches won't knock you down, they'll rub you off and dizzy you down. He was right.
