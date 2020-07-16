@@ -9,7 +9,7 @@ permalink: /AFAP
 body{background-image: url("/images/ali-collage.png");}
 </style>
 
-<meta property="og:image" content="/images/ogali.png">
+<meta property="og:image" content="http://localhost:4000/images/ogali.png">
 
 ## A public repository of opinions & analyses of Ali's fights
 
