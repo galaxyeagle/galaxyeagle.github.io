@@ -52,7 +52,7 @@ Ali's fights were a great source of knowledge, not just for boxers but rather fo
 <button> Williams 1966  </button>  <span id></span>
 <button> Terrell 1967  </button>  <span id></span>
 <button onclick="expand('folley')"> Folley 1967  </button>  <span id="folley" style="display:none"> 1. The most invincible Ali was in this fight. With umpteen tactics up his sleeve and an unmatched
-				  agility+strength, the concorde was at its highest then !</span>
+				  agility+strength, the concorde was at its highest then ! -- contributed by @Raman Butta</span>
 <button> Quarry 1970  </button>  <span id></span>
 <button> Bonavena 1970  </button>  <span id></span>
 <button> Frazier 1971  </button>  <span id></span>
