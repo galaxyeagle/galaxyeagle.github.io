@@ -2,6 +2,7 @@
 layout: page
 title: Ali Fights Analysis Project
 permalink: /AFAP
+image: /images/ogali.png
 ---
 <script type="text/javascript" src="/scripts/ali.js"></script>
 <!--<style> span{display: none;}</style>  -->
