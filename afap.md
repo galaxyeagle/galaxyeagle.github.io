@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ali Fights Analysis Project
+title: AFAP
 permalink: /AFAP
 image: /images/ogali3.png
 ---
@@ -10,6 +10,7 @@ image: /images/ogali3.png
 body{background-image: url("/images/ali-collage.png");}
 </style>
 
+<img src="/images/ogali3.png">
 
 
 ## A public repository of opinions & analyses of Ali's fights
