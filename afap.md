@@ -10,6 +10,8 @@ image: /images/ogali3.png
 body{background-image: url("/images/ali-collage.png");}
 </style>
 
+<head> {% seo %} </head>
+
 
 
 ## A public repository of opinions & analyses of Ali's fights
