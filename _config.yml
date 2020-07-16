@@ -42,7 +42,9 @@ plugins:
 url: "https://galaxyeagle.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
+ 
+plugins:
+    - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
