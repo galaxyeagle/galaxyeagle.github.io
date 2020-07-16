@@ -82,7 +82,7 @@ Ali's fights were a great source of knowledge, not just for boxers but rather fo
 <button> Evangelista 1977  </button>  <span id></span>
 <button onclick="expand('shavers')"> Shavers 1977  </button>  <span id="shavers" style="display:none"> 1. This was the last great fight of Ali. It was also the fight where Ali took some good face shots. Based on my 
 					observation, this fight contributed the most to his slowing down and Parkinson-like symptoms later on. His speech started slurring 
-					only after this fight. The last round of this bout is one of the best and reveals the warrior-spirit of Ali.</span>
+					only after this fight. The last round of this bout is one of the best and reveals the warrior-spirit of Ali. -- contributed by @Raman Butta</span>
 <button> Spinks(1) 1978  </button>  <span id></span>
 <button> Spinks(2) 1978  </button>  <span id></span>
 <button> Holmes 1980  </button>  <span id></span>
