@@ -17,7 +17,7 @@ body{background-image: url("/images/ali-collage.png");}
 
 This post is an open-source research project on the analyses of the professional fights of Muhammad Ali. Anyone can participate in this project.
 In case you're also an Ali enthusiast and wish to make your opinions as a part of this project in the public domain, add your opinion in the Comments section below preferably with your Name & Social media handle (@Twitter/FB). Alternatively you can send your analysis to raman.butta.nitdgp@gmail.com. Your analysis will be reviewed & added to this project as soon as possible referencing your name. Mention the Ali fight which you are analysing. Your analysis can be as long as a write-up or as short as a one-liner.  
-Ali's fights were a great source of knowledge, not just for boxers but rather for anyone wishing to excel in whatever they're pursuing. Let us keep the legacy of Ali's great career & fights alive for the coming generations. Turn your observation of watching Ali's fights into a resource for the world.     
+Ali's fights were a great source of knowledge, not just for boxers but rather for anyone wishing to excel in whatever they're pursuing. Let us keep the legacy of Ali's great career & fights alive for the coming generations. Convert your observation of watching Ali's fights into a resource for the world.     
 
 
 <button> Hunsaker 1960 </button>  <span id></span>
