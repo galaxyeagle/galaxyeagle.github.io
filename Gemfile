@@ -31,3 +31,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # A gem from https://github.com/jekyll/jekyll-sitemap to generate sitemap
 gem 'jekyll-sitemap'
 
+# A gem from https://github.com/jekyll/jekyll-seo-tag for seo
+gem 'jekyll-seo-tag'
+
