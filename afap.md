@@ -9,6 +9,8 @@ permalink: /AFAP
 body{background-image: url("/images/ali-collage.png");}
 </style>
 
+<meta property="og:image" content="/images/ogali.png">
+
 ## A public repository of opinions & analyses of Ali's fights
 
 This post is an open-source research project on the analyses of the professional fights of Muhammad Ali. Anyone can participate in this project.
