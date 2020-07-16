@@ -1,15 +1,19 @@
 ---
-layout: post
-title: Analysis of Muhammad Ali's fights 
+layout: page
+title: Ali Fights Analysis Project
+permalink: /AFAP
 ---
-
 <script type="text/javascript" src="/scripts/ali.js"></script>
 <!--<style> span{display: none;}</style>  -->
+<style>
+body{background-image: url("/images/ali-collage.png");}
+</style>
 
 ## A public repository of opinions & analyses of Ali's fights
 
 This post is an open-source research project on the analyses of the professional fights of Muhammad Ali. Anyone can participate in this project.
-In case you're also an Ali enthusiast and wish to make your opinions as a part of this project in the public domain, add your opinion in the Comments section below preferably with your Name & Social media handle (@Twitter/FB). Alternatively you can send your analysis to raman.butta.nitdgp@gmail.com. Your analysis will be reviewed & added to this project as soon as possible referencing your name. Mention the Ali fight which you are analysing. The analysis can be as long as an essay or as short as a one-liner.   
+In case you're also an Ali enthusiast and wish to make your opinions as a part of this project in the public domain, add your opinion in the Comments section below preferably with your Name & Social media handle (@Twitter/FB). Alternatively you can send your analysis to raman.butta.nitdgp@gmail.com. Your analysis will be reviewed & added to this project as soon as possible referencing your name. Mention the Ali fight which you are analysing. Your analysis can be as long as a write-up or as short as a one-liner.  
+Ali's fights were a great source of knowledge, not just for boxers but rather for anyone wishing to excel in whatever they're pursuing. Let us keep the legacy of Ali's great career & fights alive for the coming generations.   
 
 
 <button> Hunsaker 1960 </button>  <span id></span>
@@ -103,16 +107,5 @@ Ali Spinks 2..................................."It is befitting that I achieve t
 
  
 	
-<p id="mybutton" style="color:green"> <button onclick="change()" style="background-color:lightgreen">Contribute your thoughts to this post</button> </p>
-<a href="https://www.paypal.me/ramanbutta" target="_blank">Support this project. Donate via PayPal.</a>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
+<p id="mybutton" style="color:green"> <button onclick="change()" style="background-color:lightgreen">Contribute your analysis of your favourite Ali fight</button> </p>
+<a href="https://www.paypal.me/ramanbutta" target="_blank"><b>Support this project. Donate via PayPal.</b></a>
