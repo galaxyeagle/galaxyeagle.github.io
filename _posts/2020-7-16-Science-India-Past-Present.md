@@ -16,7 +16,7 @@ and propounding the idea of gravity for the first time (which was further polish
 described as gurutvakarshan) were among the many intellectual giants of the Golden Age of India.  
 As per the research of German scholar Gustav Oppert, Shukraniti by Shukracharya elucidated the gunpowder mixture and firearms very thoroughly much before the Chinese claim of its 
 invention. But even till conclusive findings confirm it, it is certain that they were improved and used extensively in medieval India. Not to say the least, the Mysorean iron-cased 
-‘rocquets’ of Haidar and Tipu were the first missiles of the world carrying payloads, bemusing the ignorant British cavalry and pouring death into their ranks.
+‘rocquets’ of Haidar and Tipu were the first missiles of the world carrying payloads, bemusing the ignorant British cavalry and pouring death into their ranks.  
 In the 19th and 20th centuries, there was a resurgence of scientific discoveries in India, despite of and not because of the British colonialism. Recently in 1985, NASA Scientist Rick 
 Briggs in his paper in the AI Magazine described Sanskrit as the most suitable language for Natural language processing and AI. But by the early modern times, working in Sanskrit had 
 been made out of vogue and Indian minds, with the aid of the books and papers written mostly in English and German, containing the latest scientific expeditions of the European 
