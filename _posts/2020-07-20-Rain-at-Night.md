@@ -10,7 +10,7 @@ as if crying without a cause<br>
 the drenched leaves do not stop<br>
 your shower from atop<br>
 O let me know your heart<br>
-what keeps up at night<br>
+what keeps you up at night<br>
 Teach me how to start<br>
 a relentless fight<br>
 I may win or I may fall<br>
