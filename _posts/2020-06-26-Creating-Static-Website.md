@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Create a website using Jekyll & Github
+title : Create a static website using Jekyll & Github
 ---
 
 Delivering content/service to an audience (with/out their feedback) is the prime object of any website. Your website files need to be present in some web server (even your PC can be a server !), and these files need to be hosted on a cloud platform which is connected to the Internet (eg. Github pages, AWS, etc) - and bingo ! Your website will go live on the Internet.
