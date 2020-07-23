@@ -4,7 +4,7 @@ title: Operations on sin(x)
 ---
 
 <style>
-img{float:left; width:33.33%, padding:5px}
+img{float:left; width:50%; padding:5px;}
 </style>
 
 
