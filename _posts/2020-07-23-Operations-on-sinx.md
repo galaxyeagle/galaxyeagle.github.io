@@ -3,6 +3,10 @@ type: post
 title: Operations on sin(x)
 ---
 
+<style>
+img{float:left; width:33.33%, padding:5px}
+</style>
+
 
 <img src="/images/sin mpl plots/1.png">
 <img src="/images/sin mpl plots/2.png">
