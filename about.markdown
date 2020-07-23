@@ -11,5 +11,5 @@ To see my list of publications & to know more about me, check out [my LinkedIn p
 My research on Robotics at MPI-KYB is summarized [here](https://www.kyb.tuebingen.mpg.de/person/58710/272198)   
 To hear my original song releases, check out [my Spotify profile](https://open.spotify.com/artist/0njPAhPdvUc5MSgI5DMBdH)   
 For any corresepondence send me an [email](mailto:raman.butta.nitdgp@gmail.com).  
-If you wish to show your gratitude to _Galaxy Eagle_, feel free to [contribute](https://www.paypal.me/ramanbutta).
+You can express your gratitude to _Galaxy Eagle_ by contributing [here](https://www.paypal.me/ramanbutta).
 
