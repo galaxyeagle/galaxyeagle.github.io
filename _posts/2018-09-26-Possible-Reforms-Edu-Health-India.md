@@ -32,4 +32,6 @@ Lastly, education should be digitised. Under the proposed model, there shall be 
 
 Outside the family, the Doctor and the Teacher are the two principal entities for any child throughout his growing and learning years. Their jobs require proper qualifications and a strenuous dedication. Thus in order to keep them going, especially in the rural and remote regions, it is necessary to increase their compensation, provide them facilities and a congenial atmosphere to learn and deliver. It is therefore imperative for the government to devise policies in the best interests of the teacher, doctor and the society at large. 
 
-- Raman Butta 
+- Raman Butta
+
+_(An excerpt of this article is also published by ORF <a href="https://www.orfonline.org/expert-speak/we-need-ppp-model-in-education-too-44521/">here</a>)_ 
