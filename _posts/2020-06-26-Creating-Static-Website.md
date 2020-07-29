@@ -30,10 +30,10 @@ Let us now go through each of these steps in practical detail.
 ### Step 1
 **A.**	Go to the Downloads section of www.rubyinstaller.org & download the latest stable version of Ruby+Devkit  
 **B.**	Install it after downloading, preferably in C:/ drive of your PC  
-**C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. To check it run `gem` on cmd & it should show no errors. If there are errors, go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables : if not, add it. Alternatively this can be done through the command line.  
+**C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. To check it run `gem` on cmd & it should show no errors. If there are errors, go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables : if not, add it. Alternatively this can be checked through the command line using `echo %PATH%` command.  
 
 ### Step 2
-**A.** Install gems 'jekyll' & 'bundler' using gem install jekyll bundler from cmd
+**A.** Install gems 'jekyll' & 'bundler' using `gem install jekyll bundler` from cmd
 
 ### Step 3
 **A.** Create a folder anywhere in your PC & give it any dummy name say MyWebsites.  
