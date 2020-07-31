@@ -5,7 +5,10 @@ function expand(a)
 {
 	x = document.getElementById(a);
 	if (x.style.display === 'none')
-		x.style.display = 'block';	
+	{
+		x.style.display = 'block';
+		x.style.backgroundColor = 'lightyellow';
+	}
 	else
 		x.style.display = 'none';
 }
