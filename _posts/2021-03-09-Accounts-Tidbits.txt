@@ -3,7 +3,7 @@ type: post
 title: Accounts Tidbits
 ---
 
-####New Purchase policy####
+#### New Purchase policy ####
 
 As per GO no. 5400-FY amended by GO 6932FY
 
