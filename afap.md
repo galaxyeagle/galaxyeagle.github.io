@@ -115,7 +115,7 @@ Ali Spinks 2..................................."It is befitting that I achieve t
 <p style="color:red"> Become a team member. Collect analyses of an Ali fight from different people & submit via <a href="mailto:raman.butta.nitdgp@gmail.com">email</a>. Your name will be featured in this project page.</p>    
   
   
-<a href="https://www.paypal.me/ramanbutta" target="_blank"><b>Support this project. Donate via PayPal.</b></a>  
+<!--- <a href="https://www.paypal.me/ramanbutta" target="_blank"><b>Support this project. Donate via PayPal.</b></a> ---> 
   
 <a href="whatsapp://send?text=Ali Fights Analysis Project https://galaxyeagle.github.io/AFAP" data-action="share/whatsapp/share">Share via Whatsapp</a>
 
