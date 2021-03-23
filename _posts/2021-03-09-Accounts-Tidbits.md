@@ -39,9 +39,11 @@ GeM :
 Primary user : registers the org on gem portal
 Secondary users : assigned various roles (they're consignees & bill-payers/DDOs) [3 works : placement of contract, receipt of stores ie consignee, payt. to sellers]
 Up to Rs. 25,000/- through any of the available suppliers on the GeM.
-Above Rs. 25,000/- and up to Rs. 1 lakh through the GeM, Seller having lowest price amongst at least three available sellers
+Above Rs. 25,000/- and up to Rs. 1 lakh through the GeM, Seller having lowest price amongst at least three available sellers 
 Above Rs. 1 lakh through the supplier having lowest price after mandatorily obtaining bids
 
 if 2 bids only are rxed...reverse auction in gem is reqd (since then sellers themselves approach buyer & underbid each other, so lower bids will ensure price quoted is reasonable)
 if 1 bid... possible as per GO 6989-FY
 if branded product , give explanation as per GO 1956-FY
+
+vendor should get payt within 10 days of generation of CRAC by consignee
