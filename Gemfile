@@ -34,3 +34,6 @@ gem 'jekyll-sitemap'
 # A gem from https://github.com/jekyll/jekyll-seo-tag for seo
 gem 'jekyll-seo-tag'
 
+# A gem from https://github.com/jekyll/jekyll-paginate to paginate
+gem 'jekyll-paginate'
+

@@ -72,8 +72,46 @@ After you make further modifications akin to Step 4, run `bundle exec jekyll bui
 
 Further steps :
 
-Note that Jekyll is a static-site generator. You can create your static site & host it on your local server even without gems like jekyll or bundler or even the Ruby environment ! You'll then need to write ALL codes by hand ! That's not how you should 
+Note that Jekyll is a static-site generator. You can create your static site & host it on your local server even without gems like jekyll or bundler or even the Ruby environment ! You'll then need to write ALL codes by hand ! That's not how you should do it though. Moreover once you've made your site you can host it not just on Github pages, but on Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine.  
+Now focussing on Jekyll, it has different themes. By default, 'minima' is used, which is also a ruby gem in the Jekyll family. You can find gem "minima" written in your Gemfile by default.  
+In order to change the theme, add disqus comments, add a sitemap, etc, you'll mainly need to edit the following :
+- Gemfile (lists the *gems*)
+- Config.yml file (lists the *plugins* which make settings for the respective gems)
+- index.md/index.html
+- _includes folder (create a new _includes folder in you LocalSite folder & copy the relevant files such as head.html,etc from C:\Ruby26-x64\lib\ruby\gems\2.6.0\gems\minima-2.5.1\_includes folder into your LocalSite folder & edit as needed or create new files if needed. The original files will be overriden.)
+- _layouts folder (follow same instructions as in _includes. Usually editing the 4 files present in this folder (default.html, home.html, page.html, post.html) suffices).
 
+Infact the C:\Ruby26-x64\lib\ruby\gems\2.6.0\gems\minima-2.5.1\ folder will have the following files:
+
+.
+├── LICENSE.txt
+├── README.md
+├── _includes
+│   ├── disqus_comments.html
+│   ├── footer.html
+│   ├── google-analytics.html
+│   ├── head.html
+│   ├── header.html
+│   ├── icon-github.html
+│   ├── icon-github.svg
+│   ├── icon-twitter.html
+│   └── icon-twitter.svg
+├── _layouts
+│   ├── default.html
+│   ├── home.html
+│   ├── page.html
+│   └── post.html
+├── _sass
+│   ├── minima
+│   │   ├── _base.scss
+│   │   ├── _layout.scss
+│   │   └── _syntax-highlighting.scss
+│   └── minima.scss
+└── assets
+    └── main.scss
+
+
+All these files can be overriden in your LocalSite folder as per requirement. (ref: https://jekyllrb.com/docs/themes/#overriding-theme-defaults )
 
 That's it folks ! If you've any queries, let me know in the comments. 
 
