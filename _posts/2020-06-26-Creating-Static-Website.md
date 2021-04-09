@@ -69,7 +69,12 @@ Copy the https ID (say Y) displayed in the next page.
 **D.** Type yourusername.github.io in your web browser & yay ! Your website's live !
 
 After you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply jekyll serve) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
-If you're a swift computer wizard & if your internet speed is nice, you should be able to scull through these 7 steps within 10 minutes & create your website.  
+
+Further steps :
+
+Note that Jekyll is a static-site generator. You can create your static site & host it on your local server even without gems like jekyll or bundler or even the Ruby environment ! You'll then need to write ALL codes by hand ! That's not how you should 
+
+
 That's it folks ! If you've any queries, let me know in the comments. 
 
 

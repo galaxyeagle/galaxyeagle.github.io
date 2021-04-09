@@ -26,7 +26,7 @@ so oddly kept.
 Lingering on  
 till you retire  
 feeding logs  
-in dark hellfire.
+to dark hellfire.
 
 Look no further  
 plumb no deep  
