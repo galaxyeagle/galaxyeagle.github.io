@@ -2,17 +2,17 @@
 - text: Home
   url: /
 - text: First menu
-  url: /first-menu/
+  url: /pages/first-menu/
   subitems:
     - text: First menu (sub)
-      url: /first-menu/first-menu-sub/
+      url: /pages/first-menu/first-menu-sub/
       subitems:
         - text: First menu (sub-sub)
-          url: /first-menu/first-menu-sub/first-menu-sub-sub/
+          url: /pages/first-menu/first-menu-sub/first-menu-sub-sub/
 - text: Second menu
-  url: /second-menu/
+  url: /pages/second-menu/
   subitems:
     - text: Second menu (sub)
-      url: /second-menu/second-menu-sub/
+      url: /pages/second-menu/second-menu-sub/
 - text: Sitemap
   url: /sitemap/

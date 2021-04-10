@@ -34,7 +34,8 @@ disqus:
     shortname: galaxyeagle-github-io
 
 # Build settings
-theme: minima
+# Minima gem not used..all copied to local folder as a regular theme
+# theme: minima
 plugins:
   - jekyll-feed
   
