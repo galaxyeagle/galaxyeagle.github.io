@@ -1,16 +1,11 @@
 ---
 layout: default
 ---
-<div>
+<div style="display:inline">
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  
-  
-    
-      
+
       <p style="margin-bottom: 20px">
-	  
-        
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title}}
           </a>

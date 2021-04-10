@@ -7,7 +7,12 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <h2>Navigation:</h2>
+
+	{% include nav.html nav=site.data.menu %}
+	
+	
+	<main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
