@@ -39,7 +39,7 @@ disqus:
 
 # Build settings
 # Minima gem not used..all copied to local folder as a regular theme
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
   
