@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  galaxyeagle
 
-#title logo added extra
+#title logo added extra (keep its height max at 50 px for minima settings)
 title-logo: /images/title-logo.png
 
 # Disqus Comments
@@ -38,7 +38,6 @@ disqus:
     shortname: galaxyeagle-github-io
 
 # Build settings
-# Minima gem not used..all copied to local folder as a regular theme
 theme: minima
 plugins:
   - jekyll-feed
