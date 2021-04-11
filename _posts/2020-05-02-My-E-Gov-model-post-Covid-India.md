@@ -1,5 +1,5 @@
 ---
-type: post
+layout: default
 title: My e-Governance model for the post-Covid India
 date: 2020-05-02
 ---

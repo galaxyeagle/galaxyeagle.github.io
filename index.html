@@ -8,13 +8,14 @@ layout: default
 {% for post in paginator.posts %}
 
       <p style="margin-bottom: 20px">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title}}
-          </a>
-        
-		
-		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format}}</span>
+	  
+	  
+			<a href="{{ post.url | relative_url }}">
+			  {{ post.title}}
+			</a>
+			
+			
+			<span>{{ post.date | date: "%b %-d, %Y"}}</span>
 		
 	   </p>
        

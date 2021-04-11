@@ -1,5 +1,5 @@
 ---
-type: post
+layout: default
 title: Possible Reforms in Education & Primary Healthcare sectors of India
 date: 2018-09-26
 ---

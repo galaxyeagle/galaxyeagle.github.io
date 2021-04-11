@@ -37,3 +37,5 @@ gem 'jekyll-seo-tag'
 # A gem from https://github.com/jekyll/jekyll-paginate to paginate
 gem 'jekyll-paginate'
 
+# Kramdown gem to convert md files to webpages through github/gitlab/etc
+gem "kramdown", ">= 2.3.1"
