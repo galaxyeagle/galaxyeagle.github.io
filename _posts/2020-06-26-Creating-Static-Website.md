@@ -68,9 +68,9 @@ Copy the https ID (say Y) displayed in the next page.
 **C.** If you now check your repo in Github, it'll have been populated with your Local Website files.  
 **D.** Type yourusername.github.io in your web browser & yay ! Your website's live !
 
-After you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply jekyll serve) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
+After you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply running 'jekyll serve' will also serve the same purpose) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
 
-Further steps :
+Further points :
 
 Note that Jekyll is a static-site generator. You can create your static site & host it on your local server even without gems like jekyll or bundler or even the Ruby environment ! You'll then need to write ALL codes by hand ! That's not how you should do it though. Moreover once you've made your site you can host it not just on Github pages, but on Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine.  
 Now focussing on Jekyll, it has different themes. By default, 'minima' is used, which is also a ruby gem in the Jekyll family. You can find gem "minima" written in your Gemfile by default.  
