@@ -4,9 +4,9 @@
   
   
     
-    <!--- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>  : Removed as logo made homeclick title as below --->
+    <!--- style="display:block ;  margin:auto ; float:left <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>  : Removed as logo made homeclick title as below --->
 	
-	<a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+	<a class="col-6 col-s-6" href="{{ "/" | relative_url }}">
 	
 		{%- if site.title-logo -%}
 			<img src= "{{ site.title-logo | relative_url }}"></img>
@@ -17,7 +17,7 @@
 	</a>
 	
 	
-	
+	<a style="float:right" href="{{ "/about/"| relative_url }}"> About me </a>
 
     
   </div>
