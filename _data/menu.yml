@@ -10,9 +10,9 @@
 - text: Tech 
   url: /pages/tech/
   subitems:
-    - text: Web design 
+    - text: ---Web design 
       url: /pages/tech/webd/
-    - text: General
+    - text: ---General
       url: /pages/tech/general/
     
 - text: Sitemap
