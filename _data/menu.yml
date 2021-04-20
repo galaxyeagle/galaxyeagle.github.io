@@ -1,18 +1,19 @@
 # Important: all URLs must have a trailing slash!
 - text: Home
   url: /
-- text: First menu
-  url: /pages/first-menu/
+- text: UPSC/PCS 
+  url: /pages/upsc-pcs/
+  
+- text: Literary
+  url: /pages/literary/
+  
+- text: Tech 
+  url: /pages/tech/
   subitems:
-    - text: First menu (sub)
-      url: /pages/first-menu/first-menu-sub/
-      subitems:
-        - text: First menu (sub-sub)
-          url: /pages/first-menu/first-menu-sub/first-menu-sub-sub/
-- text: Second menu
-  url: /pages/second-menu/
+    - text: Web design 
+      url: /pages/tech/webd/
   subitems:
-    - text: Second menu (sub)
-      url: /pages/second-menu/second-menu-sub/
+    - text: General
+      url: /pages/tech/general/
 - text: Sitemap
   url: /sitemap/

@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  galaxyeagle
+github_username: 
 
 #title logo added extra (keep its height max at 50 px for minima settings)
 title-logo: /images/title-logo.png
@@ -52,7 +52,7 @@ plugins:
     - jekyll-paginate
     
 
-paginate: 5
+paginate: 10
 # paginate_path: "/page:num/"
 
 # Exclude from processing.
