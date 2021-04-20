@@ -12,8 +12,8 @@
   subitems:
     - text: Web design 
       url: /pages/tech/webd/
-  subitems:
     - text: General
       url: /pages/tech/general/
+    
 - text: Sitemap
   url: /sitemap/
