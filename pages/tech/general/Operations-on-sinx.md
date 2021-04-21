@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: Operations on sin(x)
+date : 2020-07-23
 ---
 
 <style>

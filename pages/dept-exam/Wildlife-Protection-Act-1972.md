@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: Wildlife Protection Act 1972
+date : 2021-03-16
 ---
 
 Sanctuary | National Park | 

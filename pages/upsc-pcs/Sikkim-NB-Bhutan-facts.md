@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: Sikkim, North Bengal & Bhutan - some facts
+date : 2021-03-28
 ---
 
 If you look at the map of Sikkim & North Bengal, you will notice that like Bhutan, entire Sikkim is covered with the Great Himalayas. The Bengal districts of Darjeeling & Kalimpong are also mountainous, but they are the Inner/Lesser Himalayas (Himachal) & not the Great Himalayas (Himadri)(nb. Siwaliks are nil in eastern parts of Himalayas). One of the southernmost mt.-town in Darjeeling dist. is Kurseong. It reminds me of Kasauli & Mussorie which are also at the outer edges of the Inner Himalayas. Kurseong is famous for its many schools. It also has the Paglajhora falls from where R.Mahananda originates. The mountains between Rivers Mechi & Teesta once belonged to the Chogyal ruler of Sikkim. However by 1814 Nepali Gurkhas had annexed much of it. They had to return it back to Sikkim via the British EIC after the EIC defeated Gurkhas in the 1814 War & the Treaty of Sugauli was signed in 1816. Over the course of time the kings of Nepal developed friendly relations with the British & stayed on their side in the 1857 War of Independence. The British also gifted Nepal some Terai lands over the course of time.  

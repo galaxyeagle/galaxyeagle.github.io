@@ -3,7 +3,10 @@
   url: /
 - text: UPSC/PCS 
   url: /pages/upsc-pcs/
-  
+ 
+- text: Departmental Exam for IAS/WBCS 
+  url: /pages/dept-exam/ 
+    
 - text: Literary
   url: /pages/literary/
   

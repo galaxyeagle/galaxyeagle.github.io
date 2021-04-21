@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: Accounts Tidbits
+date : 2021-03-09
 ---
 
 #### New Purchase policy ####

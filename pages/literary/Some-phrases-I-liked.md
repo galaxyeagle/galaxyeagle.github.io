@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: Some phrases I liked
+date : 2021-03-30
 ---
 
 Also ref. https://idioms.thefreedictionary.com/

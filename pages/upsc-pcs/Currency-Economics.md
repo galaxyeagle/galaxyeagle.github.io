@@ -1,6 +1,7 @@
 ---
-type : post
+layout : page
 title : Currency Economics
+date : 2020-07-11
 ---
 
 In 1944, the famous Bretton Woods Conference took place in US wherein a pegged & fixed exchange rate was decided for the USD, and the task for its monitoring was entrusted to a new body called IMF. By 'fixed' exchange rate we mean that the exchange rate of USD & any other currency (say INR) was fixed by agreement between US & India. So that a country like India could trust this fixed rate and also trust using the USD for global trade, US pegged 1 USD = 35 ounce gold. This means for every dollar printed, 35 ounces of gold were present in the US treasury to back it up.Thus it was also a 'pegged' exchange rate.

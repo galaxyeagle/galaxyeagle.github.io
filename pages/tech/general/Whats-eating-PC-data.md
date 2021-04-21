@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: What's eating up your PC data?
+date : 2020-07-30
 ---
 
 Often certain processes running in the background of your PC can suck away a lot of internet data very quickly. Most of these are updates to various softwares, usually Windows softwares. However if you're running on a limited data plan, you'd prefer to delay the updates to a later time. If your data usage suddenly increases, do these 2 steps:  

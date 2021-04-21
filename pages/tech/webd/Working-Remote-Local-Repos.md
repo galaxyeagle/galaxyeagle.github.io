@@ -1,6 +1,7 @@
 ---
-layout : post
+layout : page
 title : Working between Local & Remote Git Repos
+date : 2020-07-08
 ---
 
 If you are sharing your local Git repo on Github, you will have 2 copies of your repo - Local (in your PC) & Remote (in the Github server). You may wish to edit the local repo & want to reflect the changes in the remote repo also, or vice-versa. You may also want to work on a branch and merge changes with the master. For all such exercises, this article shines a light.

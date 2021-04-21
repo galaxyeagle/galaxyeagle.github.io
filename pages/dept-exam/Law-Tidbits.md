@@ -1,6 +1,7 @@
 ---
-type: post
+layout : page
 title: Law Tidbits
+date : 2021-03-08
 ---
 
 ## Indian Evidence Act ##
