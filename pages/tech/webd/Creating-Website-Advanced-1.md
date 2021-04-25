@@ -48,6 +48,7 @@ Ref https://ouyi.github.io/post/2017/12/23/jekyll-customization.html  and  https
 
 Note: You will find that after building/serving your website, there is an _index.html within your _sites folder & varoius other folders viz. page2, page3, etc are created in your _sites folder each with their own index.html file. So your original home page (with all posts) is now paginated into multiple pages with a specified no. of posts.
 
+Note: Instead of calling paginator or site object (via paginator.posts or site.posts) in the index.html file of LocalRepo, you can also list each post using "a href.." tag. For this you must know that after building/jekyll serving your Jekyll site, all MD files in your Jekyll repo are compiled into an html file in a corresponding folder within _sites folder. This is the beauty of building your website with Jekyll. For eg. if you have a "2020-01-01-My-first-post.md" in the _posts folder, then on jekyll serve, you'll have a "2020-01-01-My-first-post.html" file in the _sites/_posts/ folder. So if you simply href the /posts/2020-01-01-My-first-post.html file in an ```<a></a>``` tag in index.html. In my site, I used this strategy not for posts, but for my "pages folder" where I stacked all pages and index.html of each page calls various files through href like this. However I am disallowing myself the use of pagination in this way.
 
 
 
@@ -64,14 +65,14 @@ Now make a _data folder in your LocalRepo & create a menu.yml file which will ha
 Create a nav.html file in /_includes folder.
 Then add the following code in your default.html file :
 
-{% highlight ruby %}
+```
 
 <div>
 	<h2> Navigation:</h2>
 	{% include nav.html nav=site.data.menu %}
 </div>
 
-{% endhighlight %}
+```
 
 1. So basically when any page in your website(including home page) loads, it will call the default.html layout either directly or indirectly through its frontmatter. 
 2. default.html will assign the /data/menu.yml contents into an include.nav parameter & simultaneously loads the /includes/nav.html file.

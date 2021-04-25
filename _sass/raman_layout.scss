@@ -45,9 +45,15 @@
 
 
 .header {
-  background-color: #9933cc;
+  background-color: #FFDEAD;
   color: #ffffff;
   padding: 15px;
+}
+
+.header::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .menu ul {

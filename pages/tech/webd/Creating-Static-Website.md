@@ -5,10 +5,10 @@ date : 2020-06-26
 ---
 
 Delivering content/service to an audience (with/out their feedback) is the prime object of any website. Your website files need to be present in some web server (even your PC can be a server !), and these files need to be hosted on a cloud platform which is connected to the Internet (eg. Github pages, AWS, etc) - and bingo ! Your website will go live on the Internet.
-In order to create your website files on the server, you'll need a "site-generator" (eg. Jekyll, Wordpress, Joomla, Drupal,etc).
+In order to create your website files on the server, you'll need a "site-generator" (eg. Static site generators like Jekyll or Hugo , OR CMSs like Gatsby, Wordpress, Joomla, Drupal,etc).
 In this post I'll discuss how to create a website on your Windows PC using Jekyll and then host it on Github pages. A similar process will work on Linux & Mac with some modifications.
 
-Github pages is essentially a cloud platform to host your website.
+Github pages is essentially a cloud platform to host your website. Other such hosting platforms are Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters like Wordpress have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine. 
 
 Ruby is a programming language used to create individual packages called 'gems'. Each Ruby gem is a complete software application capable of being used in many project. Jekyll is one such Ruby gem which is used to create static (ie. without any database) websites. 
 
@@ -73,7 +73,7 @@ After you make further modifications akin to Step 4, run `bundle exec jekyll bui
 
 Further points :
 
-Note that Jekyll is a static-site generator. You can create your static site & host it on your local server even without gems like jekyll or bundler or even the Ruby environment ! You'll then need to write ALL codes by hand ! That's not how you should do it though. Moreover once you've made your site you can host it not just on Github pages, but on Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine.  
+Note that Jekyll is a static-site generator. You can create your static site & host it on your local server even without gems like jekyll or bundler or even the Ruby environment ! You'll then need to write ALL codes by hand ! That's not how you should do it though. 
 Now focussing on Jekyll, it has different themes. By default, 'minima' is used, which is also a ruby gem in the Jekyll family. You can find gem "minima" written in your Gemfile by default.  
 In order to change the theme, add disqus comments, add a sitemap, etc, you'll mainly need to edit the following :
 - Gemfile (lists the *gems*)

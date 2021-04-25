@@ -1,10 +1,10 @@
 # Important: all URLs must have a trailing slash!
 - text: Home
   url: /
-- text: UPSC/PCS 
-  url: /pages/upsc-pcs/
+- text: UPSC
+  url: /pages/upsc/
  
-- text: Departmental Exam for IAS/WBCS 
+- text: Dept. exam 
   url: /pages/dept-exam/ 
     
 - text: Literary
