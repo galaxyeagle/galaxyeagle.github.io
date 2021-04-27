@@ -19,9 +19,7 @@ group :jekyll_plugins do
 end
 
 
-```
-ruby '2.6.6
-```
+
 
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
