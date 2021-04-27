@@ -5,10 +5,10 @@ date : 2020-06-26
 ---
 
 Delivering content/service to an audience (with/out their feedback) is the prime object of any website. Your website files need to be present in some web server (even your PC can be a server !), and these files need to be hosted on a cloud platform which is connected to the Internet (eg. Github pages, AWS, etc) - and bingo ! Your website will go live on the Internet.
-In order to create your website files on the server, you'll need a "site-generator" (eg. Static site generators like Jekyll or Hugo , OR CMSs like Gatsby, Wordpress, Joomla, Drupal,etc).
+In order to create your website files on the server, you'll need a "site-generator" (eg. Static site generators like Jekyll, Hugo, Flask, Django , OR CMSs (for dynamic sites) like Gatsby, Wordpress, Joomla, Drupal,etc).
 In this post I'll discuss how to create a website on your Windows PC using Jekyll and then host it on Github pages. A similar process will work on Linux & Mac with some modifications.
 
-Github pages is essentially a cloud platform to host your website. Other such hosting platforms are Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters like Wordpress have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine. 
+Github pages is essentially a cloud platform to host your website. Other such hosting platforms are Heroku, Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters like Wordpress have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine. 
 
 Ruby is a programming language used to create individual packages called 'gems'. Each Ruby gem is a complete software application capable of being used in many project. Jekyll is one such Ruby gem which is used to create static (ie. without any database) websites. 
 
