@@ -18,6 +18,12 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
+
+# ```
+# ruby "2.6.6"
+# ```
+
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -41,3 +47,8 @@ gem 'jekyll-paginate'
 gem "kramdown", ">= 2.3.1"
 
 gem "webrick"
+
+gem "rake"
+gem "foreman"
+gem "thin"
+gem "rack-contrib"
