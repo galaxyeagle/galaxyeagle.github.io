@@ -158,7 +158,10 @@ DEPENDENCIES
   minima (~> 2.5)
   rack-contrib
   rake
+<<<<<<< HEAD
   sinatra_auth_github
+=======
+>>>>>>> origin/master
   thin
   tzinfo (~> 1.2)
   tzinfo-data

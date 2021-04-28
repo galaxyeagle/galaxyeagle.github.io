@@ -54,5 +54,8 @@ gem "rack-contrib"
 
 # Jekyll-auth gem for heroku
 gem 'jekyll-auth'
+<<<<<<< HEAD
 
 gem 'sinatra_auth_github'
+=======
+>>>>>>> origin/master
