@@ -1,0 +1,22 @@
+# Important: all URLs must have a trailing slash!
+- text: Home
+  url: /
+- text: UPSC
+  url: /pages/upsc/
+ 
+- text: Dept. exam 
+  url: /pages/dept-exam/ 
+    
+- text: Literary
+  url: /pages/literary/
+  
+- text: Tech 
+  url: /pages/tech/
+  subitems:
+    - text: ---Web design 
+      url: /pages/tech/webd/
+    - text: ---General
+      url: /pages/tech/general/
+    
+- text: Sitemap
+  url: /sitemap/

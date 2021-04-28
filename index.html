@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div> 
+
+<!-- This entire div will serve as the content -->
+<!-- of the default html file above -->
+
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+
+      <p style="margin-bottom: 20px">
+	  
+	  
+			<a href="{{ post.url | relative_url }}">
+			  {{ post.title}}
+			</a>
+			
+			
+			<span>{{ post.date | date: "%b %-d, %Y"}}</span>
+		
+	   </p>
+       
+  
+ 
+{% endfor %}
+
+<!-- Pagination links -->
+  {% include prev_next.html   prev_url=paginator.previous_page_path   prev_text='Previous'   next_url=paginator.next_page_path   next_text='Next' %}
+</div>

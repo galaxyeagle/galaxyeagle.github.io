@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<html>
+
+
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+	<span>Last updated: {{ page.date | date: "%b %-d, %Y"}}</span>
+  </header>
+
+
+  <div>
+    {{ content }}
+  </div>
+  
+  
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+
+
+
+</html>

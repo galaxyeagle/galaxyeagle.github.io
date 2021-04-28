@@ -1,0 +1,47 @@
+
+
+  
+
+    
+
+    
+      <div class="col-3 col-s-3">
+	  
+		<h2>{{ site.title | escape }}</h2>
+        <ul>
+            <li>
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+		
+      </div>
+
+
+
+
+
+
+      <div class="col-6 col-s-9">
+			{%- include social.html -%}
+      </div>
+
+
+
+
+
+
+      <div class="col-3 col-s-12">
+			<p>{{- site.description | escape -}}</p>
+      </div>
+    
+
+  
+
+

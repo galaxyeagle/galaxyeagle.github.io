@@ -1,0 +1,24 @@
+
+
+  <div class="header">
+  
+  
+    
+    <!--- style="display:block ;  margin:auto ; float:left <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>  : Removed as logo made homeclick title as below --->
+	
+	<a style= "width:250px; display: block; margin-left:600px; float:left" href="{{ "/" | relative_url }}">
+	
+		{%- if site.title-logo -%}
+			<img src= "{{ site.title-logo | relative_url }}"></img>
+		{%- else -%}
+			{{ site.title | escape }}
+		{%- endif -%}
+	
+	</a>
+	
+	
+	 <a style="width: 200px ; float:right; padding:20px" href="{{ "/about/"| relative_url }}"> About me </a> 
+
+    
+  </div>
+

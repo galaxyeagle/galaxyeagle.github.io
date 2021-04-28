@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<html>
+
+
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+	<span>{{ page.date | date: "%b %-d, %Y"}}</span>
+  </header>
+
+
+  <div>
+    {{ content }}
+  </div>
+  
+  
+  {% include advertisements.html %}
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+
+ 
+ 
+</html>

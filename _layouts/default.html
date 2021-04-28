@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+{%- include head.html -%}
+
+  
+  
+  
+  <body>
+
+    {%- include header.html -%}
+		
+	
+	<div class="row">
+	
+	
+		<div class="col-3 col-s-3 menu">
+			<h2 style="padding-left:10px"> Navigation:</h2>
+			{% include nav.html nav=site.data.menu %}
+		</div>
+	
+	
+	
+	
+		<div style="margin-top:60px" class="col-6 col-s-9">
+			{{ content }}	
+		</div>
+	
+	
+	</div>
+	
+	
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
