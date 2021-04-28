@@ -46,16 +46,4 @@ gem "kramdown", ">= 2.3.1"
 
 gem "webrick"
 
-# Gems for heroku hosting
-gem "rake"
-gem "foreman"
-gem "thin"
-gem "rack-contrib"
 
-# Jekyll-auth gem for heroku
-gem 'jekyll-auth'
-<<<<<<< HEAD
-
-gem 'sinatra_auth_github'
-=======
->>>>>>> origin/master

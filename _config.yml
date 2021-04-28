@@ -75,12 +75,7 @@ paginate: 10
 #   - vendor/gems/
 #   - vendor/ruby/
 
-<<<<<<< HEAD
+
 # exclude: ['vendor']
 
 
-jekyll_auth:
-  ssl: true
-=======
-exclude: ['vendor']
->>>>>>> origin/master
