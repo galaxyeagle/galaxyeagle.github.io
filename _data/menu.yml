@@ -1,11 +1,6 @@
 # Important: all URLs must have a trailing slash!
 - text: Home
-  url: /
-- text: UPSC
-  url: /pages/upsc/
- 
-- text: Dept. exam 
-  url: /pages/dept-exam/ 
+  url: / 
     
 - text: Literary
   url: /pages/literary/
