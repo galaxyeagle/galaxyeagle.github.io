@@ -8,7 +8,8 @@ date : 2021-04-21
 
 
 As discussed in the last post, there are 4 folders in your repo :
-/_includes, /_layouts/, /_sass , /assets  (Ref. https://github.com/jekyll/minima  for their component files).
+/_includes, /_layouts/, /_sass , /assets  
+(Ref. https://github.com/jekyll/minima  for their component files).
 
 
 ***What I did to hack out the inessentials***
@@ -19,16 +20,16 @@ Then, I wanted to make a Responsive web page (ref. https://www.w3schools.com/css
 
 I noticed that 2 folders : /sass & /asssets do all the designing work via scss files.
 
-The default.html file includes head.html.
-head.html links the stylesheet /assets/main.scss
-/assets/main.scss imports /_sass/minima.scss
-This /_sass/minima.scss imports /_sass/minima/layout.scss, /_sass/minima/base.scss & /_sass/minima/syntax.highlighter.scss
-These 3 files contain all the real css code & seemed quite complex.
+The default.html file includes head.html.    
+head.html links the stylesheet /assets/main.scss    
+/assets/main.scss imports /_sass/minima.scss    
+This /_sass/minima.scss imports /_sass/minima/layout.scss, /_sass/minima/base.scss & /_sass/minima/syntax.highlighter.scss  
+These 3 files contain all the real css code & seemed quite complex.  
 So I deleted all files & folders in the /_sass folder & made a new single scss file with a code similar to https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s  
 & imported this scss file in the /assets/main.scss instead of the /_sass/minima.scss earlier. I knew the scss files I deleted had designs for many classes in the /_layouts & /_includes folders. So I went to all files in these folders & removed any classes in any <div>, <main>, <span>, etc tags & added the classes as provided for in https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s instead.
-This sort of overwrote the minima theme with my own tailor-made one & made the design of my site much more under my control. 
+This sort of overwrote almost the entire minima theme with my own tailor-made one & made the design of my site much more under my control. 
 
-I further went to many files such as post.html, page.html, etc and removed all inessentials, keeping the bare minimum. 
+I further went to many files such as post.html, page.html, etc and removed all inessentials, keeping the bare minimum.   
 NB. : I could have deleted post.html & page.html & used default.html everywhere but I need to add title & date in heading only for these & not for home page, about page, etc...so I kept it  
 NB. I could have deleted post.html & used the page.html layout in posts as well. The only difference is that a post has a Date after the title whilst a page has a 'Last updated' phrase before the date. There's no other difference. But because of this small diff., I chose to keep the 2 layout files separate.
 
@@ -69,7 +70,7 @@ Then add the following code in your default.html file :
 
 <div>
 	<h2> Navigation:</h2>
-	{% include nav.html nav=site.data.menu %}
+	 % include nav.html nav=site.data.menu % 
 </div>
 
 ```
