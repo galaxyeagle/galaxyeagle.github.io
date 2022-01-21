@@ -21,4 +21,3 @@ A knowledge of the shrouded self<br>
 and re-birth of a sunken courage.<br>
 And yet the laughter of that child undoes the pomp of the hour.<br>
 
-- Raman Butta
