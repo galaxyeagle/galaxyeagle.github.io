@@ -9,5 +9,3 @@ like a cyclone with a vociferous skin but a peaceful eye. But how many can resis
 rare. They have both admirers and enviers. They sketch and etch the indelible history and branch from the constrained orthodoxy to their
 own empire of renaissance. Grisly wounds may chequer them through the vicissitudes of the war of life, but they emerge as true heroes at
 the end, sometimes even as they lose ! 
-
-- Raman Butta
