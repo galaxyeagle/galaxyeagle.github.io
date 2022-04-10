@@ -4,6 +4,7 @@ title: Some phrases I liked
 date : 2021-03-30
 ---
 
+<!--
 Also ref. https://idioms.thefreedictionary.com/
 
 I sat by the roaring fire  
@@ -20,5 +21,5 @@ By making it easy for people to find you online, you’ll create a vehicle for s
 After the storm abated..  
  
 
-
+-->
 
