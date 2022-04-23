@@ -16,7 +16,7 @@ whilst rest chuckle at his despair. <br>
 Long years drain to fill<br>
 the abyss of human injustice <br>
 until justice turns sterile. <br>
-Means, not merit, dictates hierarchy <br>
+Means, not merit, dictate hierarchy <br>
 where talent is a barren ground<br>
 to seeds of recognition.<br>
 Logic fails and labour fails, <br>
