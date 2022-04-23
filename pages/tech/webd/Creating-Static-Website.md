@@ -66,6 +66,7 @@ Copy the https ID (say Y) displayed in the next page.
 	`git remote add origin Y` (where Y is the https ID) (This makes origin = Y)  
 	`git remote -v`  (This should display Y if everything's OK)  
 	`git push origin master` (This pushes your MyLocalSite repo to the master branch of origin)  
+	( nb. After 2022, everytime you push, you need to type your github username and password. But this password shall be a temporary token you generate in github in your Developer Settings. Follow this link to create a temporary token : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token ) 
 **C.** If you now check your repo in Github, it'll have been populated with your Local Website files.  
 **D.** Type yourusername.github.io in your web browser & yay ! Your website's live !
 
