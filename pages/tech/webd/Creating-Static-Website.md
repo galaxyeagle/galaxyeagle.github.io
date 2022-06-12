@@ -62,12 +62,15 @@ There are so many modifications that can be done to this skeleton folder that it
 ### Step 7	
 **A.** Now go to your Github web account & create a *completely empty* new repo in master branch named yourusername.github.io putting your github user name in place of 'yourusername'. You can also create it on a new branch & name it gh-pages branch but I won't recommend it since then your root username.github.io URL will stay blank & your site will be created on a branch of this root URL.  
 Copy the https ID (say Y) displayed in the next page.   
+
 **B.** In your Git Bash run :  
 	`git remote add origin Y` (where Y is the https ID) (This makes origin = Y)  
 	`git remote -v`  (This should display Y if everything's OK)  
 	`git push origin master` (This pushes your MyLocalSite repo to the master branch of origin)  
-	( nb. After 2022, everytime you push, you need to type your github username and password. But this password shall be a temporary token you generate in github in your Developer Settings. Follow this link to create a temporary token : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token ) 
+	( nb. After 2022, everytime you push, you need to type your github username and password once in a session. But this password shall be a temporary token you generate in github in your Developer Settings. Follow this link to create a temporary token : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token )   
+	
 **C.** If you now check your repo in Github, it'll have been populated with your Local Website files.  
+
 **D.** Type yourusername.github.io in your web browser & yay ! Your website's live !
 
 After you make further modifications akin to Step 4, run `bundle exec jekyll build` (or simply running 'jekyll serve' will also serve the same purpose) and then just run 3 the commands in the git bash - _git add, git commit & git push_ - you'll update your website.  
