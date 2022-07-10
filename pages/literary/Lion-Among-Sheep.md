@@ -10,7 +10,7 @@ Dense froth swell the shores <br>
 Lowly weed engreen to choke  <br>
 the rich fish beneath. <br>
 Hyenas laugh and the lion cries<br>
-whilst rest chuckle at his despair. <br>
+while rest chuckle at his despair. <br>
 
 
 Long years drain to fill<br>
