@@ -4,7 +4,7 @@ title:  Lion among sheep
 date:   2022-04-22 
 ---
 
-<!--
+
 Mediocrity swarms the surface <br>
 Dense froth swell the shores <br>
 Lowly weed engreen to choke  <br>
@@ -29,4 +29,4 @@ by scholarly acuity <br>
 and depth of million miles. <br>
 The lion bleeds but never tastes regret.<br>
 
--->
+
