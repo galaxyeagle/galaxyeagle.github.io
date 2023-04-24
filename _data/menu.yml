@@ -12,6 +12,9 @@
       url: /pages/tech/webd/
     - text: ---General
       url: /pages/tech/general/
+      
+- text: GK
+  url: /pages/GK/
     
 - text: Sitemap
   url: /sitemap/
