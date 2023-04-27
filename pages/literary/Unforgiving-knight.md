@@ -18,6 +18,6 @@ He begs not rogues for sinful grace: <br>
 for butchers alive on hired hell <br>
 can't lend any shadow of life ! <br>
 He battles odds full drenched in pain <br>
-and clad in robes of grit. <br>
+and clads in robes of grit. <br>
 Today may be his nemesis.. <br>
 tomorrow will be his steed ! <br>
