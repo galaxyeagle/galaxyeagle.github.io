@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 comments: false
 ---
+My name is Raman Butta.  
 _Galaxy Eagle_ is my initiative to spread knowledge and ideas straight from the shoulder.   
 [Multani Munda](https://www.apple.co/3ogQGg3) is my podcast for motivational tips.  
 [Beacon](https://www.youtube.com/@beacon1) is my educational channel.  

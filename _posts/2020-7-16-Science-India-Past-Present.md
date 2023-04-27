@@ -1,11 +1,12 @@
 ---
 type: post
 title: Science in India
+date: 2018-08-30
 ---
 
-<!-- 
 
-Science in India- past & present
+
+Science in India- past & present  
 
 A country which was built and unbuilt many times before others started to silhouette their society into shape; a country which for multiple millennia had the language, science, 
 technology, society and culture which predated a similar Renaissance in Europe by thousands of years and still rivals present-day research in many fields; a country shrouded in 
@@ -42,4 +43,3 @@ I guess I would do injustice to the many achievements and names I shall miss in 
 mine deeper into the caverns of India’s vibrant past and present, in the ocean of scientific progress of humankind.
 --- BY RAMAN BUTTA
 
--->
