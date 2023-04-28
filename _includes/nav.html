@@ -11,7 +11,9 @@
             </a>
         </li>
         {% if item.subitems and navurl contains item.url %}
+            <li style=“padding-left: 20px;”>
             {% include nav.html nav=item.subitems %}
+            </li>
         {% endif %}
     {% endfor %}
     </ul>
