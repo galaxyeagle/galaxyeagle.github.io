@@ -4,6 +4,10 @@ title: Anglo-Afghan Wars
 date : 2023-05-01
 ---
 
+<style>
+html{background: url("/images/thirdaaw.jpg")no-repeat center center fixed;  background-size: cover}
+</style>
+
 The Second Anglo-Afghan War was fought between the British Empire and the Emirate of Afghanistan from 1878 to 1880. The war was triggered by the British desire to maintain their influence over Afghanistan, which had become increasingly close to Russia. The British also sought to establish a permanent British resident in Kabul, which was resisted by the Afghan Emir Sher Ali Khan.
 
 The war began with a British invasion of Afghanistan, and the British quickly captured Kabul and established a new government led by Abdur Rahman Khan, who was more friendly to British interests. British, pursuing their policy of divide and rule, wanted to divide Pashtuns just like they did to Bengal and Punjab later on. So they created a Durand Line cutting through the Hindukush mts. to which the friendly Emir Abdur Rahman Khan signed in 1893.
