@@ -4,6 +4,9 @@
     
 - text: Literary
   url: /pages/literary/
+
+- text : GK
+  url: /pages/GK/
   
 - text: Tech 
   url: /pages/tech/
