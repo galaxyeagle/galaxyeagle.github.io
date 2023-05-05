@@ -35,21 +35,23 @@
   <body>
 
     {%- include header.html -%}
-		
+		 
 	
 	<div class="row">
 	
 	
-		<div class="col-3 col-s-3 menu">
+		<div class="col-12 col-s-12 menu">
 			<h2 style="padding-left:10px"> </h2>
-			{% include nav.html nav=site.data.menu %}
+			{% include nav.html %} <!-- within braces was : nav=site.data.menu -->
 		</div>
 	
 	
 	
 	
-		<div style="margin-top:60px" class="col-6 col-s-9">
+		<div style="margin-top:60px;text-align: center;" class="col-12 col-s-9">
+			<div style="display: inline-block; text-align: left;">
 			{{ content }}	
+			</div>
 		</div>
 	
 	
