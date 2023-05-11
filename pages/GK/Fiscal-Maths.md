@@ -19,11 +19,12 @@ India's Nominal GDP (@ current market prices) =  &#8377; 300 LC = $ 3 tr
 As per <a href="https://www.indiabudget.gov.in/doc/rec/annex9.pdf"> Receipt Budget of India </a>,  
 
 GoI's Internal Debt = &#8377; 145 LC  
-GoI's External Debt = &#8377;   5 LC  
+GoI's External Debt = &#8377;   5 LC (nb. ECB is nearly 4 times this Sovereign ext. debt of &#8377; 5 LC)   
 &#8756; GoI's Public Debt = &#8377;  150 LC = $ 1.5 tr = 50% of nominal GDP  
 Similarly State's public debt is 30% of nominal GDP.  
 Hence Total Public Debt = 80% of nominal GDP  
 
+(Nb. As per ES23, India's Ext. Sovereign debt rose to &#8377; 10 LC and ECB proportionately)  
 
 The below charts are taken from the official <a href="https://www.indiabudget.gov.in/economicsurvey/doc/Infographics%20English.pdf">Economic Survey Infographics</a>. The first one shows the trend of Total Public Debt/GDP ratio over the years. As per FRBM Act, 2003, the target is 60% (= 40% GoI + 20% GoS)  
 

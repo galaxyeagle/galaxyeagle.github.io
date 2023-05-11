@@ -11,10 +11,10 @@ date : 2023-05-11
 
 Consider the Figure 1. It is an <a href="https://pib.gov.in/newsite/infographicss.aspx?mincode=15&Event_Code=8">infographic</a> taken from the Budget website. Here we see BE for FY24 :
 
-Revenue Receipt = &#8377; 26 LC , Capital Receipt = &#8377; 19 LC
+Revenue Receipt = &#8377; 26 LC , Capital Receipt = &#8377; 19 LC  
 &#8756; Total Receipt = &#8377; 45 LC  
 
-Revenue Expdt. = &#8377; 35 LC , Capital Expdt. = &#8377; 10 LC
+Revenue Expdt. = &#8377; 35 LC , Capital Expdt. = &#8377; 10 LC  
 &#8756; Total Expdt. = &#8377; 45 LC  
 
 So Receipts and expenditure match.
@@ -25,7 +25,7 @@ Nearly the entire &#8377; 19 LC Capital Receipt is "Debt". And nearly this entir
 
 <figure>
 <img class="fig" src="/images/budget/deficit.jpg" alt="Fig 2">
-<figcaption>Fig 3</figcaption>
+<figcaption>Fig 2</figcaption>
 </figure>
 
 
@@ -38,7 +38,7 @@ The trends in Receipts & Expenditures can be seen in Fig 3 from the <a> Budget H
 </figure>
 
 
-Figure 4 shows the steady rise in Capex over the last few years, taken from <a href="https://pib.gov.in/PressReleasePage.aspx?PRID=1895279">PIB</a>. This is good for the economy.
+Figure 4 shows the steady rise in Capex over the last few years, taken from <a href="https://pib.gov.in/PressReleasePage.aspx?PRID=1895279">PIB</a>. This is good for the economy. CapEx is mainly done by ministries such as Defence, Railways & Highways.
 
 <figure>
 <img class="fig" src="/images/budget/capex.jpg" alt="Fig 4">
