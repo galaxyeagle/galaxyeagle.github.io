@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Illusions and Reality
 date : 2022-03-06
 ---

@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Light that shines across the lake
 date : 2022-01-03
 ---

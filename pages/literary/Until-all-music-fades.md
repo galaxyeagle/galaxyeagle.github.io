@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Until all music fades
 date : 2022-06-12
 ---

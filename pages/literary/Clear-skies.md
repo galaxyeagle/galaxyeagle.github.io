@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Clear skies
 date : 2022-01-04
 ---

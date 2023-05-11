@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Rain at night
 date : 2020-07-20
 ---

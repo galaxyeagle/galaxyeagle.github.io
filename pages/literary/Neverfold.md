@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Neverfold
 date : 2023-03-18
 ---

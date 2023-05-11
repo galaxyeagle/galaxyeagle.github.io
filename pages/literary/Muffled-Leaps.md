@@ -1,5 +1,5 @@
 ---
-type: page
+layout: page
 title: Muffled leaps
 date : 2022-01-02
 ---
