@@ -32,6 +32,7 @@
   
  
   
+
   <body>
 
     {%- include header.html -%}
@@ -40,10 +41,12 @@
 	<div class="row">
 	
 	
+	 
 		<div class="col-12 col-s-12 menu">
-			<h2 style="padding-left:10px"> </h2>
-			{% include nav.html %} <!-- within braces was : nav=site.data.menu -->
+			<h2> </h2>
+			{% include nav.html nav=site.data.menu %} 
 		</div>
+	 
 	
 	
 	
