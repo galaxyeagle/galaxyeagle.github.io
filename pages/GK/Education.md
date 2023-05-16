@@ -33,7 +33,7 @@ Its reco was adopted in the Indian Univ Act 1904. It gave more government contro
 Earlier only 10th (matric) boards were there before univ...Saddler recoed adding +2 in between (called Intermediate) with separate HS board
 
 ### Hartog Comm. 1927
-Highlighted "massive wastage and stagnation in primary education" &#8756; discouraged hasty educational inclusion &#8756; only desrving ones should go beyond Class 8 and into college..rest should go for vocational courses
+Highlighted "massive wastage and stagnation in primary education" &#8756; discouraged hasty educational inclusion &#8756; only deserving ones should go beyond Class 8 and into college..rest should go for vocational courses
 
 ### Sargeant Plan 1944
 Long term 40 yr plan...recoed RTE from 6-11 years and "High School" from 11-17 years age..after that college without intermediate (didn't fructify) 
