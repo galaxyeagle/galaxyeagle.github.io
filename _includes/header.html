@@ -1,32 +1,32 @@
 
 
   <!--- <div class="header">
-  
-  
-    
-     style="display:block ;  margin:auto ; float:left <a1 class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a1>  : Removed as logo made homeclick title as below 
-	
+
+
+
+     style="display:block ;  margin:auto ; float:left <a1 class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a1>  : Removed as logo made homeclick title as below
+
 	<a1 style= "width:250px; display: block; margin-left:600px; float:left" href="{{ "/" | relative_url }}">
-	
-	<a1 style="width: 200px ; float:right; padding:20px" href="{{ "/about/"| relative_url }}"> About me </a1> 
+
+	<a1 style="width: 200px ; float:right; padding:20px" href="{{ "/about/"| relative_url }}"> About me </a1>
 
 	--->
-	
-<!--	
+
+<!--
 	<a1 class="col-7 col-s-7" style="text-align:right;" href="{{ "/" | relative_url }}">
-	
+
 		{%- if site.title-logo -%}
 			<img src= "{{ site.title-logo | relative_url }}"></img>
 		{%- else -%}
 			{{ site.title | escape }}
 		{%- endif -%}
-	
-	</a1>
-	
-	 
-	 <a1 class="col-3 col-s-3" style="text-align:right; font-family: cursive; font-size: 18px; color: red;" href="{{ "/about/"| relative_url }}"> About me </a1> 
 
-     
+	</a1>
+
+
+	 <a1 class="col-3 col-s-3" style="text-align:right; font-family: cursive; font-size: 18px; color: red;" href="{{ "/about/"| relative_url }}"> About me </a1>
+
+
   </div>
 -->
 
@@ -36,7 +36,7 @@
 
 
 
-
+<!--CSS Code for navbar is below within head tag -->
 
 
 <head>
@@ -86,7 +86,7 @@
 				<li id="men"><a href="/pages/GK/">GK</a></li>
 				<li id="men"><a href="/pages/tech/">Tech</a></li>
 			</ul>
-			
+
 		</nav>
 
 	</header>
@@ -127,7 +127,7 @@
                     </a>
                 </li>
 
-                
+
             		{% for my_page in site.pages %}
                     {% if my_page.layout == 'default' %}
                     <li>
