@@ -109,5 +109,6 @@ Open, secure, inclusive, safe, interoperable, and reliable Internet
 https://nisar.jpl.nasa.gov/mission/get-to-know-sar/overview/  
 https://www.o-ran.org/who-we-are  
 https://thewire.in/space/indian-to-space-station-is-it-sare-jahan-se-accha-2-0  
-https://tulsaworld.com/opinion/column/opinion-u-s-manufacturing-woes-worse-than-people-realize-and-extend-to-medicine/article_aba5abe6-24b7-11ee-82ba-431cf38c15d2.html
+https://tulsaworld.com/opinion/column/opinion-u-s-manufacturing-woes-worse-than-people-realize-and-extend-to-medicine/article_aba5abe6-24b7-11ee-82ba-431cf38c15d2.html  
+https://www.iseas.edu.sg/wp-content/uploads/2023/06/ISEAS_Perspective_2023_63.pdf
 
