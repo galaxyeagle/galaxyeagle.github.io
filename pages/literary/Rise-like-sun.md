@@ -6,7 +6,7 @@ date:   2024-02-08
 
 Rise, O new day, the mighty Sun  
 pulling itself out of the dungeons of defeat  
-lights up the blck heavens  
+lights up the black heavens  
 and ignites hope in the dead Earth !  
 Look how the wide-eyed bulbuls glide  
 and sing in gush of golden glee;  
@@ -15,7 +15,7 @@ bedecking the silken morning breeze.
 
 How fresh and pure and inspiring  
 the faith this new dawn breathes !  
-HOw gory was the umbral night:  
+How gory was the umbral night:  
 our heroes fell, our Sun dissolved,  
 and demons seized the Earth  
 in hellish thunders, senseless din.  
