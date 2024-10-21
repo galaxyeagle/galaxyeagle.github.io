@@ -22,7 +22,7 @@ title: Galaxy Eagle
 author: ©️ Raman Butta
 email: raman.butta.nitdgp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Rest in the end, not in the middle
+  Rest at the end, not in the middle
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
