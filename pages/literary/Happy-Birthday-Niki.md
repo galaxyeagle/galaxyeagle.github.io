@@ -4,6 +4,12 @@ title: Happy Birthday Niki
 date : 2024-10-24
 ---
 
+<head>
+	<meta property="og:title" content="Happy Birthday Niki" />
+	<meta property="og:image" content="/images/nmp.JPEG" />
+</head>
+
+
 <style>
 html{background: url("/images/pmn.JPEG")no-repeat center center fixed;  background-size: cover}
 </style>
