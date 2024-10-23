@@ -26,5 +26,5 @@ live up all you dreamt.** <br>
 
 **Your time to lead the world arrives <br>
 and you were born to shine ! <br>
-The spaceship starts, the flag's unfurled <br>
-and in a year you'll lead the world !** <br>
+The spaceship starts, the flag's unfurled, <br>
+within a year you'll lead the world !** <br>
