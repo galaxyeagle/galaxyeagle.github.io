@@ -22,7 +22,7 @@ give it the big shot.** <br>
 **The world awaits, and time is ripe : <br>
 the highway lies ahead. <br>
 Catch this rainbow to the sun <br>
-live up all that you dreamt.** <br>
+live up all you dreamt.** <br>
 
 **Your time to lead the world arrives <br>
 and you were born to shine ! <br>
