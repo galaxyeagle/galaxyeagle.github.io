@@ -30,5 +30,41 @@
 <meta name="twitter:image" content="{{ site.title_image }}">
 {% endif %}
 <!-- end of Twitter cards -->
+
+
+<!--OG meta tags -->
+<?php
+ 
+// Get the post/page title
+if (is_singular()) {
+    $og_title = get_the_title();
+} else {
+    $og_title = get_bloginfo('name');
+}
+ 
+// Get the post/page description
+if (is_singular()) {
+    $og_description = get_the_excerpt();
+} else {
+    $og_description = get_bloginfo('description');
+}
+// Get the featured image URL
+// Get the featured image URL
+if (is_singular() && has_post_thumbnail()) {
+    $og_image = get_the_post_thumbnail_url(null, 'large');
+} else {
+    $og_image = 'URL_to_Your_Default_Image'; // Replace with your default image URL
+}
+ 
+// Get the current URL
+$og_url = get_permalink();
+?>
+ 
+<meta property="og:type" content="website" />
+<meta property="og:title" content="<?php echo esc_attr($og_title); ?>"/>
+<meta property="og:description" content="<?php echo esc_attr($og_description); ?>"/>
+<meta property="og:url" content="<?php echo esc_attr($og_url); ?>" />
+<meta property="og:image" content="<?php echo esc_url($og_image); ?>" />
+
   
 </head>
