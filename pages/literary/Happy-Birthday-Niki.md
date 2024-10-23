@@ -2,7 +2,7 @@
 layout: page
 title: Happy Birthday Niki
 date : 2024-10-24
-image: "/images/nmp.JPEG"
+image: "/images/nmp.jpg"
 ---
 
 
