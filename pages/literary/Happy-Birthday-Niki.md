@@ -2,12 +2,8 @@
 layout: page
 title: Happy Birthday Niki
 date : 2024-10-24
+image: "/images/nmp.JPEG"
 ---
-
-<head>
-	<meta property="og:title" content="Happy Birthday Niki" />
-	<meta property="og:image" content="/images/nmp.JPEG" />
-</head>
 
 
 <style>
