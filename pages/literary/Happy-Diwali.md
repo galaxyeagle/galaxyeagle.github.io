@@ -29,7 +29,7 @@ Birds whistle as I scale
 the meandering trail.  
 A euphonic choir  
 reflects out of me  
-like an arch rainbow waving  
+like an arch of rainbow waving  
 greetings of Diwali.   
 
 - Raman Butta
