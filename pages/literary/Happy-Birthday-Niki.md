@@ -11,11 +11,6 @@ html{background: url("/images/pmn.JPEG")no-repeat center center fixed;  backgrou
 </style>
 
 
-<!--**So many days and years will pass <br>
-into the glades of time, <br>
-and yet your grit and joy shall keep <br>
-inspiring our lives.** <br> -->
-
 **A day today unfolds a year <br>
 of milestones yet unthought; <br>
 as inflection trajectories, <br>
