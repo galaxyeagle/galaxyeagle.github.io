@@ -18,7 +18,7 @@ into your song profound :
 inspiring to dream   
 and live it with a smile.  
 
-A smile to cheer the sad; 
+A smile to cheer the sad;  
 warm voice to melt the trapped  
 prisons of old thought;  
 to usher fresh emotions  
