@@ -14,7 +14,7 @@ beyond the mortal craze.
 Search within your soul  
 the kindness someone stole  
 away from linear towns  
-into your song profound : 
+into your song profound :   
 inspiring to dream   
 and live it with a smile.  
 
