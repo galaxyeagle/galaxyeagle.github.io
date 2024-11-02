@@ -47,28 +47,54 @@ a:hover { color: white; }
 
 
 
-/*css for header.html*/
-        .navbar{
-            background-color: blue;
-            border-radius: 30px;
-            border: 2px solid brown;
-        }
-        .navbar ul{
-            overflow: auto;
-        }
-        .navbar li{
-            float: left;
-            list-style: none;
-            margin: 2px 50px;
-        }
-        .navbar li a{
-            padding: 3px 3px;
-            text-decoration: none;
-        }
-        .navbar li#men{
-            margin: 17px 50px;
-        }
+/* CSS for header.html */
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and menu items */
+    align-items: center; /* Center items vertically */
+    background-color: blue;
+    border-radius: 30px;
+    border: 2px solid brown;
+    padding: 10px 20px; /* Add padding for better spacing */
+}
 
+.navbar ul {
+    display: flex; /* Use flexbox for the list */
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar li {
+    margin: 0 20px; /* Adjust margins for spacing between items */
+}
+
+.navbar li a {
+    padding: 10px 15px; /* Add padding around links */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Change link color for visibility */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align items to the left */
+        border-radius: 0; /* Optional: remove border radius on mobile */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack menu items vertically */
+        width: 100%; /* Full width for mobile menu */
+        padding-left: 0; /* Remove left padding on ul */
+    }
+
+    .navbar li {
+        margin: 10px 0; /* Vertical spacing between menu items */
+        width: 100%; /* Full width for each item */
+        text-align: center; /* Center text in mobile view */
+    }
+}
 
 
 
