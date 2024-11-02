@@ -7,21 +7,31 @@ image: "/images/nmp.jpg"
 
 
 <style>
-html{background: url("/images/pmn.JPEG")no-repeat center center fixed;  background-size: cover}
+	html{background: url("/images/pmn.JPEG")no-repeat center center fixed;  background-size: cover; position: relative;z-index: 0;}
+	#bg-video {
+	        display: none; /* Hide video on this page */
+	    }
+
+    .body-css {
+    color: black; /* Set default text color for body for this page only */
+}
 </style>
 
 
-**A day today unfolds a year <br>
-of milestones yet unthought; <br>
-as inflection trajectories, <br>
-give it the big shot.** <br>
 
-**The world awaits, and time is ripe : <br>
-the highway lies ahead. <br>
-Catch this rainbow to the sun <br>
-live up all you dreamt.** <br>
 
-**Your time to lead the world arrives <br>
-and you are born to shine ! <br>
-The spaceship starts, the flag's unfurled, <br>
-within a year you'll lead the world !** <br>
+	A day today unfolds a year   
+	of milestones yet unthought;   
+	as inflection trajectories,  
+	give it the big shot.  
+  
+	The world awaits, and time is ripe :   
+	the highway lies ahead.   
+	Catch this rainbow to the sun   
+	live up all you dreamt.  
+
+	Your time to lead the world arrives   
+	and you are born to shine !   
+	The spaceship starts, the flag's unfurled,   
+	within a year you'll lead the world !  
+
