@@ -1,13 +1,45 @@
 
-/*main body content in default.html, page.html, etc.*/
-.main-content {
+/*SOME SPECIAL CSS CODE*/
+
+a { color:yellow; text-decoration: none; /*removes underliunes from links*/ }
+a:hover { color: white; }
+
+
+
+  /* Style for the video */
+        #bg-video {
+            position: fixed; /* Fixed position to cover the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            object-fit: cover; /* Cover the entire area */
+            z-index: -1; /* Place behind other content */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-css {
     padding: 20px; 
     display: flex;
+    flex-direction: column; /* Aligns children in a column */
+    min-height: 100vh; /* Ensures footer stays at the bottom */
 }
 
-.additional-content {
-    margin-left: 10px;
-}
 
 
 
@@ -16,8 +48,9 @@
 
 /*css for header.html*/
         .navbar{
-            background-color: #c7ecf8;
+            background-color: blue;
             border-radius: 30px;
+            border: 2px solid brown;
         }
         .navbar ul{
             overflow: auto;
@@ -31,10 +64,29 @@
             padding: 3px 3px;
             text-decoration: none;
         }
-        .navbar li a:hover{
-            color: red;
-        }
         .navbar li#men{
             margin: 17px 50px;
         }
+
+
+
+
+
+
+
+/*main body content in default.html, page.html, etc.*/
+.main-content {
+    
+}
+
+.additional-content {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
     
