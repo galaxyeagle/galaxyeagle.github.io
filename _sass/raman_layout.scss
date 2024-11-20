@@ -3,7 +3,7 @@
 
 a { color:yellow; text-decoration: none; /*removes underliunes from links*/ }
 a:hover { color: white; }
-
+ 
 
 
   /* Style for the video */
@@ -135,6 +135,21 @@ a:hover { color: white; }
         width: 100%; /* Full width for each item */
         text-align: center; /* Center text in mobile view */
     }
+
+    .hamburger {
+        cursor: pointer; /* Change cursor to pointer on hover */
+        font-size: 30px; /* Adjust size of hamburger icon */
+        padding: 10px; /* Add some padding around the icon */
+    }
+
+    .navbar.show-menu #menu ul {
+        display: flex; /* Show menu when active */
+    }
+}
+
+/* Optional styles for transitioning */
+.hidden {
+    display: none;
 }
 
 

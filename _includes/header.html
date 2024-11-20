@@ -1,4 +1,4 @@
-
+ 
 
   <!--- <div class="header">
 
@@ -47,12 +47,19 @@
 
 
 
-
 <body>
     <header>
+
         <nav class="navbar">
             <ul>
                 <li><a href="/"> <img src="{{ site.title-logo | relative_url }}" alt="Logo"></a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                &#9776; <!-- This is the hamburger icon -->
+            </div>
+
+            <ul id="menu" class="hidden">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about/">About</a></li>
                 <li><a href="/pages/literary/">Poetry</a></li>
@@ -61,6 +68,16 @@
                 <li><a href="/pages/experiences/">Experiences</a></li>
             </ul>
         </nav>
+
+        <script>
+            document.getElementById('hamburger').addEventListener('click', function() {
+                const navbar = document.querySelector('.navbar');
+                const menu = document.getElementById('menu');
+                navbar.classList.toggle('show-menu');
+                menu.classList.toggle('hidden'); // Toggle visibility of the menu
+            });
+        </script>
+        
     </header>
 </body>
 
