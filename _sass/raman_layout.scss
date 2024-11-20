@@ -117,7 +117,9 @@ a:hover { color: white; }
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
+
     .navbar {
         flex-direction: column; /* Stack items vertically on small screens */
         align-items: flex-start; /* Align items to the left */
@@ -140,18 +142,20 @@ a:hover { color: white; }
         cursor: pointer; /* Change cursor to pointer on hover */
         font-size: 30px; /* Adjust size of hamburger icon */
         padding: 10px; /* Add some padding around the icon */
+        margin: 0 auto;
     }
 
     .navbar.show-menu #menu ul {
         display: flex; /* Show menu when active */
     }
-}
 
-/* Optional styles for transitioning */
-.hidden {
-    display: none;
-}
 
+    /* Optional styles for transitioning */
+    .hidden {
+        display: none !important;
+    }
+
+}
 
 
 
