@@ -31,6 +31,37 @@ a:hover { color: white; }
 
 
 
+/* Style for the background image */
+    #bg-image {
+        position: fixed; /* Fixed position to cover the entire viewport */
+        top: 0;
+        left: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-image: url('/images/sea.jpg'); /* Set the background image */
+        background-size: cover; /* Cover the entire area */
+        background-position: center; /* Center the image */
+        z-index: -1; /* Place behind other content */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .body-css {
@@ -40,6 +71,16 @@ a:hover { color: white; }
     flex-direction: column; /* Aligns children in a column */
     min-height: 100vh; /* Ensures footer stays at the bottom */
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -95,6 +136,22 @@ a:hover { color: white; }
         text-align: center; /* Center text in mobile view */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

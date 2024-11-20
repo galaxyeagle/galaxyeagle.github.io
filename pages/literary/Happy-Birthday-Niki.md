@@ -7,8 +7,8 @@ image: "/images/nmp.jpg"
 
 
 <style>
-	html{background: url("/images/pmn.JPEG")no-repeat center center fixed;  background-size: cover; position: relative;z-index: 0;}
-	#bg-video {
+	html{background: url("/images/pmn.JPEG")no-repeat center center fixed;  background-size: cover;}
+	#bg-image {
 	        display: none; /* Hide video on this page */
 	    }
 

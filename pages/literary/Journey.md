@@ -3,7 +3,9 @@ layout: page
 ---
 
 <style>
-html{background: url("/images/Journey.png")no-repeat center center fixed;  background-size: cover}
+html{background: url("/images/Journey.png")no-repeat center center fixed;  background-size: cover;}
+#bg-image {
+	        display: none; /* Hide video on this page */
 </style>
 
 

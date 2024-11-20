@@ -15,6 +15,14 @@
       url: /pages/tech/webd/
     - text: General
       url: /pages/tech/general/
+
+- text: Experiences
+  url: /pages/experiences/
+  subitems:
+    - text: Departmental Exam WBCS(Exe)
+      url: /pages/experiences/dept-exam
+    - text: District Training
+      url: /pages/experiences/dist-trg
       
     
 - text: Sitemap

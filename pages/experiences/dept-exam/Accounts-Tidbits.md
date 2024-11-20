@@ -183,7 +183,7 @@ art 150..cag advices presi to release form of account-keeping for union and stat
 
 <h4> Tax and non-tax revenue </h4>
 
-<img src="/images/tax-nontax.jpeg" width="80%">
+<img src="/images/tax-nontax.jpg" width="80%">
 
 <h4> Principles of classification of financial transactions of the government </h4>
 Write about structure of govt accounts, HoAs, rev and cap heads, etc <br> 

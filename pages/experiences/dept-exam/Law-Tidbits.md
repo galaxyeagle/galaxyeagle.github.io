@@ -1,50 +1,70 @@
 ---
 layout : page
-title: Law Tidbits
+title: Law Tidbits 
 date : 2021-03-08
 ---
 
-<script type="text/javascript" src="/scripts/ali.js"></script>
+# Indian evidence Act
 
-<button onclick="expand('iea')"> Indian Evidence Act   </button>
+## Section 3: Definitions
 
-<div id="iea" style="display:none">
+- **Court**
+- **Facts**
+- **Facts in issue**
+- **Relevancy of one fact to another**
+- **Evidence**
+- **Primary evidence (Sec 62)**: Original copies
+- **Secondary evidence (Sec 63)**: Photocopies & oral evidence
 
-Section 3 : Definitions
+Whenever it cannot be certainly said in any matter on the basis of evidence produced that a fact is neither proved nor disproved, it will be called **'not proved'**.
 
-Court, Facts, Facts in issue, Relevancy of one fact to another, Evidence,
-Primary evidence sec 62(original copies), Secondary evidence sec 63(photocopies & oral evidence)
+## Section 4: Presumptions
 
-Whenever it cannot be certainly said in any matter on the basis of evidence produced that a fact is neither proved nor disproved, it will be called 'not proved'.
+- **"May presume."**  
+  Whenever it is provided by this Act that the Court may presume a fact, it may either regard such fact as proved, unless and until it is disproved, or may call for proof of it.
 
-Section 4 - "May presume." "Shall Presume." "Conclusive proof."
+- **"Shall presume."**  
+  Whenever it is directed by this Act that the Court shall presume a fact, it shall regard such fact as proved, unless and until it is disproved.
 
-"May presume."-Whenever it is provided by this Act that the Court may presume a fact, it may either regard such fact as proved, unless and until it is disproved, or may call for proof of it: "Shall presume."-Whenever it is directed by this Act that the Court shall presume a fact, it shall regard such fact as proved, unless and until it is disproved: "Conclusive proof."-When one fact is declared by this Act to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and shall not allow evidence to be given for the purpose of disproving it.
+- **"Conclusive proof."**  
+  When one fact is declared by this Act to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and shall not allow evidence to be given for the purpose of disproving it.
 
-Direct evidence is one which directly proves fact in issue. Indirect => one can only infer from it 
+## Types of Evidence
 
-Testimony : a specific type of evidence (given by a witness)
+- **Direct Evidence**: Directly proves a fact in issue.
+- **Indirect Evidence**: One can only infer from it.
 
-Sec 32(1) - Dying declaration
+### Testimony
+A specific type of evidence given by a witness.
 
-Confession (self-admission) is a subset of Admission(-> Secs 17-31 IE Act). Usually Admission is in civil cases, but confession is in criminal cases. Also if A says the circumstances in which he murdered B, he's admitting. But if he DIRECTLY says that he killed B, he confesses. Confession can lead to punishment. But Admiision isn't a conclusive proof, however its an estoppel (as per Sec 31 IE Act). Confession can be judicial (U/S 164 CrPC)(also ref Sec 161 IPC for examn. of witness by police) or extrajudicial.
+### Relevant Sections
+- **Sec 32(1)**: Dying declaration
 
-Section 133. Accomplice.—An accomplice shall be a competent witness against an accused person. But the word accomplice isn't defined in IE Act
+### Confessions and Admissions
+Confession (self-admission) is a subset of Admission (Secs 17-31 IE Act). Usually, admission occurs in civil cases, while confession occurs in criminal cases. 
 
-#####Burden of proof#####
+- If A describes the circumstances in which he murdered B, he is admitting. 
+- If he directly states that he killed B, he confesses. 
 
-Sec 101/2/3 : BoP on he who asserts
+Confession can lead to punishment. However, admission isn't conclusive proof; it serves as an estoppel (as per Sec 31 IE Act). Confessions can be judicial (U/S 164 CrPC) or extrajudicial (also refer to Sec 161 IPC for examination of witnesses by police).
 
-Sec 105 : BoP on accussed (counter-intuitive) for Gen. Exceptions of IPC 
+## Section 133: Accomplice
+An accomplice shall be a competent witness against an accused person. However, the term "accomplice" is not defined in the IE Act.
 
-Sec 107 (30 yrs/dead claimant has BoP) vs 108 (7 yrs/alive claimant has BoP) : Presumption of death: When the question is whether a man is alive or dead, and it is shown that he was alive within thirty years, the burden of proving that he is dead is on the person who affirms it.
+## Burden of Proof
 
-Sec 109 : If its shown A & B act as if they have an extant relationship bw them (eg partner, landlord-tenant or principal-agent relationship), bop lies on who denies it
+- **Sec 101/2/3**: Burden of Proof lies on he who asserts.
+  
+- **Sec 105**: Burden of Proof on accused (counter-intuitive) for General Exceptions of IPC.
 
-Sec 112 : BoP to prove illegitimate child
+- **Sec 107 vs Sec 108**: 
+  - *30 years/dead claimant has Burden of Proof*.
+  - *7 years/alive claimant has Burden of Proof*:  
+    When the question is whether a man is alive or dead, and it is shown that he was alive within thirty years, the burden of proving that he is dead lies on the person who affirms it.
 
+- **Sec 109**: If it's shown A & B act as if they have an extant relationship between them (e.g., partner, landlord-tenant, or principal-agent relationship), the burden of proof lies on who denies it.
 
-</div>
+- **Sec 112**: Burden of Proof to prove illegitimate child.
 
 
 
@@ -56,96 +76,67 @@ Sec 112 : BoP to prove illegitimate child
 
 
 
+# IPC
 
+## Dowry Death
 
+### Cruelty
+Section 498A of the Indian Penal Code defines cruelty. If a husband or any relative of his causes mental or physical harm to a woman, they will be held punishable under this section. The punishment includes imprisonment for three years and a fine.
 
+### Presumption as to Dowry Death
+Section 113B of the Indian Evidence Act, 1872 states that if a woman dies in relation to any demand for dowry and it is shown that soon before her death she was subjected to harassment or cruelty by any person, then the court will assume such a person responsible for her death.
 
+Section 304B of the Indian Penal Code states that if a woman dies within seven years of marriage due to burns or bodily injury, or if it is revealed that before her marriage she was subjected to cruelty or harassment by her husband or any other relative in connection with a demand for dowry, then her death will be considered a dowry death. The punishment for this offence ranges from seven years to life imprisonment.
 
+### Definition of Dowry
+Section 2 of the Dowry Prohibition Act defines dowry.
 
-<button onclick="expand('ipc')"> IPC   </button>
+### Abetment of Suicide
+Section 306 of the Indian Penal Code provides for punishment of up to ten years imprisonment for the abettor of suicide.
 
-<div id="ipc" style="display:none">
+## Right to Private Defence in IPC (Secs 96-106)
 
-####Dowry death####
+- **Sec 96**: Nothing is an offence if done in private defence.
+- **Sec 97**: The right extends to life and property.
+- **Sec 98**: This right also extends against a mad, immature, confused person, etc.
+- **Sec 99**: Limitations of this right.
+- **Sec 100**: Seven instances where the private defender can kill the assaulter.
+- **Sec 103**: Instances where the private defender can kill the invader of property.
+- **Sec 106**: When innocents are intermingled with assaulters, this right remains valid.
 
-Cruelty
-Section 498A of the Indian Penal Code defines cruelty.
+### Other General Exceptions
+- **Sec 76**: Done in good faith or as a mistake of fact (not a mistake of law).
+- **Sec 80**: Accident; e.g., if a driver causes an accident but claims brake failure, he is protected under this section.
+- **Sec 82**: Applies to children under seven years old.
 
-If a husband or any relative of him causes mental or physical harm to a woman then they will be held punishable under this section.
+## Culpable Homicide & Murder
+Culpable homicide (Sec 299) has two ingredients, while murder (Sec 300) has three. Section 300 also specifies five cases where culpable homicide is not considered murder: private defence, public servant actions, consent, sudden provocation, and unpremeditated sudden fights.
 
-Punishment will be imprisonment for three years and also will be liable to pay fine.
+## Kidnapping & Abduction
+- **Kidnapping (Sec 359)**: Can occur from India or by a lawful guardian.
+- **Abduction (Sec 362)**: Defined separately.
 
-####Presumption as to Dowry Death####
-Section 113B of the Indian Evidence Act, 1872 states about the Presumption as to Dowry Death. If a woman dies in relation with any demand for dowry and it was shown that soon before her death she was subjected to harassment or cruelty by any person. Then the court will assume such a person responsible for her death.
+## Chapter VA of IPC - Criminal Conspiracy
+- **Sec 120A**: Criminal conspiracy defined - mens rea, secretive intent, inferred agreement; it is a substantive offence under Sec 120B.
+- **Sec 121**: Openly declaring war.
+- **Sec 121A**: Covert conspiracy.
+- **Sec 124A**: Sedition.
 
-Section 304B of the Indian Penal Code states that if a woman dies within seven years of marriage by any burns or bodily injury or it was revealed that before her marriage she was exposed to cruelty or harassment by her husband or any other relative of the husband in connection to demand dowry then the death of the woman will be considered as a dowry death.
-Punishment is 7yrs-life impris
+## Offences Against Public Tranquility
+- **Sec 141**: Unlawful assembly - if five or more people gather with a common object; five options exist for prosecution under Sec 143.
+- **Sec 146**: Rioting defined.
+- **Sec 159**: Affray defined.
 
-Sec 2 of Dowry Prohibition Act defines Dowry
 
-Sec 306 IPC gives upto 10 yrs impris to abettor of suicide
 
 
 
-####Righto private defence in IPC (Secs 96-106)####
 
-Sec 96 : nothing is an offence if done for pvt defence
-Sec 97 : extends to life & property
-Sec 98 : this right also extends against a mad, immature, confused, etc person
-Sec 99 : limitations of this right
-Sec 100 : Seven nos. instances where the pvt defender can KILL the assaulter
-Sec 103 : Instances where pvt defender can KILL the invader of a property
-Sec 106 : When innocent are intermingled with assaulters, still this right is valid
 
-Other General Exceptions :
-Sec 76 : done in good faith, or as a mistake of fact, but not a mistake of law
-Sec 80 : Accident....eg if driver does road accident, but says brake failed, he's saved u/s 80
-Sec 82 : <7yrs aged child
 
 
-###Culpable homicide & murder###
 
-CH(Sec 299) has 2I,1K & M (sec 300) has 3I*,1K*
-sec 300 also specifies 5 cases in which CH isn't murder: pvt defence, public servant, consent, s&g provacation, unpremeditated sudden fight
-
-###Kidnapping & Abduction###
-
-Kidnapping (Sec 359) can be from India or Lawful guardian
-Abduction (sec 362) 
-
-
-
-#### Chap VA of IPC - Criminal Conspiracy ####
-
-Sec 120A - Criminal Conspiracy defined - Mens rea, secretive, inferred, union of minds, is a substamtive offence under SEc 120B
-Sec 121 - openly declaring war
-Sec 121A - covert conspiracy
-Sec 124A - sedition
-
-#### Offences against public tranquility ####
-
-Sec 141 - Unlawful assembly - if >= 5 people with a common object = 5 options... substantive offence punished u/s 143
-Sec 146 - Rioting defined
-Sec 159 - Affray defined
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<button onclick="expand('crpc')"> Indian Evidence Act   </button>
-
-<div id="crpc" style="display:none">
+# CrPC
 
 ##### CrPC Security proceedings to maintain peace & tranquility #####
 
@@ -156,4 +147,3 @@ Sec 110 : Habitual offenders
 Sec 116 : Inquiry by EM 
 Sec 122 : Punishment for breach of peace bond
 
-</div>
