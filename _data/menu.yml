@@ -23,6 +23,27 @@
       url: /pages/experiences/dept-exam
     - text: District Training
       url: /pages/experiences/dist-trg
+    - text: As Deputy Magistrate
+      url: /pages/experiences/WBCS
+      
+
+- text: Research
+  url: /pages/research/
+  subitems:
+    - text: Electronics
+      url: /pages/research/electronics
+    - text: Biomed
+      url: /pages/research/biomed
+    - text: Data Science
+      url: /pages/research/data science
+    - text: Mathematics
+      url: /pages/research/math
+    - text: Physics
+      url: /pages/research/physics
+    - text: Programming
+      url: /pages/research/programming
+    - text: Robotics
+      url: /pages/research/robotics
       
     
 - text: Sitemap
