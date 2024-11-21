@@ -38,7 +38,7 @@ a:hover { color: white; }
         left: 0;
         width: 100%; /* Full width */
         height: 100%; /* Full height */
-        background-image: url('/images/black.jfif'); /* Set the background image */
+        background-image: url('/images/starsky.jpeg'); /* Set the background image */
         background-size: cover; /* Cover the entire area */
         background-position: center; /* Center the image */
         z-index: -1; /* Place behind other content */
@@ -115,6 +115,8 @@ a:hover { color: white; }
     text-decoration: none; /* Remove underline from links */
     color: white; /* Change link color for visibility */
 }
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) 
