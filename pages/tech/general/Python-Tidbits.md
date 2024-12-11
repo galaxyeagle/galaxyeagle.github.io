@@ -5,6 +5,8 @@ date : 2021-04-23
 ---
 
 
+To start with Python in Jupyter notebooks & Anaconda distribution, refer to : https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+  
 2 imp. package managers : conda & pip. conda is also an envt. manager in the Anaconda navigator. To install a python package, always prefer using conda if a package is available in conda (to check availability, run >>conda search <pkg-name>, and to check if its already installed (with version)run >>conda list). If unavailable in conda, you may use pip install.
 
 
