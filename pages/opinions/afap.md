@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Ali Fights Analysis Project
-permalink: /AFAP
 image: /images/ogali3.png
 ---
 <script type="text/javascript" src="/scripts/ali.js"></script>
