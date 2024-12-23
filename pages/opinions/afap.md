@@ -90,7 +90,27 @@ Ali's fights were a great source of knowledge, not just for boxers but rather fo
 
 
 
-<!--#### My favourite Ali fights :
+
+
+
+
+ 
+	
+<p id="mybutton" style="color:green"> <button onclick="change()" style="background-color:lightgreen">Contribute your analysis of your favourite Ali fight</button> </p>
+<p style="color:red"> Become a team member. Collect analyses of an Ali fight from different people & submit via <a href="mailto:raman.butta.nitdgp@gmail.com">email</a>. Your name will be featured in this project page.</p>    
+  
+  
+<!--- <a href="https://www.paypal.me/ramanbutta" target="_blank"><b>Support this project. Donate via PayPal.</b></a> ---> 
+  
+<a href="whatsapp://send?text=Ali Fights Analysis Project https://galaxyeagle.github.io/AFAP" data-action="share/whatsapp/share">Share via Whatsapp</a>
+
+
+
+
+
+
+
+#### My favourite Ali fights :
 Ali Cooper 1................................."Henry Cooper’s no jive, the fight will end in five."  
 Ali Liston 1...................................."Liston must fall in Eight,to prove that I am great"  
 Ali Liston 2...................................."I told you that I had a surprise"  
@@ -107,17 +127,8 @@ Ali Norton 2 ................................."If I weren’t in good  shape, in
 Ali Foreman.................................."The man just took a superior, scientific beating."  
 Ali Lyle............................................"You will See me tonight literally take this man”  
 Ali Wepner  
-Ali Spinks 2..................................."It is befitting that I achieve the impossible"  -->
+Ali Spinks 2..................................."It is befitting that I achieve the impossible"  
 
- 
-	
-<p id="mybutton" style="color:green"> <button onclick="change()" style="background-color:lightgreen">Contribute your analysis of your favourite Ali fight</button> </p>
-<p style="color:red"> Become a team member. Collect analyses of an Ali fight from different people & submit via <a href="mailto:raman.butta.nitdgp@gmail.com">email</a>. Your name will be featured in this project page.</p>    
-  
-  
-<!--- <a href="https://www.paypal.me/ramanbutta" target="_blank"><b>Support this project. Donate via PayPal.</b></a> ---> 
-  
-<a href="whatsapp://send?text=Ali Fights Analysis Project https://galaxyeagle.github.io/AFAP" data-action="share/whatsapp/share">Share via Whatsapp</a>
 
 
 

@@ -1,4 +1,4 @@
---
+---
 layout : page
 title : Thoughts on AI
 date : 2024-11-25

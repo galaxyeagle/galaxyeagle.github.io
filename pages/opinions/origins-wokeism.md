@@ -1,6 +1,7 @@
 ---
-layout : post
+layout : page
 title : Origins of wokeism
+date: 2023-07-13
 ---
 
 

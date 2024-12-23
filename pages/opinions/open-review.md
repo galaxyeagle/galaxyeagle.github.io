@@ -1,6 +1,7 @@
 ---
-layout : post
+layout : page
 title : Book review of "Open" - by Andre Agassi
+date: 2023-07-13
 ---
 
 I just finished reading the book "Open", the autobiography of former world number one tennis player Andre Agassi. The book provides a candid and open account of his personal life, struggles, and successes.

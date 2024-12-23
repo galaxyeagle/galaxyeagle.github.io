@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: Planning office work
+date: 2023-03-15
 ---
 
 

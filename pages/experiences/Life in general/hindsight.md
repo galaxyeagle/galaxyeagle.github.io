@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: Hindsight
+date: 2020-05-08
 ---
 
 Today, the 8th of May, 2020 marks five years of the inception of my first big trip outside my country India - an internship tour to 

@@ -1,6 +1,7 @@
 ---
-layout : post
-title : My favourite live performances
+layout : page
+title : My favourite live music performances
+date: 2022-04-13
 ---
 
 My top 10 favourite live performances are :

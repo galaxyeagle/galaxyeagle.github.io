@@ -2,37 +2,27 @@
 layout: default
 ---
 
+<html>
 
 
 <body>
 
-<div> 
+<div style="display: flex; justify-content: space-between;">
 
-<!-- This entire div will serve as the content -->
-<!-- of the default html file above -->
+    <div style="flex: 1; padding-right: 20px;">
+        <img src="/images/rb.gif" style="max-width: 800px; max-height: 500px; width: auto; height: auto; padding-top: 100px;">
+        <img src="/images/mmlg.gif" style="max-width: 600px; max-height: 300px; width: auto; height: auto; padding-top: 70px;">
+    </div>
 
+    <div style="flex: 1;">
+        <img src="/images/menobg.png" style="max-width: 500px; max-height: 1200px; width: auto; height: auto; padding-top: 0;">
+    </div>
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-
-      <p style="margin-bottom: 20px">
-	  
-	  
-			<a href="{{ post.url | relative_url }}">
-			  {{ post.title}}
-			</a>
-			
-			
-			<span>{{ post.date | date: "%b %-d, %Y"}}</span>
-		
-	   </p>
-       
-  
- 
-{% endfor %}
-
-<!-- Pagination links -->
-  {% include prev_next.html   prev_url=paginator.previous_page_path   prev_text='Previous'   next_url=paginator.next_page_path   next_text='Next' %}
 </div>
 
+
 </body>
+
+
+
+</html>
