@@ -11,7 +11,7 @@ A server is a system which serves .html files or .ipynb Jupyter notebooks to a U
 
 In Sublime Text you can directly right click on an html file you've opened on the screen, and then click "Open in Browser". However I have observed some unexpressed CSS styles when serving site html files of github-pages this way. So for my github-pages site I use the `jekyll serve` command in the terminal to serve the entire website at once. (I use Alt+1 to launch the terminal within Sublime Text. For a tutorial on it refer [here](https://www.geeksforgeeks.org/how-to-use-terminal-in-sublime-text-editor/).
 Apart from this jekyll-based github-page repo, any other repo containing an index.html file can also be served from within Sublime Text. To do this Ctrl+P and go to 'Package Install' and install `Browser-Sync` package. Then go to `Preferences`-`Browse Packages` and edit the `browser_sync_launch.js` file. I found the code was launching a settings file instead of my repo displaying the "Cannot GET /Preferences.sublime-settings" error in the browser. So I replaced with [this](https://gist.github.com/galaxyeagle/be26f8444cc3861e206bfb3bb3994f8b). Then you simply need to go the `Browser Sync` button in Sublime & click Launch.
-Apart from using your PC, you can use the cloud service [githack](https://raw.githack.com/) to directly launch the main html file of your Github, BitBucket, Gitlab or Sourcehut repo, without making any local copy at all.
+Apart from using your PC, you can use the cloud service [rawgithack](https://raw.githack.com/) to directly launch the main html file of your Github, BitBucket, Gitlab or Sourcehut repo, without making any local copy at all.
 
 ## Serving Jupyter Notebooks
 

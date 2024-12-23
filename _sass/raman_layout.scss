@@ -97,6 +97,8 @@ a:hover { color: white; }
     border-radius: 30px;
     border: 2px solid brown;
     padding: 10px 20px; /* Add padding for better spacing */
+    width: 100%; /* Ensure navbar takes full width */
+    box-sizing: border-box; /* Include padding and border in element's total width */
 }
 
 .navbar ul {
@@ -160,10 +162,19 @@ a:hover { color: white; }
 }
 
 
+/* Hide Hamburger Icon on Desktop View */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none; /* Hide hamburger icon on larger screens */
+    }
+}
 
 
-
-
+/* Additional Styles to Ensure Full Width Across All Screens */
+html, body {
+    margin: 0; /* Remove default margin from body and html elements */
+    padding: 0; /* Remove default padding from body and html elements */
+}
 
 
 
