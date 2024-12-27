@@ -65,6 +65,9 @@ a:hover { color: white; }
 
 
 .body-css {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
     color: white;
     padding: 20px; 
     display: flex;
@@ -176,28 +179,6 @@ html, body {
     padding: 0; /* Remove default padding from body and html elements */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*CSS for body's main & additional content in default.html, page.html, etc.*/
-.main-content {
-    
-}
-
-.additional-content {
-    margin-left: 10px;
-}
 
 
 
