@@ -8,7 +8,7 @@ date : 2023-05-01
 <style>
 html{background: url("/images/thirdaawt.png")no-repeat center center fixed;  background-size: cover;}
 p{font-weight:bold;}
-p1{color:blue;font-weight:bold;}
+p1{color:yellow;font-weight:bold;}
 </style>
 
 

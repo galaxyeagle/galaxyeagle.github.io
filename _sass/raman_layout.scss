@@ -1,29 +1,15 @@
 
+:root{
+    --clr-bg: #474b4c;
+    --clr-hf: #36454F;
+}
+
+
 /*SOME SPECIAL CSS CODE*/
 
 a { color:yellow; text-decoration: none; /*removes underliunes from links*/ }
 a:hover { color: white; }
  
- 
-
-  /* Style for the video */
-        #bg-video {
-            position: fixed; /* Fixed position to cover the entire viewport */
-            top: 0;
-            left: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            object-fit: cover; /* Cover the entire area */
-            z-index: -1; /* Place behind other content */
-        }
-
-
-
-
-
-
-
-
 
 
 
@@ -38,7 +24,7 @@ a:hover { color: white; }
         left: 0;
         width: 100%; /* Full width */
         height: 100%; /* Full height */
-        background-image: url('/images/black.jpg'); /* Set the background image */
+        background-image: url(/images/black.jpg);
         background-size: cover; /* Cover the entire area */
         background-position: center; /* Center the image */
         z-index: -1; /* Place behind other content */
@@ -61,7 +47,7 @@ a:hover { color: white; }
 
 
 
-/*Body CSS in deault.html layout*/
+/*Body CSS in default.html layout*/
 
 
 .body-css {
@@ -96,7 +82,7 @@ a:hover { color: white; }
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space between logo and menu items */
     align-items: center; /* Center items vertically */
-    background-color: blue;
+    background-color: var(--clr-hf) ;
     border-radius: 30px;
     border: 2px solid brown;
     padding: 10px 20px; /* Add padding for better spacing */
@@ -183,6 +169,27 @@ html, body {
 
 
 
+
+
+
+
+
+
+
+/*CSS for footer.html*/
+
+.footer {
+    background-color: var(--clr-hf);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    }
+
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    }
 
 
 

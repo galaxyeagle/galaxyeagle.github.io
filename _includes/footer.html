@@ -3,24 +3,21 @@
   
 
     
-
-    
-      <div class="col-3 col-s-3">
-	  
-		<h2>{{ site.title | escape }}</h2>
-        <ul>
-            <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-		
+      <div class="footer">
+          <h2>{{ site.title | escape }}</h2>
+          <p>
+              {%- if site.author -%}
+                  {{ site.author | escape }}
+              {%- else -%}
+                  {{ site.title | escape }}
+              {%- endif -%}
+          </p> <!-- Closing paragraph tag -->
+          
+          {%- if site.email -%}
+              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          {%- endif -%}
+          
+          <p>{{- site.description | escape -}}</p>
       </div>
 
 
@@ -36,11 +33,6 @@
 
 
 
-
-      <div class="col-3 col-s-12">
-			<p>{{- site.description | escape -}}</p>
-      </div>
-    
 
   
 
