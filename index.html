@@ -25,14 +25,21 @@ layout: default
         padding: 10px; /* Add some padding */
     }
 
+    .right-image {
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
     .left-images img {
         max-width: 100%; /* Make images responsive */
         height: auto; /* Maintain aspect ratio */
     }
 
     .right-image img {
-        max-width: 100%; /* Make images responsive */
-        height: auto; /* Maintain aspect ratio */
+        max-height: 425px; /* Make images responsive */
+        width: auto; /* Maintain aspect ratio */
+        align-items: center;
     }
 
     @media (max-width: 768px) {
@@ -68,7 +75,7 @@ layout: default
     </div>
 
     <div class="right-image">
-        <img src="/images/mebg.png" style="padding-top: 0;">
+        <img src="/images/menobgtg.png" style="padding-top: 0;">
     </div>
 
 </div>

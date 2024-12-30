@@ -4,20 +4,24 @@
 
     
       <div class="footer">
+
           <h2>{{ site.title | escape }}</h2>
+
           <p>
               {%- if site.author -%}
                   {{ site.author | escape }}
-              {%- else -%}
-                  {{ site.title | escape }}
               {%- endif -%}
-          </p> <!-- Closing paragraph tag -->
+          </p>
           
-          {%- if site.email -%}
-              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-          {%- endif -%}
           
+          <p>
+            {%- if site.email -%}
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {%- endif -%}
+          </p>
+
           <p>{{- site.description | escape -}}</p>
+
       </div>
 
 
