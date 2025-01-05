@@ -1,12 +1,14 @@
 ---
 layout : page
 title : Understanding Git
-date : 2025-01-04
+date : 2025-01-05
 ---
 
-The [Git website](https://git-scm.com/) reads that Git is a free and open source distributed version control system. Git is a version control system (VCS) because it tracks file changes. This is crucial because when working on a software project, it’s important to know how to manage your changes effectively. Take a look at the image below :  
-![Git workflow](/images/git-add-commit.png)
-Graphite.dev explains this process as follows :
+The [Git website](https://git-scm.com/) reads that Git is a free and open source distributed version control system. Git is a version control system (VCS) because it tracks file changes. This is crucial because when working on a software project, it’s important to know how to manage your changes effectively. Take a look at the image below :   
+ 
+<img src="/images/git-add-commit.png" width="40%" height=auto>
+
+Graphite.dev explains this process as follows :  
 ```Git manages a directed acyclic graph of snapshots. Every commit represents a snapshot of your project’s files at a certain point in time. Before something becomes a commit, it first resides in something known as the staging area. The git add command moves changes from your working directory (the place where you edit files) into this staging area (an index, or record of what’s about to be committed). Then git commit converts whatever is staged into a new snapshot. Finally, git push transfers those snapshots from your local repository to a remote repository, making them visible to your team.```
 
 Git is not the only Source Code Management (SCM) software in market. Subversion & Mercurial are other alternatives. Subversion maintains each revision as changeset. Hg uses both changeset and snapshot while Git purely uses snapshot to store the data. 
@@ -90,8 +92,9 @@ To delete remote copy also : ```git push origin --delete develop```
 
 ----------------------------------------------------------------------------------------
 
-Ref:   
-https://about.gitlab.com/topics/version-control/benefits-distributed-version-control-system/  
-https://graphite.dev/guides/git-add-commit-push  
+## References
+
+- [Benefits of Distributed Version Control Systems](https://about.gitlab.com/topics/version-control/benefits-distributed-version-control-system/)
+- [Graphite.dev Guide](https://graphite.dev/guides/git-add-commit-push)
 
 
