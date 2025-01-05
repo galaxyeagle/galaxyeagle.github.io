@@ -8,6 +8,7 @@ comments: false
 <br>
 <br>
 My name is Raman Butta.  
+My CV is [here](https://drive.google.com/file/d/10JYk_KlrWrkLMyXtZryk60bIg7avaEG9/view?usp=sharing)
 My Linktree is [here](https://linktr.ee/rbutta)   
 _Galaxy Eagle_ is my initiative to spread knowledge and ideas straight from the shoulder.    
 To refer to my research papers, check out my [Google Scholar profile](https://scholar.google.com/citations?user=hjX2g2wAAAAJ&hl=en)  
