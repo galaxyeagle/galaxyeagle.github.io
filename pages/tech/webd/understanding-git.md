@@ -4,12 +4,14 @@ title : Understanding Git
 date : 2025-01-05
 ---
 
+<style>c{color: #04D9FF;}</style>
+
 The [Git website](https://git-scm.com/) reads that Git is a free and open source distributed version control system. Git is a version control system (VCS) because it tracks file changes. This is crucial because when working on a software project, it’s important to know how to manage your changes effectively. Take a look at the image below :   
  
 <img src="/images/git-add-commit.png" width="40%" height=auto>
 
 Graphite.dev explains this process as follows :  
-```Git manages a directed acyclic graph of snapshots. Every commit represents a snapshot of your project’s files at a certain point in time. Before something becomes a commit, it first resides in something known as the staging area. The git add command moves changes from your working directory (the place where you edit files) into this staging area (an index, or record of what’s about to be committed). Then git commit converts whatever is staged into a new snapshot. Finally, git push transfers those snapshots from your local repository to a remote repository, making them visible to your team.```
+<span style="color: orange;"> Git manages a directed acyclic graph of snapshots. Every commit represents a snapshot of your project’s files at a certain point in time. Before something becomes a commit, it first resides in something known as the staging area. The git add command moves changes from your working directory (the place where you edit files) into this staging area (an index, or record of what’s about to be committed). Then git commit converts whatever is staged into a new snapshot. Finally, git push transfers those snapshots from your local repository to a remote repository, making them visible to your team.</span>
 
 Git is not the only Source Code Management (SCM) software in market. Subversion & Mercurial are other alternatives. Subversion maintains each revision as changeset. Hg uses both changeset and snapshot while Git purely uses snapshot to store the data. 
 
@@ -17,78 +19,95 @@ If you're working alone on your local system, remote repo isn't necessary. If yo
 
 ## Working with Git
 
-Download git and git-bash softwares from their websites. Create a local folder. Git bash into it. Then run `git init`. This will initialize that folder as a git repo having a .git folder, which contains all the necessary metadata and version history for your project. Now you can use any code editor or IDE to create your sourcecode files in the folder. (I personally use Sublime for heavy-text & light-code repos like my github blog, while VSCode for code-heavy projects because it has excellent inbuilt plugins, debugger & recently Github Copilot integration. For Python projects, I use Anaconda). You can add files to the staging area using `git add <filename>` and commit them with `git commit -m "Your commit message"`. You can create branches to work on different features or fixes independently. Use `git branch <branch-name>` to create a new branch and `git checkout <branch-name>` to switch between branches. Merging branches is also possible with `git merge <branch-name>`. All changes you make are recorded in the local repository's history, which you can view using commands like git log. This allows you to revert to previous states of your project if needed. If you want to view the repository as it was at a specific commit, you can check out that commit using its hash.
-bash: `git checkout <commit-hash>`. To view details about a specific commit, including changes made in that commit, use: `git show <commit-hash>`. After viewing a previous state, you can return to your latest commit on your current branch with: `git checkout master`. If you want to see what changed between two commits, you can use: `git diff <commit-hash-1> <commit-hash-2>`.   
+Download git and git-bash softwares from their websites. Create a local folder. Git bash into it. Then run `git init`. This will initialize that folder as a git repo having a .git folder, which contains all the necessary metadata and version history for your project. Now you can use any code editor or IDE to create your sourcecode files in the folder. (I personally use Sublime for heavy-text & light-code repos like my github blog, while VSCode for code-heavy projects because it has excellent inbuilt plugins, debugger & recently Github Copilot integration. For Python projects, I use Anaconda). You can add files to the staging area using <c>`git add filename`</c> and commit them with <c>`git commit -m "Your commit message"`</c>. You can create branches to work on different features or fixes independently. Use <c>`git branch branch-name`</c> to create a new branch and <c>`git checkout branch-name`</c> to switch between branches. Merging branches is also possible with <c>`git merge branch-name`</c>. All changes you make are recorded in the local repository's history, which you can view using commands like git log. This allows you to revert to previous states of your project if needed. If you want to view the repository as it was at a specific commit, you can check out that commit using its hash.
+bash: <c>`git checkout commit-hash`</c>. To view details about a specific commit, including changes made in that commit, use: <c>`git show commit-hash`</c>. After viewing a previous state, you can return to your latest commit on your current branch with: <c>`git checkout master`</c>. If you want to see what changed between two commits, you can use: <c>`git diff commit-hash-1 commit-hash-2`</c>.   
 
 You can run all these git operations as commands in the Command Line/Git Bash/Terminals inbuilt in the editor or IDE. When I was a newbie I used Windows CMD, then I downloaded Git Bash because it showed the current branch as well. Later I learned about inbuilt terminals inside code editors/IDEs which is my preferred choice till date. However many developers prefer a GUI (also called a Git Client) for these git operations. Popular ones are Github Desktop, Sublime Merge, Fork, Sourcetree, Tower, SmartGit, GitKraken Desktop, etc. 
+
+<span style="color: orange;"> 
+NB. Don't confuse between Github Desktop and Github CLI softwares. GitHub Desktop is a GUI for interacting with Git, while GitHub CLI is a CLI specifically designed to interact with GitHub. To utilize all features (eg. visibility settings, licensing, README) available right when creating a repository on GitHub, it's recommended to first create the repository online using the Github webpage or Github CLI with gh repo create command. Once created, you can then clone it locally or push an existing local repository to it. 
+</span>
 
 
 ## Working with Github
 
-When many developers wish to merge their contributions to the same master codebase, "merge conflicts" can arise. A web platform like Github handles these merge conflicts like a pro. "Forking" a repository on github.com creates a personal remote copy of a repo under your GitHub account, allowing you to make changes without affecting the original project (known as the upstream repository). "Cloning" is the process of creating a local copy of a remote repo (either original or forked) on your machine, enabling offline work using the command: `git clone <repository-url>`. After making local changes to the repo, perform the usual git add-commit sequence we'd discussed. Then push the changes to the remote forked repo using the git push command. Then you can go to github.com and submit a "Pull Request (PR)" to propose those changes to the original project. The owner of the original project may accept those changes.  
+When many developers wish to merge their contributions to the same master codebase, "merge conflicts" can arise. A web platform like Github handles these merge conflicts like a pro. "Forking" a repository on github.com creates a personal remote copy of a repo under your GitHub account, allowing you to make changes without affecting the original project (known as the upstream repository). "Cloning" is the process of creating a local copy of a remote repo (either original or forked) on your machine, enabling offline work using the command: <c>`git clone repository-url`</c>. 
+After making local changes to the repo, perform the usual git add-commit sequence we'd discussed. Then push the changes to the remote forked repo using the git push command. Then you can go to github.com and submit a "Pull Request (PR)" to propose those changes to the original project. The owner of the original project may accept those changes.  
 
 ## Working between Local & Remote copies of your Git Repo
 
 If you are sharing your local Git repo on Github, you will have 2 copies of your repo - Local (in your PC) & Remote (in the Github server). You may wish to edit the local repo & want to reflect the changes in the remote repo also, or vice-versa. You may also want to work on a branch and merge changes with the master. For all such exercises, this article shines a light.
 
-**Prerequisite :** I assume your Local & Remote Repos are setup. Further, they're linked using the `git add remote origin <>` command.
+**Prerequisite :** I assume your Local & Remote Repos are setup. Further, they're linked using the <c>`git add remote origin url`</c> command.
 
 ### <ins> Working on 'master' branch </ins>
 
 #### Pushing local changes to remote
 
-	<Make local changes>  
-	git add .  
-	git commit -m "changes"	
-	git push origin master
+Make local changes
+<c>	  
+	git add .  <br>
+	git commit -m "changes"	<br>
+	git push origin master <br>
+</c>
 
 #### Pulling remote changes to local
 
-	<Make remote changes>  
-	git fetch origin  
-	git merge origin/master 
-	Or simply: git pull origin master
+Make remote changes
+<c>  
+	git fetch origin  <br>
+	git merge origin/master <br>
+	Or simply: git pull origin master <br>
+</c>
 
 ### <ins> Working on another branch (say 'develop') </ins>
 
 #### Pushing local changes to remote
 
-	git branch develop  
-	git checkout develop  
-	<Make local changes>  
-	git add .  
-	git commit -m "changes"  
-	git push origin develop  
+<c>
+	git branch develop   <br>
+	git checkout develop <br>
+</c>
+	Make local changes  
+<c>	
+	git add .  <br>
+	git commit -m "changes"  <br>
+	git push origin develop  <br>
+</c>
 
 #### Pulling remote changes to local
 
 ##### 1st time
 
-	<Create a new branch 'develop' in github & edit it>    
-	git fetch  
-	git branch develop origin/develop
+Create a new branch 'develop' in github & edit it
+<c>    
+	git fetch  <br>
+	git branch develop origin/develop <br>
+</c>
 		
 ##### After 1st time  
 
-	<Make changes in 'develop' in github>  
-	git fetch  
-	git merge origin/develop
-	Or simply: git pull origin develop
+Make changes in 'develop' in github 
+<c>
+	git fetch  <br>
+	git merge origin/develop <br>
+	Or simply: git pull origin develop <br>
+</c>
 		
 		
 ----------------------------------------------------------------------------------------  
 After changes to 'develop' branch are made, & you want to merge it with master branch
-```
-<On master branch> git merge develop
-```
+
+On master branch: <c>git merge develop</c>
+
 	
 nb. There's a concept called "pull request" only in github where you can create a "pull request" in github while you're on the develop branch
     This will flag a notification on master branch in github with an option for merge. Command line git has no role in this affair.
 	
 ### Deleting 'develop' branch after its merged with master & no longer needed 
   
-To delete local copy : ```git branch -d develop```  
-To delete remote copy also : ```git push origin --delete develop```
+To delete local copy : <c>`git branch -d develop`</c>  
+To delete remote copy also : <c>git push origin --delete develop`</c>
 
 ----------------------------------------------------------------------------------------
 
