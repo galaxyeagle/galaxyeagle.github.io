@@ -40,5 +40,4 @@ Will breaks inertia like smashed glass, widens the drooping eyes, gives spring t
 It rouses the dead and paints the starless night sky in blinding white.  
 Its the throwline you must cling to even in bleeding palms.  
 It is the candle flame you must preserve through tempest and the abyss and take with you to the grave.  
-Its your existence.  
-It is unfrayable with God’s blessing: don’t let it ever loose, and you will reach the shore.  
+ 

@@ -1,0 +1,8 @@
+---
+layout: page
+title: Traditional and New Elites
+date: 2025-01-10
+---
+
+
+Human rights, racism, DEI, affirmative action and recently the spectrum of wokeism has been the shield of traditional elites to maintain their status and avoid open-market competition. However there has been a recent schism among the elite class and a new breed of first-generation, non-traditional elites have risen from dust, through their own merit, not without countless thorns of resistance during their ascent. They believe in meritocaracy, despise the traditional elites who robbed their families of decent living for so long and despise the wokeism which made their rise painful. Their thoughts resonate with the wider working, aspirational middle class who want a better future. The traditional elites have scapegoated the middle class, intoxicated the lower class, gaslighted the brave outliers, and cronied with the crooked to ossify an anti-entrepreneural government-corporate leviathan. The foolish masses admire these self-fulfilling mediocre elites, either out of a stockholm syndrome or blob paradox or social conditioning or simply a fear of being sidelined, cancelled or silenced. Democrat vs republican, left vs right, orthodox vs liberal, pro-censorship vs pro-free speech, reservationists vs meritocratic, centralisation vs decen or neocons vs accelerationists are all debates between the traditional and new elites respectively. The new elites are the only ones today who are capable enough to create a fair incubator for disruptive and progressive young talent. The traditional elites hate it but new elites are pro-tech and that's why they'll have the last laugh.
