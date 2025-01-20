@@ -98,7 +98,7 @@ html, body {
 
 
 
-
+ 
 
 /* CSS for header.html */
 .navbar {
@@ -109,12 +109,13 @@ html, body {
     border-radius: 30px;
     border: 2px solid brown;
     padding: 10px 20px; /* Add padding for better spacing */
-    width: 100%; /* Ensure navbar takes full width */
+    flex-basis: 100%; /* Ensure navbar takes full width */
     box-sizing: border-box; /* Include padding and border in element's total width */
 }
 
 .navbar ul {
     display: flex; /* Use flexbox for the list */
+    flex-wrap: wrap;
     list-style: none; /* Remove default list styling */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -128,6 +129,13 @@ html, body {
     padding: 10px 15px; /* Add padding around links */
     text-decoration: none; /* Remove underline from links */
     color: white; /* Change link color for visibility */
+}
+
+
+.navbar ul#menu li a:hover {
+    border: 2px solid yellow;
+    border-radius: 20px;
+    background-color: #59515E;
 }
 
 
