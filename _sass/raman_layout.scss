@@ -169,6 +169,10 @@ html, body {
         margin: 0 auto;
     }
 
+    .hamburger:hover{
+        background-color: brown;
+    }
+
     .navbar.show-menu #menu ul {
         display: flex; /* Show menu when active */
     }

@@ -38,7 +38,9 @@ After making local changes to the repo, perform the usual git add-commit sequenc
 
 If you are sharing your local Git repo on Github, you will have 2 copies of your repo - Local (in your PC) & Remote (in the Github server). You may wish to edit the local repo & want to reflect the changes in the remote repo also, or vice-versa. You may also want to work on a branch and merge changes with the master. For all such exercises, this article shines a light.
 
-**Prerequisite :** I assume your Local & Remote Repos are setup. Further, they're linked using the <em>`git add remote origin url`</em> command.
+To add a remote repo to your local git project and name it say `origin`, use the <em>`git remote add origin <url>`</em> command. To check if its added, use <em>`git remote -v`</em> to list all remotes.  To remove the existing `remote`, 
+To rename your remote project from `origin` to say `myProject` use <em>`git remote rename myProject origin`</em>
+Once your Local & Remote Repos are setup and linked, you can continue your work as follows.
 
 ### <ins> Working on 'master' branch </ins>
 
@@ -110,6 +112,8 @@ To delete local copy : <em>`git branch -d develop`</em>
 To delete remote copy also : <em>git push origin --delete develop`</em>
 
 ----------------------------------------------------------------------------------------
+
+Sometimes you work on both your `local` and `remote` repositories depending on your mood ! In such cases a gap is created between the two. In VSCode you can use the `sync` feature in the version control UI to `pull` and `push` simulatneously to close the gap. If the gap is too large, it may not work. In such cases, first pull the remote changes using <em>`git pull origin <branch_name> --allow-unrelated-histories`</em>. And then push them using <em>`git push origin <branch_name>`</em>
 
 ## References
 
