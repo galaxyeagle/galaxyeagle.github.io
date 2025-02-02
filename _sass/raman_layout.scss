@@ -245,6 +245,19 @@ html, body {
     animation: 2s spin linear infinite;
 }
 
+/* ::after pseudo-element for decorative ribbon effect */
+.box-poems::after {
+    content: "My Poems"; /* Text for the ribbon */
+    position: absolute; /* Position it absolutely within the card */
+    top: -10px; /* Position it above the card */
+    left: -10px; /* Position it to the left of the card */
+    background-color: whitesmoke; /* Red background for the ribbon */
+    color: brown; /* White text color */
+    padding: 5px 10px; /* Padding around text */
+    border: 1px solid brown;
+    border-radius: 5px; /* Rounded corners for the ribbon */
+    transform: rotate(-5deg); /* Slight rotation for a dynamic look */
+}
 
 
 .box-poems p {
