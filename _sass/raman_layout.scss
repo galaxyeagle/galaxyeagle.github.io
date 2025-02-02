@@ -97,7 +97,7 @@ html, body {
 
 
 
-
+ 
  
 
 /* CSS for header.html */
@@ -214,6 +214,62 @@ html, body {
 }
 
 
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+.box-poems {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap; 
+    position: relative;
+    width: 80%;
+    margin: 30px auto;
+    background-color: #474b4c;
+    border-radius: 10px;
+}
+
+.box-poems::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    background: linear-gradient(var(--angle), orange, white);
+    z-index: -1;
+    animation: 2s spin linear infinite;
+}
+
+
+
+.box-poems p {
+    flex-basis: calc(25% - 100px); /* 4 items in a row with spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .box-poems p {
+        flex-basis: calc(50% - 60px); /* 2 items in a row for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .box-poems p {
+        flex-basis: calc(100% - 40px); /* 1 item in a row for small screens */
+    }
+}
+
+
+@keyframes spin{
+    from{--angle: 0deg;}
+    to{--angle: 360deg;}
+}
+
 
 
 
@@ -242,6 +298,8 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border: 2px solid #666;
+    border-radius: 20px;
     }
 
 .footer a {
