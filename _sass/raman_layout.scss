@@ -154,7 +154,7 @@ html, body {
     transition: all var(--transition-speed) ease;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:active {
     border-color: var(--clr-accent);
     background-color: var(--clr-hover);
 }
@@ -220,10 +220,10 @@ html, body {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
-        align-items: stretch;
+/*        align-items: stretch;*/
         border-radius: 15px;
-        margin: 0.5rem;
-        width: calc(100% - 1rem);
+        /*margin: 0.5rem;
+        width: calc(100% - 1rem);*/
     }
 
     .hamburger {
@@ -275,12 +275,12 @@ html, body {
 }
 
 /* Add a container class for better width control */
-.header-container {
+/*.header-container {
     width: 100%;
     max-width: 100%;
     padding: 0 1rem;
     box-sizing: border-box;
-}
+}*/
 
 
 
