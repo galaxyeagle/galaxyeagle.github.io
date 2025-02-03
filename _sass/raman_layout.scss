@@ -101,97 +101,193 @@ html, body {
  
 
 /* CSS for header.html */
+:root {
+    --clr-primary: brown;
+    --clr-hover: #59515E;
+    --clr-accent: yellow;
+    --clr-bg: var(--clr-hf);
+    --transition-speed: 0.3s;
+}
+
+/* Navbar Styles */
 .navbar {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between logo and menu items */
-    align-items: center; /* Center items vertically */
-    background-color: var(--clr-hf) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--clr-bg);
     border-radius: 30px;
-    border: 2px solid brown;
-    padding: 10px 20px; /* Add padding for better spacing */
-    flex-basis: 100%; /* Ensure navbar takes full width */
-    box-sizing: border-box; /* Include padding and border in element's total width */
+    border: 2px solid var(--clr-primary);
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+/*    max-width: 100%;*/
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
-.navbar ul {
-    display: flex; /* Use flexbox for the list */
+/* Brand/Logo Styles */
+.nav-brand {
+    padding: 0.5rem;
+}
+
+.nav-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
     flex-wrap: wrap;
-    list-style: none; /* Remove default list styling */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
 }
 
-.navbar li {
-    margin: 0 20px; /* Adjust margins for spacing between items */
-}
-
-.navbar li a {
-    padding: 10px 15px; /* Add padding around links */
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* Change link color for visibility */
-}
-
-
-.navbar ul#menu li a:hover {
-    border: 2px solid yellow;
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border: 2px solid transparent;
     border-radius: 20px;
-    background-color: #59515E;
+    transition: all var(--transition-speed) ease;
 }
 
+.nav-link:hover {
+    border-color: var(--clr-accent);
+    background-color: var(--clr-hover);
+}
 
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 100;
+}
+
+.hamburger-box {
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    transition: all var(--transition-speed) ease;
+}
+
+.hamburger-inner {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger-inner::before {
+    content: '';
+    top: -8px;
+}
+
+.hamburger-inner::after {
+    content: '';
+    bottom: -8px;
+}
+
+/* Hamburger Animation */
+.hamburger.active .hamburger-inner {
+    background-color: transparent;
+}
+
+.hamburger.active .hamburger-inner::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.hamburger.active .hamburger-inner::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+}
 
 /* Responsive Styles */
-@media (max-width: 768px) 
-{
-
+@media (max-width: 768px) {
     .navbar {
-        flex-direction: column; /* Stack items vertically on small screens */
-        align-items: flex-start; /* Align items to the left */
-        border-radius: 0; /* Optional: remove border radius on mobile */
-    }
-
-    .navbar ul {
-        flex-direction: column; /* Stack menu items vertically */
-        width: 100%; /* Full width for mobile menu */
-        padding-left: 0; /* Remove left padding on ul */
-    }
-
-    .navbar li {
-        margin: 10px 0; /* Vertical spacing between menu items */
-        width: 100%; /* Full width for each item */
-        text-align: center; /* Center text in mobile view */
+        flex-direction: column;
+        align-items: stretch;
+        border-radius: 15px;
+        margin: 0.5rem;
+        width: calc(100% - 1rem);
     }
 
     .hamburger {
-        cursor: pointer; /* Change cursor to pointer on hover */
-        font-size: 30px; /* Adjust size of hamburger icon */
-        padding: 10px; /* Add some padding around the icon */
-        margin: 0 auto;
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
     }
 
-    .hamburger:hover{
-        background-color: brown;
+    .nav-brand {
+        margin-right: 50px; /* Make space for hamburger */
     }
 
-    .navbar.show-menu #menu ul {
-        display: flex; /* Show menu when active */
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 0;
+        gap: 0.5rem;
     }
 
-
-    /* Optional styles for transitioning */
-    .hidden {
-        display: none !important;
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
     }
 
+    .nav-menu.active {
+        display: flex;
+    }
+
+    /* Ensure hamburger lines are visible */
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: white;
+        display: block;
+    }
+}
+
+/* Tablet-specific adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-menu {
+        justify-content: center;
+    }
+
+    .nav-link {
+        padding: 0.5rem 0.75rem;
+    }
+}
+
+/* Add a container class for better width control */
+.header-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 
-/* Hide Hamburger Icon on Desktop View */
-@media (min-width: 769px) {
-    .hamburger {
-        display: none; /* Hide hamburger icon on larger screens */
-    }
-}
+
+
+
+
+
 
 
 
@@ -247,16 +343,14 @@ html, body {
 
 /* ::after pseudo-element for decorative ribbon effect */
 .box-poems::after {
-    content: "My Poems"; /* Text for the ribbon */
+    content: "MY POEMS"; /* Text for the ribbon */
     position: absolute; /* Position it absolutely within the card */
-    top: -10px; /* Position it above the card */
-    left: -10px; /* Position it to the left of the card */
-    background-color: whitesmoke; /* Red background for the ribbon */
-    color: brown; /* White text color */
+    top: -55px; /* Position it above the card */
+    font-size: 1.8em;
+    color: #f5a171; /* White text color */
     padding: 5px 10px; /* Padding around text */
-    border: 1px solid brown;
-    border-radius: 5px; /* Rounded corners for the ribbon */
-    transform: rotate(-5deg); /* Slight rotation for a dynamic look */
+    
+
 }
 
 

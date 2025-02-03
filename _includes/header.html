@@ -1,40 +1,38 @@
- 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-    <header>
-
+    <header class="header-container">
         <nav class="navbar">
-            <ul>
-                <li><a href="/"> <img src="{{ site.title-logo | relative_url }}" alt="Logo"></a></li>
-            </ul>
-
-            <div class="hamburger" id="hamburger">
-                &#9776; <!-- This is the hamburger icon -->
+            <div class="nav-brand">
+                <a href="/">
+                    <img src="{{ site.title-logo | relative_url }}" alt="Logo">
+                </a>
             </div>
 
-            <ul id="menu" class="hidden">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/pages/literary/">Poetry</a></li>
-                <li><a href="/pages/GK/">GK</a></li>
-                <li><a href="/pages/tech/">Tech</a></li>
-                <li><a href="/pages/experiences/">Experiences</a></li>
-                <li><a href="/pages/opinions/">Opinions</a></li>
-                <li><a href="/pages/research/">Research</a></li>
-                <li><a href="/sitemap/">Sitemap</a></li>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/about/" class="nav-link">About</a></li>
+                <li><a href="/pages/literary/" class="nav-link">Poetry</a></li>
+                <li><a href="/pages/GK/" class="nav-link">GK</a></li>
+                <li><a href="/pages/tech/" class="nav-link">Tech</a></li>
+                <li><a href="/pages/experiences/" class="nav-link">Experiences</a></li>
+                <li><a href="/pages/opinions/" class="nav-link">Opinions</a></li>
+                <li><a href="/pages/research/" class="nav-link">Research</a></li>
+                <li><a href="/sitemap/" class="nav-link">Sitemap</a></li>
             </ul>
         </nav>
-
-        <script> 
-            document.getElementById('hamburger').addEventListener('click', function() {
-                //const navbar = document.querySelector('.navbar');
-                const menu = document.getElementById('menu');
-                //navbar.classList.toggle('show-menu');
-                menu.classList.toggle('hidden'); // Toggle visibility of the menu
-            });
-        </script> 
-
     </header>
-</body>
 
- 
+    <script src="/scripts/hamburger.js"></script>
+</body>
+</html>
