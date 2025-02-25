@@ -26,7 +26,7 @@ I know I don’t deserve your pardon by a dime, but still somehow you do, and lo
 
 I can’t explain your love for me.   
 For what so worthy have I done yet?  
-You inflate what little honours I’ve achieved, and make it look like mountains.  
+You inflate the little honours I’ve achieved, and make it look like mountains.  
 You deserved better.   
 A million generations have one mother like you.  
 I must’ve been a God in my last life to become your son.  
