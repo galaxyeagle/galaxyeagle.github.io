@@ -1,0 +1,7 @@
+---
+layout: page
+title: Thoughts
+date: 2021-05-14
+---
+
+The world is a fleeting stage. Sunrise and sunset are reminders of the clock tracing a loop. One day the cycle will cease, and with it all the futilities and aspirations. And youth: 'tis like an annual flower, which blooms but for a day. Life is as you see it, take it and make it. It's a short-lived game. Enjoy it. Achieve your goals. Chase your targets. Have that fighting spirit. You're here to win and victory alone shall remain the long-term legacy of the game. So forget your sorrows, your injuries and pain. Heed to them after the game is won. Gaze at the red and blue skies and look into the eyes of God, as he looks into yours with a piercing and mountainous hope. The clouds will melt away, the sun will sink into oblivion; only this hope shall stay. This hope will flood your veins with fresh waves of strength and solace. This hope will live you through excruciating pangs of war. This hope will help you laugh at the teeth of adversity. Keep the flambeau of this hope enkindled. When this flame droops, evil shadows start overpowering, weakness takes over, satiety holds you from your thrill, and mediocrity infects your brain. So hold to this hope like a lion would to his prey. Forget all nonsense. Look at the horizon. The clocked has lost many hours. Prepare to triumph the remainder. Sacrifice. Sacrifice. Forget yourself, just remember your purpose. 
