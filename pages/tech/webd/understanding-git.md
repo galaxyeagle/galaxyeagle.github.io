@@ -4,7 +4,10 @@ title : Understanding Git
 date : 2025-01-05
 ---
 
-<style>em{color: #04D9FF;}</style>
+<style>
+em{color: #04D9FF;}
+code{background-color: #666;}
+</style>
 
 The [Git website](https://git-scm.com/) reads that Git is a free and open source distributed version control system. Git is a version control system (VCS) because it tracks file changes. This is crucial because when working on a software project, it’s important to know how to manage your changes effectively. Take a look at the image below :   
  
@@ -48,9 +51,9 @@ Once your Local & Remote Repos are setup and linked, you can continue your work 
 
 Make local changes
 <em>	  
-	git add .  <br>
-	git commit -m "changes"	<br>
-	git push origin master <br>
+	git add .  (Tracking)<br>
+	git commit -m "changes"	(Staging)<br>
+	git push origin master (Pushing)<br>
 </em>
 
 #### Pulling remote changes to local
