@@ -5,7 +5,9 @@ date : 2020-06-26
 ---
 
 Delivering content/service to an audience (with/out their feedback) is the prime object of any website. Your website files need to be present in some web server (even your PC can be a server !), and these files need to be hosted on a cloud platform which is connected to the Internet (eg. Github pages, AWS, etc) - and bingo ! Your website will go live on the Internet.
+
 In order to create your website files on the server, you'll need a "site-generator" (eg. Static site generators like Jekyll, Hugo, Flask, Django , OR CMSs (for dynamic sites) like Gatsby, Wordpress, Joomla, Drupal,etc).
+
 In this post I'll discuss how to create a website on your Windows PC using Jekyll and then host it on Github pages. A similar process will work on Linux & Mac with some modifications.
 
 Github pages is essentially a cloud platform to host your website. Other such hosting platforms are Heroku, Firebase, Wordpress, Amazon S3, Gitlab pages, etc. Many of these site-hosters like Wordpress have basic tools themselves which allow you to create basic sites directly online without using any site-generator on your local machine.
@@ -14,15 +16,15 @@ Ruby is a programming language used to create individual packages called 'gems'.
 
 #### So to create your website, the broad steps are :
 
-**1** 	Install the Ruby Environment on your web server (ie. your PC here)
-**2** 	Install the Jekyll gem
-**3** 	Build your website skeleton in any folder of your PC using Jekyll
-**4** 	Modify your website skeleton to fully create your website locally on your PC
+**1** 	Install the Ruby Environment on your web server (ie. your PC here)  <br>
+**2** 	Install the Jekyll gem  <br>
+**3** 	Build your website skeleton in any folder of your PC using Jekyll  <br>
+**4** 	Modify your website skeleton to fully create your website locally on your PC  <br>
 
 Thereafter to host your website on Github pages, the broad steps are :
-**5** 	Install Git on your PC
-**6** 	Initialize your local website folder (mentioned in Step 3 above) as a Git Repository
-**7** 	Push this local repository to the Github pages platform....And hurray, your website's live !
+**5** 	Install Git on your PC <br>
+**6** 	Initialize your local website folder (mentioned in Step 3 above) as a Git Repository <br>
+**7** 	Push this local repository to the Github pages platform....And hurray, your website's live ! <br>
 
 Prerequisite : You should have signed up on www.github.com
 
@@ -32,8 +34,8 @@ Let us now go through each of these steps in practical detail.
 
 #### For Windows
 
-**A.**	Go to the Downloads section of www.rubyinstaller.org & download the latest stable version of Ruby+Devkit
-**B.**	Install it after downloading, preferably in C:/ drive of your PC
+**A.**	Go to the Downloads section of www.rubyinstaller.org & download the latest stable version of Ruby+Devkit <br>
+**B.**	Install it after downloading, preferably in C:/ drive of your PC <br>
 **C.**	Ensure that the folder containing the .exe files of Ruby installation (say folder X) is present in your system PATH. To check it run `gem` on cmd & it should show no errors. If there are errors, go to My Computer( or 'This PC') in your File Explorer -Right click- Properties - Advanced System Settings - Environment Variables. Ensure that the folder X is present in the PATH of both User & System variables : if not, add it. Alternatively this can be checked through the command line using `echo %PATH%` command.
 
 #### For Linux
@@ -127,6 +129,7 @@ In order to change the theme, add disqus comments, add a sitemap, etc, you'll ma
 
 Infact the C:\Ruby26-x64\lib\ruby\gems\2.6.0\gems\minima-2.5.1\ folder will have the following files:
 
+```
 .
 ├── LICENSE.txt
 ├── README.md
@@ -153,8 +156,7 @@ Infact the C:\Ruby26-x64\lib\ruby\gems\2.6.0\gems\minima-2.5.1\ folder will have
 │   └── minima.scss
 └── assets
     └── main.scss
-
-
+```
 All these files can be overriden in your LocalSite folder as per requirement. (ref: https://jekyllrb.com/docs/themes/#overriding-theme-defaults )
 
 That's it folks ! If you've any queries, let me know in the comments.

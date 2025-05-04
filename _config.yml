@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,35 +25,39 @@ description: >- # this means to ignore newlines until "baseurl:"
   Think big. Lead. Never follow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: 
+twitter_username:
+github_username:
 
 #title logo added extra (keep its height max at 50 px for minima settings)
 title-logo: /images/saffron-title-logo.png
 
 # Disqus Comments
 disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: galaxyeagle-github-io
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: galaxyeagle-github-io
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-  
+
 # Settings for jekyll-sitemaps gem
-url: "https://galaxyeagle.github.io" # the base hostname & protocol for your site
-plugins:
+# Settings for jekyll-sitemaps gem
+website: "https://galaxyeagle.github.io" # the base hostname & protocol for your site
+sitemap-plugin:
   - jekyll-sitemap
- 
-plugins:
-    - jekyll-seo-tag
-    - jekyll-paginate
-    
+
+sitemap-plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 paginate: 20
 # paginate_path: "/page:num/"
+
+kramdown:
+  hard_wrap: true
+# This will interpret line breaks literally
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -75,7 +79,4 @@ paginate: 20
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
 # exclude: ['vendor']
-
-
