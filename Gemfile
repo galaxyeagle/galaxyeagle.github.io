@@ -1,49 +1,30 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+
+# Run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.0"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
+
+
+# Use GitHub Pages gem to match GitHub build environment
+gem "github-pages", group: :jekyll_plugins
+
+# Add any custom plugins here (none needed for standard features)
 
 
 
+# Visit https://pages.github.com/versions/ to see the gems included
+# in the GitHub Pages gem. If you include gem 'github-pages' in your
+# Jekyll project’s Gemfile and run bundle install, Bundler will
+# automatically fetch and install the github-pages gem along with all
+# its runtime dependencies (e.g., jekyll, jekyll-feed, jekyll-seo-tag, etc.).
+# This ensures your local environment matches the GitHub Pages environment.
 
+# If you're developing on Windows, you may need to install additional gems.
+# like tzinfo, tzinfo-data, and wdm.
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# A gem from https://github.com/jekyll/jekyll-sitemap to generate sitemap
-gem 'jekyll-sitemap'
-
-# A gem from https://github.com/jekyll/jekyll-seo-tag for seo
-gem 'jekyll-seo-tag'
-
-# A gem from https://github.com/jekyll/jekyll-paginate to paginate
-gem 'jekyll-paginate'
-
-# Kramdown gem to convert md files to webpages through github/gitlab/etc
-gem "kramdown", ">= 2.3.1"
-
-gem "webrick"
-
-
+# If you're using a custom domain, you'll need to add a CNAME file to your
+# site's root directory with your domain name. You can also add a TXT file
+# to verify your domain with GitHub Pages.
