@@ -2,7 +2,7 @@
 
 This is my personal Github pages blog. It was one of my first attempts at creating a website. Perhaps many beginners love Github pages. That's because it generates a static website from Markdown files. Github provides free hosting at a `https://username.github.io` URL. It is auto-built (with Jekyll) and auto-deployed whenever a commit is pushed to the master branch (Github Actions manages all CI/CD under the hood).
 
-Further it is ideal for simple blogs. Unlike say a `Reactjs blog`, where you'd use `JSX` (tougher than Markdown) and install several dependencies in your `package.json` file & then `npm install` them, `Github pages` uses `Markdown` & just by including the `github-pages` gem in your `Gemfile` & running `bundle install`, all supporting gems (including the Jekyll gem itself) are automatically installed.
+Further it is ideal for simple blogs. Unlike say a `Reactjs blog`, where you'd use `JSX` (tougher than Markdown) and install several dependencies in your `package.json` file & then `npm install` them, `Github pages` builds through Jekyll which uses `Markdown` and `Liquid` and `Yaml` (which allows to layout any page using a short frontmatter). And just by including the `github-pages` gem in your `Gemfile` & running `bundle install`, all supporting gems (including the Jekyll gem itself) are automatically installed.
 
 ## Steps to create a Github pages blog
 

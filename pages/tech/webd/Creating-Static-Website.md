@@ -16,15 +16,15 @@ Ruby is a programming language used to create individual packages called 'gems'.
 
 #### So to create your website, the broad steps are :
 
-**1** 	Install the Ruby Environment on your web server (ie. your PC here)  <br>
-**2** 	Install the Jekyll gem  <br>
-**3** 	Build your website skeleton in any folder of your PC using Jekyll  <br>
-**4** 	Modify your website skeleton to fully create your website locally on your PC  <br>
+**1** 	Install the Ruby Environment on your web server (ie. your PC here)
+**2** 	Install the Jekyll gem
+**3** 	Build your website skeleton in any folder of your PC using Jekyll
+**4** 	Modify your website skeleton to fully create your website locally on your PC
 
 Thereafter to host your website on Github pages, the broad steps are :
-**5** 	Install Git on your PC <br>
-**6** 	Initialize your local website folder (mentioned in Step 3 above) as a Git Repository <br>
-**7** 	Push this local repository to the Github pages platform....And hurray, your website's live ! <br>
+**5** 	Install Git on your PC
+**6** 	Initialize your local website folder (mentioned in Step 3 above) as a Git Repository
+**7** 	Push this local repository to the Github pages platform....And hurray, your website's live !
 
 Prerequisite : You should have signed up on www.github.com
 
@@ -69,7 +69,13 @@ NB. If you're on Windows, you additionally need the tzinfo, tzinfo-data, and wdm
 **B.** cmd in that folder & run : `jekyll new MyLocalSite (or any other name)`.  This will make jekyll create a website skeleton folder named MyLocalSite within the MyWebsites folder
 
 ## Step 4
-There are so many modifications that can be done to this skeleton folder that it will require a separate post for it. For the time being just go to the _config.yml file and edit the title : <> to your website title. That's it.
+There are so many modifications that can be done to this skeleton folder that it will require a separate post for it. For the time being just go to the _config.yml file and edit the title : <> to your website title. As a minimum, add something in the /about.md file. That's it. Ensure that you add the following in your config.yaml file to avoid using `<br>` for every line break:
+
+```yaml
+kramdown:
+  hard_wrap: true
+# This will interpret line breaks literally
+```
 
 ## Step 5
 
