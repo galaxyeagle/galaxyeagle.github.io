@@ -4,7 +4,7 @@ title : Understanding SSH for GitHub
 date : 2025-05-04
 ---
 
-Like most people, I initially used HTTPS to access (push/pull) my repositories from my local machine to/from GitHub. Since I was on Windows, I used Git Bash to access (push/pull) my repositories. I had to enter my Github credentials (username and password) only once. After that I could freely access without any further authentication. The Github password was replaced with PAT (Personal Access Token) since 2021 but it was similar.
+Like most people, I initially used HTTPS to access (push/pull) my repositories from my local machine to/from GitHub. Since I was on Windows, I used Git Bash to access (push/pull) my repositories. I had to enter my Github credentials (username and password) only once. After that I could freely access without any further authentication. The Github password was replaced with PAT (Personal Access Token) since 2021 which was impossible to remember but I still had to enter it only once, so it was doable.
 
 **Reason:** Credential Helpers work by default on Windows and macOS. When you install Git for Windows, the Git Credential Manager (GCM) is included and enabled by default. GCM stores your credentials securely in the Windows Credential Store. After you enter your credentials (username + PAT) once, GCM remembers them, so you aren’t prompted again for future pushes/pulls. Similarly Git on macOS uses the osxkeychain credential helper by default.
 
@@ -15,7 +15,7 @@ I found that I had two options:
 1. Still use PAT & HTTPS and manually configure Credential-Helper using `git config --global credential.helper cache` or `git config --global credential.helper store`.
 2. Use SSH with public/private key pair
 
-I just didn't want to use PATs, because I had to choose among so many granular permissions each time I created one on Github. So I went with the second option. I had also heard that using SSH was much faster and more secure than using HTTPS because it used a public/private key pair to authenticate the user. This meant that even if someone intercepted the data being transmitted, they would not be able to decrypt it without the private key. I just needed to set up SSH keys on my local machine and add them to my GitHub account. So here's how I did it:
+I just didn't want to use PATs, because I had to choose among so many granular permissions each time I created one on Github. Moreover the PAT generated is impossible to remember in your head :) So I went with the second option. I had also heard that using SSH was much faster and more secure than using HTTPS because it used a public/private key pair to authenticate the user. This meant that even if someone intercepted the data being transmitted, they would not be able to decrypt it without the private key. I just needed to set up SSH keys on my local machine and add them to my GitHub account. So here's how I did it:
 
 1. **Generate SSH keys:** Run this in the terminal: `ssh-keygen -t ed25519 -C "your_email@example.com"` : Keep the passphrase empty orelse you'll have to enter it each time again!
 

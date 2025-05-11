@@ -15,15 +15,15 @@ Hepatitis B is dangerous because it is a “silent infection,” which means it 
 Hepatitis is the second leading infectious cause of death globally after tuberculosis.
 Chronic viral hepatitis can lead to hepatocellular carcinoma, which accounts for 80 per cent of all liver cancer cases and is the third most common cause of cancer deaths worldwide.
 In 2020, the most common causes of cancer death were:
-Lung: 
-Colon and rectum: 
+Lung:
+Colon and rectum:
 Liver:
-Stomach: 
-Breast: 
+Stomach:
+Breast:
 
-The government’s National Policy for Treatment of Rare Diseases is gradually making an impact. It aims to address rare diseases prevalent in India, such as cystic fibrosis, hemophilia, lysosomal storage disorders, and sickle-cell anaemia. Rare diseases affect one in 10k people. And orphan diseases are those rare diseases which are neglected for funding because it is less profitavble, etc. The	 most	 common	 rare	 diseases	 include	 Haemophilia,	 Thalassemia,	
-Sickle-cell	Anaemia	and	Primary	Immuno	Deficiency	in	children,	auto-immune	diseases,	
-Lysosomal	 storage	 disorders	 such	 as	 Pompe	 disease,	 Hirschsprung	 disease,	 Gaucher’s	
+The government’s National Policy for Treatment of Rare Diseases is gradually making an impact. It aims to address rare diseases prevalent in India, such as cystic fibrosis, hemophilia, lysosomal storage disorders, and sickle-cell anaemia. Rare diseases affect one in 10k people. And orphan diseases are those rare diseases which are neglected for funding because it is less profitavble, etc. The	 most	 common	 rare	 diseases	 include	 Haemophilia,	 Thalassemia,
+Sickle-cell	Anaemia	and	Primary	Immuno	Deficiency	in	children,	auto-immune	diseases,
+Lysosomal	 storage	 disorders	 such	 as	 Pompe	 disease,	 Hirschsprung	 disease,	 Gaucher’s
 disease,	Cystic	Fibrosis,	Hemangiomas	and	certain	forms	of	muscular	dystrophies.
 
 DNA barcoding is a methodology for rapidly and accurately identifying species by sequencing a short segment of standardized gene regions and comparing individual sequences to a reference database. Some applications of DNA barcoding include: Identification of new species Safety assessment of food -- Hence, 3 is correct. Identification and assessment of cryptic species.
@@ -55,8 +55,8 @@ Aditya L1 studies sun's corona & chromosphere. Launched by PSLV (3rd gen has 4 s
 L4 & L5 asteroids. (Ref https://i0.wp.com/iasnext.com/wp-content/uploads/2024/03/saw0122Gsci31_d.webp?w=900&ssl=1 and https://iasnext.com/lagrange-points-upsc/)
 
 
- ISRO has confirmed that Chandrayaan 3 has detected the presence of sulphur and oxygen on the lunar surface. Moreover, aluminium, calcium, iron, chromium, titanium, manganese, and silicon were also found. 
- 
+ ISRO has confirmed that Chandrayaan 3 has detected the presence of sulphur and oxygen on the lunar surface. Moreover, aluminium, calcium, iron, chromium, titanium, manganese, and silicon were also found.
+
  Chandrayaan 3 : GTO to LTO to Moon... 3 stage pslv... payload has 3 modules... propulsion module, lander, rover
 PM has SHAPE (spectrometry) in orbit, lander has RAMBHA (plasma conc), ILSA (moonquakes), ChasTE (thermal properties), rover has APXS (alpha and x rays composition), LIBS (laser).....libs found sulphur near south pole
 
@@ -73,9 +73,9 @@ The ‘new moon’ or when the moon is invisible from Earth is the time when the
 Is the dark side very different from the near side?
 The major difference between the two sides is that the near side is relatively smoother and has many more ‘maria’ or large volcanic plains compared to the far side. On the far side however, there are huge craters, thousands of kilometres wide, which have likely resulted from collisions with asteroids. While both sides of the moon in its formative phase were similarly bombarded, the crust on the near side is thinner because of which, over millions of years, the volcanic lava in the lunar crust has flowed more extensively into the thinner side and filled up its craters. The resulting plains that have thus formed are far more conducive to space missions because they provide a relatively flat terrain for landers and rovers. Chandrayaan-3 identified an area 2.4 km wide and 4.8 km long that had spots of 150 m spaces that would be conducive to a safe descent. China’s Chang é-4 lander remains the only one to have successfully landed on the far side. This vehicle landed on the Von Karman crater situated within a larger 2,500 km wide crater called the South Pole Aitken basin.
 
-Artemis .. launched from Florida.. SLS rocket and Orion spacecraft 
+Artemis .. launched from Florida.. SLS rocket and Orion spacecraft
 
-Gaganyaaan ... 1st phase uncrewed mission done... 2nd phase non crewed + robot vyom mitra... 3rd phase crewed (3 days)... gslv mkiii rocket... sakhi app to assist the crew 
+Gaganyaaan ... 1st phase uncrewed mission done... 2nd phase non crewed + robot vyom mitra... 3rd phase crewed (3 days)... gslv mkiii rocket... sakhi app to assist the crew
 
 Guchhi mushroom is a species of fungus in the family Morchellaceae of the Ascomycota. They are pale yellow in colour. This cannot be cultivated commercially and grown in the foothills in Himachal Pradesh, Uttaranchal, and Jammu and Kashmir.
 Cordyceps militaris is a high value parasitic fungus, lab-grown.
@@ -108,9 +108,9 @@ TB drugs.... Isoniazid, Refampicin, Pyrazinamide and Ethambutol
  50% of the people who are tested positive for TB through sputum culture do not have the typical symptoms...so chest xray is additionally reqd
   Globally, diagnosis continues to be the “weakest aspect of TB care
   MTBVAC is indeed a vaccine against tuberculosis that is currently in clinical trials. It is based on a genetically modified form of the pathogen Mycobacterium tuberculosis, which is isolated from humans. Unlike the BCG vaccine, MTBVAC contains all the antigens present in strains that infect humans
-  
+
   Oral cholera vaccine starting...
-  
+
   Toxoplasma gondii is a single-celled parasite that causes an infection called toxoplasmosis. It is found worldwide and can infect a wide range of warm-blooded animals, including humans. In the United States alone, it is estimated that more than 40 million people may be infected with Toxoplasma gondii .
 Humans can catch it from  farm animals
 
@@ -138,7 +138,7 @@ Type 2 Diabetes:
 Type 2 diabetes is the most common form of diabetes, accounting for about 95% of all diabetes cases.
 It is typically diagnosed in adulthood, but it can also occur in children and adolescents.
 In Type 2 diabetes, the body becomes resistant to the effects of insulin, and the pancreas may not produce enough insulin to compensate for this resistance.
-Lifestyle factors, 
+Lifestyle factors,
 Unlike Type 1 diabetes, Type 2 diabetes can sometimes be prevented or delayed through lifestyle changes .
 
 Shared Symptoms:
@@ -158,16 +158,16 @@ As per the study, mild anaemia prevalence was higher among those eating a vegeta
 Azadirachtin is a chemical compound found in the seeds, leaves, and bark of the neem tree (Azadirachta indica). It is the primary insecticidal compound found in neem oil. Azadirachtin has strong biological activities against various pest insects and is used as a biopesticide in many commercial products.
 
 
- 
+
 
 The Western Pacific basin is the most active region for tropical cyclones and accounts for about a third of the world’s tropical cyclones. The North Indian basin accounts for only about 4% of the global total, although it is one of the most vulnerable regions in the world to the effects of such cyclones.
 The Saffir-Simpson (SS) hurricane wind scale, introduced in the early 1970s, is the most widely used metric for warning the public about the dangers of tropical cyclones. The SS hurricane wind scales are categorised by the maximum sustained wind speed at a height of 10 metres. Although most tropical cyclone-related deaths are caused by storm surge and heavy rainfall, wind hazard remains an important metric for communicating risk to the public and a critical metric for measuring the impact of these cyclones. There are five categories on the SS hurricane wind scale — category 1 to category 5 — with category 5 wind speed exceeding 252 km/hour. The combined effects of wind, storm surge, and rainfall in a category 5 impact would completely raze any structure.
 
 
 
-Sandalwood (vulnerable) is a partial or hemiparasite that typically grows in deciduous forests. It requires the presence of four or five other trees growing around it to thrive. The roots of sandalwood form a haustorium, which is a specialized structure that attaches to the roots of the host tree. This haustorium acts like an octopus-like hold, allowing the sandalwood to extract water and nutrients from the host tree [[1]].
-The haustorium of sandalwood establishes a connection with the host tree's roots, enabling the sandalwood to obtain the necessary resources for its growth and survival. This parasitic relationship allows the sandalwood to benefit from the host tree's nutrient supply while still carrying out some photosynthesis on its own [[2]].
-It's important to note that sandalwood is not a full parasite and can perform photosynthesis to some extent. However, it still relies on the host tree for certain nutrients and water, making it a partial or hemiparasite [[3]].
+Sandalwood (vulnerable) is a partial or hemiparasite that typically grows in deciduous forests. It requires the presence of four or five other trees growing around it to thrive. The roots of sandalwood form a haustorium, which is a specialized structure that attaches to the roots of the host tree. This haustorium acts like an octopus-like hold, allowing the sandalwood to extract water and nutrients from the host tree.
+The haustorium of sandalwood establishes a connection with the host tree's roots, enabling the sandalwood to obtain the necessary resources for its growth and survival. This parasitic relationship allows the sandalwood to benefit from the host tree's nutrient supply while still carrying out some photosynthesis on its own.
+It's important to note that sandalwood is not a full parasite and can perform photosynthesis to some extent. However, it still relies on the host tree for certain nutrients and water, making it a partial or hemiparasite [[3.
 Sandalwood's unique adaptation to its environment and its reliance on other trees for survival make it an interesting species in deciduous forests.
 
 The sandalwood tree's reliance on other trees in its early growth phase, as well as the short-lived and non-storable nature of its seeds, have contributed to the challenges faced by overexploited sandalwood trees. These factors have led to a significant decline in the number of sandalwood trees in the forests of South India. It is not surprising that Australia is now the world’s largest supplier of sandalwood and its oil.
@@ -178,7 +178,7 @@ However, many studies have found statins could increase the risk of developing d
 
 
 SCD is an inherited haemoglobin disorder in which red blood cells (RBCs) become crescent- or sickle-shaped due to a genetic mutation. These RBCs are rigid and impair circulation, often leading to anaemia, organ damage, severe and episodic pain, and premature death. India has the third highest number of SCD births, after Nigeria and the Democratic Republic of the Congo. It is also one of the 21 “specified” disabilities listed in the Schedule of the Rights of Persons with Disabilities Act 2016.
-An apposite example is the (un)availability of the drug hydroxyurea. It lessens the severity of pain, reduces hospitalisations, and improves survival rates by increasing the size and flexibility of RBCs and lowering their likelihood of becoming sickle-shaped.Blood transfusion is another important therapy for SCD, but its availability is limited to district-level facilities. Bone marrow transplantation (BMT), until recently the other cure for SCD, is out of reach for most SCD patients due to the difficulty in finding matched donors, the high cost of the treatment at private facilities, and long waiting times in public hospitals. Casgevy is the first CRISPR-based therapy to have received regulatory approval in the U.S. It entails collecting a patient’s blood stem-cells, modifying them, and administering high-dose chemotherapy to destroy the damaged cells in the bone marrow. The modified cells are then infused into the patient through a hematopoietic stem cell transplant. The treatments are expected to take up to a year and require several hospital visits. 
+An apposite example is the (un)availability of the drug hydroxyurea. It lessens the severity of pain, reduces hospitalisations, and improves survival rates by increasing the size and flexibility of RBCs and lowering their likelihood of becoming sickle-shaped.Blood transfusion is another important therapy for SCD, but its availability is limited to district-level facilities. Bone marrow transplantation (BMT), until recently the other cure for SCD, is out of reach for most SCD patients due to the difficulty in finding matched donors, the high cost of the treatment at private facilities, and long waiting times in public hospitals. Casgevy is the first CRISPR-based therapy to have received regulatory approval in the U.S. It entails collecting a patient’s blood stem-cells, modifying them, and administering high-dose chemotherapy to destroy the damaged cells in the bone marrow. The modified cells are then infused into the patient through a hematopoietic stem cell transplant. The treatments are expected to take up to a year and require several hospital visits.
 
 The National Guidelines for Stem Cell Research 2017 prohibit the commercialisation of stem cell therapies and allow the use of stem cells only for clinical trials, except for autologous BMT for SCD and epithelial therapies for corneal disorders. Gene-editing stem cells is allowed only for in-vitro studies. The Guidelines also encourage (but don’t mandate) the sharing of financial benefits resulting from the commercialisation of stem cell products with the donor or community.
 
@@ -203,7 +203,7 @@ rice blast disease.....fungus
 Post-vaccination immunity develops in a complex process. In the fundamental immunological mechanism, our lymph nodes first produce the memory B cells that confer long-term protection against a disease. These cells ‘memorise’ the antigen the vaccine has delivered. In future, when a foreign object like a virus enters the body bearing the same antigen, the B cells will trigger the production of a large number of potent antibodies to destroy it, removing the infection.
 These memory B cells require T cell support, and only vaccines that stimulate T cells can also induce the body to produce them.
 Following the administration of the measles and the rubella vaccines, the level of memory B cells in the blood plasma remains constant. It corresponds well with antibody levels decades later. This is not the case with the chickenpox, tetanus, and diphtheria vaccines – suggesting that memory B-cell persistence may not ensure antibody durability and that another mechanism may be involved in sustaining antibody levels.
-Another essential immune cell, called long-lasting plasma cell (LLPC), migrates from the lymph node to the bone marrow and may endure for decades. LLPCs are the main immunological factor in vaccine-induced immunity. Every vaccine tries to create long-lasting plasma cells for lifelong protection, a.k.a. the immunology ‘holy grail’. The measles and rubella vaccines produce these cells in the bone marrow. However, some potent vaccines, such as the mRNA COVID-19 shots, fail to activate these cells in the bone marrow. 
+Another essential immune cell, called long-lasting plasma cell (LLPC), migrates from the lymph node to the bone marrow and may endure for decades. LLPCs are the main immunological factor in vaccine-induced immunity. Every vaccine tries to create long-lasting plasma cells for lifelong protection, a.k.a. the immunology ‘holy grail’. The measles and rubella vaccines produce these cells in the bone marrow. However, some potent vaccines, such as the mRNA COVID-19 shots, fail to activate these cells in the bone marrow.
 To provide long-term protection, then, vaccines must generate memory B cells and LLPCs in the bone marrow. Different vaccines differ in their ability to produce these cells, explaining the disparity in their durabilities.
 
 Newer platforms like ‘virus-like particle’ (VLP) also offer long-term protection like live virus. The HPV vaccines were developed using this platform.
@@ -248,11 +248,11 @@ are given at recommended ages and routes as outlined in National Immunization Sc
 The ability of dsRNA to interfere with the translation of mRNA that has a similar sequence provides a means for knocking down gene expression in RNAi process.
 dsRNA discovery and RNAi tech. earned 2006 nobel prize. The broad occurrence of RNAi across diverse eukaryotic organisms underscores the fundamental nature of RNA interference as a method of cellular defense.
 
-Transposons (sometimes called junk DNA) are small pieces of DNA that can move around a genome. They are also known as "jumping genes" because they can move to different locations within the genome. 
+Transposons (sometimes called junk DNA) are small pieces of DNA that can move around a genome. They are also known as "jumping genes" because they can move to different locations within the genome.
 Transposons are a group of mobile genetic elements that are defined as a DNA sequence. Transposons can jump into different places of the genome; for this reason, they are called jumping genes. However, some transposons are always kept at the insertion site in the genome.
-Transposons are powerful forces of genetic change and have played a significant role in evolution. They can create or reverse mutations and alter the cell's genetic identity and genome size. Transposition often results in duplication of the same genetic material. 
-Transposons are present in all organisms. For example, TEs make up approximately 50% of the human genome and up to 90% of the maize genome. 
-Transposons can also contribute to the creation of new genes. This occurs when proteins or protein domains encoded by TEs become co-opted into functional host proteins. 
+Transposons are powerful forces of genetic change and have played a significant role in evolution. They can create or reverse mutations and alter the cell's genetic identity and genome size. Transposition often results in duplication of the same genetic material.
+Transposons are present in all organisms. For example, TEs make up approximately 50% of the human genome and up to 90% of the maize genome.
+Transposons can also contribute to the creation of new genes. This occurs when proteins or protein domains encoded by TEs become co-opted into functional host proteins.
 Transposons were first identified more than 50 years ago by geneticist Barbara McClintock. Her experiments with maize breeding provided the first detailed descriptions of transposable element.
 
  Glass annealing is a controlled process of slowly cooling glass.
@@ -301,7 +301,7 @@ This will be India’s first project under the Strategic Partnership Model — t
 AIP is a mechanism that allows the batteries to be charged even while the boat is submerged. However, even with AIP, the submarine needs to surface every three weeks or so.
 installing AIP increases the length and weight of the boats, requires pressurised liquid oxygen (LOX) storage on-board and supply for all three technologies.
 
-other submarines in this class: kalvari..tiger shark, vagir..a Sand Fish, a predatory marine species. Khanderi has been named after an Island Fort built by Chhatrapati Shivaji, which played a key role in his Navy. Karanj has also been named after an Island located South of Mumbai., 
+other submarines in this class: kalvari..tiger shark, vagir..a Sand Fish, a predatory marine species. Khanderi has been named after an Island Fort built by Chhatrapati Shivaji, which played a key role in his Navy. Karanj has also been named after an Island located South of Mumbai.,
 
 India currently operates one submarine each in nuclear powered Classes of Chakra and Arihant and in addition to 14 submarines belonging to three classes of Diesel Electric category — Kalvari, Shishumar and Sindhughosh, some of which are ageing. MDL builds them.
 
@@ -314,7 +314,7 @@ The Pucca fire lines are clear felled areas separating a forest/compartment/bloc
 biomass bricketing...biomass densification
 
  “synthetic opioid precursors”, specifically the drug fentanyl.
- 
+
  What is the scale of the United States’ opioid epidemic?
 Opioids are a class of drugs that “derive from, or mimic, natural substances found in the opium poppy plant”, according to the website of US-based Johns Hopkins Medicine. They produce a variety of effects, including pain relief and euphoria, and are highly addictive. Some common opioids include oxycodone, morphine, codeine, heroin, and fentanyl.
 ADVERTISEMENT
@@ -365,7 +365,7 @@ Vortex rings are generated when gas, predominantly water vapour, is released rap
  Of course, there are still-unexplained bits like dark matter or dark energy that are outside the realm of Standard Model.
  Boson is the name given to a family of elementary particles that are known to be carriers of fundamental forces like electromagnetism. Photon, which carries the electromagnetic force, is a boson. On the other hand, the matter particles, like electron or protons, belong to the class called fermions.
  The big significance of Higgs boson is that it is the particle that is supposed to account for the mass of every other fundamental particle. Strange as it appears, mass is not something that is intrinsic to matter. Fundamental particles of matter like electrons or protons do not have mass within themselves. In the 1950s and 1960s, when the Standard Model was still being developed, scientists realised that the equations did not work if these particles had inherent mass.
- 
+
  As it became clear later, it is the interaction of the particles with this Higgs field — the way they change the field or get changed by them — that lends them the mass. Greater the interaction, larger is the mass. Different particles interact with this field in different ways, and that is what gives them different masses.
 A photon, which is a light particle, does not interact with this field at all, and is thus massless. There are other particles that are massless as well. But particles like electrons and protons, do interact, and have masses. The Higgs boson itself interacts with this field, and thus has mass.
 
@@ -376,7 +376,7 @@ Just three countries – the United States, Russia and China – have executed h
 
 India has joined some of the biggest international scientific projects like the Laser Interferometer Gravitational-Wave Observatory (LIGO) and the Square Kilometer Array, which would involve building several facilities within the country.
 
-The implementation of the AI compute infrastructure will be done through a public-private partnership model with 50% viability gap funding 
+The implementation of the AI compute infrastructure will be done through a public-private partnership model with 50% viability gap funding
 
 
 Stratigraphy is a branch of geology that deals with the study of rock layers (or strata). Chronostratigraphy (“chrono”: relating to time) is an aspect of stratigraphy that deals with the relation between rock strata and the measurement of geological time.
@@ -410,11 +410,11 @@ haps..like drones...in stratosphere
 What is the Square Kilometer Array project (S.Afr. or Australia compete)?
 
 The Square Kilometer Array (SKA) project is an international scientific collaboration working to build the world's largest radio telescope. It will not be a single large telescope but a collection of thousands of dish antennas operating as a single unit. The goal is to create one square kilometer of effective area for collecting radio waves by installing thousands of smaller antennas in a specific array design that will make them function like a single radio telescope. The project is estimated to cost about 1.5 billion Euros and is expected to be completed in 2024
-India's participation in the SKA project is being led by the Pune-based National Centre for Radio Astrophysics (NCRA), with collaboration from 22 institutions across the country, including research institutions, IITs, IISERs, universities, colleges, and private companies. 
-The Giant Meterwave Radio Telescope (GMRT) near Pune is one of the most advanced — and sought-after — facilities in the world, which has been producing remarkable scientific results. 
+India's participation in the SKA project is being led by the Pune-based National Centre for Radio Astrophysics (NCRA), with collaboration from 22 institutions across the country, including research institutions, IITs, IISERs, universities, colleges, and private companies.
+The Giant Meterwave Radio Telescope (GMRT) near Pune is one of the most advanced — and sought-after — facilities in the world, which has been producing remarkable scientific results.
 
 
-The X-ray Polarimeter Satellite (XPoSat) is India's first dedicated mission for analyzing the polarization of X-rays emitted by bright celestial sources in the medium frequency band. It is the world's second satellite-based mission dedicated to making X-ray polarimetry measurements 
+The X-ray Polarimeter Satellite (XPoSat) is India's first dedicated mission for analyzing the polarization of X-rays emitted by bright celestial sources in the medium frequency band. It is the world's second satellite-based mission dedicated to making X-ray polarimetry measurements
 XPoSat's launch is also noteworthy as it complements the efforts of NASA's Imaging X-ray Polarimetry Explorer (IXPE) mission, which was launched in 2021 and focuses on X-ray polarimetry measurements within the soft X-ray band (2 to 8 keV). XPoSat's POLIX payload offers an expanded observational energy band, operating in the medium X-ray band (8 to 30 keV)
 The observations will be done when the magnetars or neutron stars (they are highly magnetic and display a wide array of X-ray activity) are in transit through the Earth’s shadow, for instance, during the eclipse period.
 Indian astronomers, using AstroSat – India’s first astronomy-based space missions launched in September 2015 — performed timing and broadband spectroscopy of X-ray sources but no polarisation studies were performed.
@@ -423,10 +423,10 @@ Indian astronomers, using AstroSat – India’s first astronomy-based space mis
 
 What is Tantalum?
 
-Tantalum is a rare metal with the atomic number 73. It was first discovered in 1802 by Swedish chemist Anders Gustaf Ekenberg in minerals obtained from Ytterby, Sweden. Initially, it was thought to be a different form of niobium, an element that is chemically similar to tantalum. However, in 1866, Swiss chemist Jean Charles Galissard de Marignac proved that tantalum and niobium were two distinct elements 
-Tantalum is a grey, heavy, and very hard metal. It is one of the most corrosion-resistant metals in use today. When exposed to air, tantalum forms an oxide layer that is extremely difficult to remove, even when it interacts with strong and hot acid environments. This high corrosion resistance is due to the formation of the oxide layer 
+Tantalum is a rare metal with the atomic number 73. It was first discovered in 1802 by Swedish chemist Anders Gustaf Ekenberg in minerals obtained from Ytterby, Sweden. Initially, it was thought to be a different form of niobium, an element that is chemically similar to tantalum. However, in 1866, Swiss chemist Jean Charles Galissard de Marignac proved that tantalum and niobium were two distinct elements
+Tantalum is a grey, heavy, and very hard metal. It is one of the most corrosion-resistant metals in use today. When exposed to air, tantalum forms an oxide layer that is extremely difficult to remove, even when it interacts with strong and hot acid environments. This high corrosion resistance is due to the formation of the oxide layer
 Tantalum is ductile, meaning it can be stretched, pulled, or drawn into a thin wire or thread without breaking. It is almost completely immune to chemical attack at temperatures below 150°C and is attacked only by hydrofluoric acid, acidic solutions containing the fluoride ion, and free sulphur trioxide. Tantalum also has an extremely high melting point, exceeded only by tungsten and rhenium.
-Tantalum is most prominently used in the electronics sector. Capacitors made from tantalum are capable of storing more electricity in smaller sizes without much leakage compared to other types of capacitors. This makes them ideal for use in portable electronic devices such as smartphones, laptops, and digital cameras 
+Tantalum is most prominently used in the electronics sector. Capacitors made from tantalum are capable of storing more electricity in smaller sizes without much leakage compared to other types of capacitors. This makes them ideal for use in portable electronic devices such as smartphones, laptops, and digital cameras
 Due to its high melting point, tantalum is also used as a substitute for platinum in various applications. It is used to make components for chemical plants, nuclear power plants, airplanes, and missiles. Tantalum is biocompatible, meaning it does not react with bodily fluids, and is used to make surgical equipment and implants, such as artificial joints. Additionally, a composite consisting of tantalum carbide (TaC) and graphite is one of the hardest materials known and is used on the cutting edges of high-speed machine tools.
 
 The recent discovery of tantalum in the Sutlej River sand in Punjab, India, is significant for the country as it could potentially reduce its dependence on imports and increase domestic production of this valuable metal
@@ -434,23 +434,23 @@ The recent discovery of tantalum in the Sutlej River sand in Punjab, India, is s
 
 What are Quasicrystals?
 
-Quasicrystals are crystal-like substances that have a unique atomic arrangement. Unlike regular crystals, where atoms are arranged in a repeating pattern, quasicrystals have atoms that are arranged in a pattern that does not repeat itself regularly 
-. This discovery challenged the long-held belief that all crystalline arrangements must have a repeating pattern 
-Quasicrystals were first discovered in 1982 by material scientist Dan Shechtman, who found crystal structures that were mathematically regular but did not repeat themselves 
+Quasicrystals are crystal-like substances that have a unique atomic arrangement. Unlike regular crystals, where atoms are arranged in a repeating pattern, quasicrystals have atoms that are arranged in a pattern that does not repeat itself regularly
+. This discovery challenged the long-held belief that all crystalline arrangements must have a repeating pattern
+Quasicrystals were first discovered in 1982 by material scientist Dan Shechtman, who found crystal structures that were mathematically regular but did not repeat themselves
 . This breakthrough led to a paradigm shift in chemistry and earned Shechtman the Nobel Prize in Chemistry in 2011.
 
 Recent Discovery of a Quasicrystal in Nebraska
 
-Scientists have recently discovered a new type of quasicrystal with 12-fold symmetry in the Sand Hills of north central Nebraska, USA 
+Scientists have recently discovered a new type of quasicrystal with 12-fold symmetry in the Sand Hills of north central Nebraska, USA
 . This quasicrystal was formed during an accidental electrical discharge, possibly caused by a lightning strike or a downed power line in a dune.
 
-This discovery is significant because it is the first time researchers have found a naturally occurring quasicrystal outside of meteorites or debris from nuclear blasts. Quasicrystals are typically produced in laboratories, making it rare to discover them in nature 
+This discovery is significant because it is the first time researchers have found a naturally occurring quasicrystal outside of meteorites or debris from nuclear blasts. Quasicrystals are typically produced in laboratories, making it rare to discover them in nature
 The quasicrystal found in Nebraska has a dodecagonal or 12-sided atomic structure, which is unusual compared to the previously found quasicrystals that have five-fold symmetric patterns. This finding opens up new possibilities for searching for quasicrystals on Earth and in space, as well as synthesizing them in the laboratory.
 
 
 Properties and Applications of Quasicrystals
 
-Quasicrystals possess unique properties that make them attractive to materials scientists. They exhibit novel electrical, photonic, and mechanical properties that are not found in other materials 
+Quasicrystals possess unique properties that make them attractive to materials scientists. They exhibit novel electrical, photonic, and mechanical properties that are not found in other materials
 . As a result, quasicrystals have been used in various applications, including manufacturing non-stick frying pans, acupuncture and surgery needles, dental instruments, and razor blades.
 
 
@@ -479,12 +479,12 @@ Moreover, the amount of energy that is required to create conditions of a fusion
 The first material to have been discovered to show super conductive properties was Mercury, which becomes a superconductor at close to 270 degree Celsius below zero. Most of the other materials commonly used as superconductors – Lead, Aluminum, Tin, Niobium, and several others – also become superconducting at comparable temperatures, called critical temperature.
 
  Akira, a ransomware CERT-In has flagged
- 
- 
+
+
  Ambergris, which means grey amber in French, is a waxy substance that originates from the digestive system of protected sperm whales.
- 
+
  Spyder, Iron dome, Arrow, David's Sling ....4 Air defence system of israel
- 
+
  "TTS, or thrombosis with thrombocytopenia syndrome, involves blood clots in the brain or other parts of the body, along with a low platelet count. It's a rare occurrence following specific types of vaccines and other causes
 
 
@@ -603,7 +603,7 @@ H. pylori infections affect 6070% of the population. H. pylori infection is of
 Epigenetic processes such as DNA methylation and histone modifications can influence gene expression. Methylation basically is chemical modification of DNA molecule used by cells to regulate gene expression. It can be influenced by environmental factors such as diet, drugs, stress, exposure to chemicals and toxins.
 
 
-The FLAMINGO project by Virgo Consortium is an initiative aimed at understanding the distribution of matter in the universe. It utilizes computer simulations to study the clumping or clustering of matter, including both dark matter and ordinary matter. The project's simulations take into account the complex interactions between dark matter and visible matter, such as stars and gas, to provide insights into the structure of the universe 
+The FLAMINGO project by Virgo Consortium is an initiative aimed at understanding the distribution of matter in the universe. It utilizes computer simulations to study the clumping or clustering of matter, including both dark matter and ordinary matter. The project's simulations take into account the complex interactions between dark matter and visible matter, such as stars and gas, to provide insights into the structure of the universe
 However, despite its comprehensive approach, the FLAMINGO project's simulations have not been able to fully explain a phenomenon known as the S8 tension. The S8 tension refers to a discrepancy between theoretical predictions and actual observations regarding the weak clumping of matter in the present-day universe. While the project's simulations have made significant progress in understanding the complexities of matter distribution, they have not provided a definitive solution to the S8 tension
 
 
@@ -612,15 +612,15 @@ However, despite its comprehensive approach, the FLAMINGO project's simulations 
 
 Solar energy constitutes 16% of India’s installed generation capacity, while coal comprises 49%. Nuclear energy currently comprises only 1.6% of India’s energy mix
 
-One of the key features of the PFBR is its ability to breed more fuel. It utilizes a fast neutron spectrum to convert non-fissile uranium-238 into fissile plutonium-239, which can then be used as fuel in the reactor 
+One of the key features of the PFBR is its ability to breed more fuel. It utilizes a fast neutron spectrum to convert non-fissile uranium-238 into fissile plutonium-239, which can then be used as fuel in the reactor
 . This breeding process allows for the efficient utilization of nuclear fuel resources and reduces the need for additional mining and enrichment of uranium.
 BHAVINI, the Indira Gandhi Centre for Atomic Research (IGCAR), and the Bhabha Atomic Research Centre (BARC) are all involved in the building and operation of the Prototype Fast Breeder Reactor (PFBR).
 
-A pressurized heavy-water reactor (PHWR) is a type of nuclear reactor that uses heavy water (deuterium oxide D2O) as both its coolant and neutron moderator. PHWRs often use natural uranium as fuel, although they can also use very low enriched uranium. The heavy water coolant is kept under pressure to prevent boiling, allowing it to reach higher temperatures without forming steam bubbles, similar to a pressurized water reactor (PWR) 
- 
+A pressurized heavy-water reactor (PHWR) is a type of nuclear reactor that uses heavy water (deuterium oxide D2O) as both its coolant and neutron moderator. PHWRs often use natural uranium as fuel, although they can also use very low enriched uranium. The heavy water coolant is kept under pressure to prevent boiling, allowing it to reach higher temperatures without forming steam bubbles, similar to a pressurized water reactor (PWR)
+
 .
 
-The use of heavy water as the moderator is a key feature of the PHWR system, as it enables the use of natural uranium as fuel. This means that PHWRs can operate without the need for expensive uranium enrichment 
+The use of heavy water as the moderator is a key feature of the PHWR system, as it enables the use of natural uranium as fuel. This means that PHWRs can operate without the need for expensive uranium enrichment
 .
 
 PHWRs have been in operation since the early 2000s, with a total capacity of 16.5 GW(e) as of 2001
@@ -693,15 +693,15 @@ On Earth, atomic clocks placed at different latitudes experience variations in t
 Earth rotates faster at the Equator compared to the poles, resulting in different time measurements.
 
 
-The Solar and Heliospheric Observatory (SOHO) is a space observatory that was launched on December 2, 1995, as a joint project between the European Space Agency (ESA) and NASA 
-. Its mission was initially scheduled to run until 1998, but it has continued collecting data and making new discoveries about the Sun 
+The Solar and Heliospheric Observatory (SOHO) is a space observatory that was launched on December 2, 1995, as a joint project between the European Space Agency (ESA) and NASA
+. Its mission was initially scheduled to run until 1998, but it has continued collecting data and making new discoveries about the Sun
 .
 
-SOHO is stationed 1.5 million kilometers away from Earth at L1 and constantly observes the Sun, providing valuable information about its interior, visible surface, stormy atmosphere, and the solar wind 
-. It carries 12 scientific instruments that study various aspects of the Sun, including helioseismology, the solar atmosphere, and the solar wind 
+SOHO is stationed 1.5 million kilometers away from Earth at L1 and constantly observes the Sun, providing valuable information about its interior, visible surface, stormy atmosphere, and the solar wind
+. It carries 12 scientific instruments that study various aspects of the Sun, including helioseismology, the solar atmosphere, and the solar wind
 .
 
-One of the notable achievements of SOHO is its role as the most prolific discoverer of comets in astronomical history, with over 5,000 comets discovered 
+One of the notable achievements of SOHO is its role as the most prolific discoverer of comets in astronomical history, with over 5,000 comets discovered
 . It has also contributed to scientists' understanding of the Sun's internal structure and dynamics, the chromosphere, the corona, and solar particles
 
 
@@ -762,9 +762,9 @@ Artemis is named after Apollo’s twin sister in Greek mythology, Artemis, who i
 
 OSIRIS-REx was launched on September 8, 2016.
 It flew past Earth on September 22, 2017.
-The spacecraft rendezvoused with the near-Earth asteroid Bennu on December 3, 2018 
-On October 20, 2020, OSIRIS-REx briefly touched down on the surface of Bennu to collect a sample 
-The spacecraft departed Bennu and returned to Earth on September 24, 2023, to drop off the collected material 
+The spacecraft rendezvoused with the near-Earth asteroid Bennu on December 3, 2018
+On October 20, 2020, OSIRIS-REx briefly touched down on the surface of Bennu to collect a sample
+The spacecraft departed Bennu and returned to Earth on September 24, 2023, to drop off the collected material
 After the sample delivery, the spacecraft was renamed OSIRIS-APEX (OSIRIS-Apophis Explorer) and continued on to study asteroid Apophis
 The sample returned by OSIRIS-REx is the largest sample collected from space since the Apollo moon landings in the 1960s and 70s
 
@@ -783,12 +783,12 @@ NASA's Lunar Trailblazer and PRIME-1: Water Mapping and Drilling
 
 
 NASA's Double Asteroid Redirection Test (DART) mission tested the kinetic impact technique for planetary defense on September 26, 2022. The DART spacecraft intentionally impacted the asteroid Dimorphos, a small moonlet 530 feet in diameter, at an estimated velocity of 6 kilometers per second. The impact changed Dimorphos' orbit around its binary companion Didymos, demonstrating that a kinetic impactor mission can be effective in altering an asteroid's trajectory.
-ESA's Hera will follow up on NASA’s DART mission 
+ESA's Hera will follow up on NASA’s DART mission
 
 
 
 Japan's Smart Lander for Investigating Moon (SLIM) moon lander has revived after death twice, first in January 2024 and again in March 2024. SLIM landed on the moon's rim on January 19, 2024 at an angle that caused its solar panels to face away from the sun. This caused the mission to shut down shortly after landing, but SLIM reactivated almost 10 days later when the sun's angle shifted. SLIM operated for a couple of days, conducting scientific observations of a crater, before powering off again.
-SLIM was not designed to survive the extreme lunar nights, when temperatures drop to minus 133 degrees. However, in March 2024, SLIM surprised scientists by waking up again after enduring a two-week lunar night. The Japan Aerospace Exploration Agency (JAXA) sent a command to the lander, which responded, confirming that it had survived the night and was still able to communicate. SLIM took some blurry photos of the moon's scenery with its navigation camera. 
+SLIM was not designed to survive the extreme lunar nights, when temperatures drop to minus 133 degrees. However, in March 2024, SLIM surprised scientists by waking up again after enduring a two-week lunar night. The Japan Aerospace Exploration Agency (JAXA) sent a command to the lander, which responded, confirming that it had survived the night and was still able to communicate. SLIM took some blurry photos of the moon's scenery with its navigation camera.
 SLIM's primary mission goals were to make a precise landing, deploy two rovers, and conduct scientific work. The mission was initially considered a "minimum success" because SLIM landed upside down, preventing it from achieving all of its intended goals.
 Unlike Chandrayaan 3’s Hohmann transfer orbit, SLIM followed a longer, fuel-efficient path based on weak-stability boundary theory, taking four months to reach the moon.
 Chandrayaan 4, a joint Indian-Japanese mission (LUPEX), aims to explore regions closer to the moon’s south pole, requiring precise landing technologies.
@@ -818,7 +818,7 @@ The ISS orbits Earth every 90 minutes at 8 kilometers per second.
 Launched in 1998 and involving the U.S., Russia, Canada, Japan, and the participating countries of the European Space Agency
 each partner responsible for managing and controlling the hardware it provides
 No one partner currently has the capability to function without the other
-The space station was not designed to be disassembled, and current interdependencies between each segment of the station prevent the U.S. Orbital Segment and Russian Segment from operating independently. Attempts to detach the U.S. Orbital Segment and the Russian Segment would encounter major logistical and safety challenges given the multitude of external and internal connections, the need to control spacecraft attitude and altitude, and software interdependency. 
+The space station was not designed to be disassembled, and current interdependencies between each segment of the station prevent the U.S. Orbital Segment and Russian Segment from operating independently. Attempts to detach the U.S. Orbital Segment and the Russian Segment would encounter major logistical and safety challenges given the multitude of external and internal connections, the need to control spacecraft attitude and altitude, and software interdependency.
 The International Space Station orbits with an inclination of 51.6 degrees. This means that, as it orbits, the farthest north and south of the Equator it will ever go is 51.6 degrees latitude
 spacecraft can dock with the International Space Station (ISS) at its eight docking and berthing ports. helps in incoming and outgoing of astronauts
 ISS is the largest single structure ever put in space
@@ -828,7 +828,7 @@ Currently, two space stations are operational in the Earth’s orbit — the ISS
 
 In 1971, the Soviet Union launched the first-ever space station, Salyut (salute), and followed that up by launching six more improved space stations, up to Salyut 7. Rakesh Sharma, India’s first astronaut to go to space in 1984, spent eight days on board Salyut 7 in a joint operation between ISRO and the Soviet Interkosmos space agency. Salyut 7 finally left orbit in 1991. Experience gained from the Salyut stations helped the Soviet Union launch the Mir Space Station in 1986. The Mir station remained in orbit till 2001, spending 15 years in space. Russian cosmonaut Valeri Polyakov, who spent 438 days on the Mir station, holds the record for the longest human space mission till now. A Salyut-derived module remains in orbit at the core of the Russian segment of the ISS.
 
-India’s space station programme plans to allow astronauts to stay in orbit for 15-20 days. It is currently in the conceptualisation stage. 
+India’s space station programme plans to allow astronauts to stay in orbit for 15-20 days. It is currently in the conceptualisation stage.
 
 
 Gaganyaan, a 3-member human spaceflight mission, will take off by next year. After that India will lauch Bharatiya Antariksha Station (BAS) .
@@ -853,7 +853,7 @@ he Euclid mission is a European Space Agency (ESA) mission to create a 3D map of
 
 
 
-To nail down the Moon's age, scientists studied tiny mineral specks called "zircon" found in moon samples collected in 1972 by the final Apollo mission. Zircon crystals, formed during the moon's early molten stage, are believed to be among the first solids that emerged after the Moon's creation, offering clues about its age. Scientists determined the sample's age by measuring the quantity of uranium and lead atoms it contained. As zircons grow, they absorb uranium but not lead, so geologists can use their chemical makeup to determine their age. 
+To nail down the Moon's age, scientists studied tiny mineral specks called "zircon" found in moon samples collected in 1972 by the final Apollo mission. Zircon crystals, formed during the moon's early molten stage, are believed to be among the first solids that emerged after the Moon's creation, offering clues about its age. Scientists determined the sample's age by measuring the quantity of uranium and lead atoms it contained. As zircons grow, they absorb uranium but not lead, so geologists can use their chemical makeup to determine their age.
 Zircon is a mineral that can provide information about Earth's past because it's resilient and can survive harsh conditions. The oldest zircon crystals found in rocks date back to 4.4 billion years ago, which is shortly after the Earth's crust cooled. These crystals indicate that water was present on Earth when it formed, and their oxygen isotopic composition suggests that water was already on the surface of the planet over 4.4 billion years ago. Tiny zircons found in ancient stream deposits also suggest that Earth developed continents and water, possibly oceans, around 4.3–4.4 billion years ago. In 2017, scientists identified hints of a biosphere in 4.1-billion-year-old zircons.
 
 The researchers propose the giant impact hypothesis, suggesting that a celestial body named Theia, possibly Mars-sized, collided with Earth during its formation. This collision ejected debris, which coalesced to form the moon.
@@ -896,30 +896,3 @@ Bezel-Free: MicroLED technology allows for seamless tiling of multiple panels to
 Ratio-Free: Displays using MicroLEDs are not constrained by traditional aspect ratios (such as 16:9 or 4:3). They can be custom-built to any desired aspect ratio, making them ideal for a variety of applications, from ultra-wide monitors to unconventional display shapes.
 
 Size-Free: MicroLED displays can be scaled to virtually any size, from small wearable devices to large-scale digital billboards. The modular nature of MicroLED panels means that larger displays can be created by combining smaller units without sacrificing image quality or consistency.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
