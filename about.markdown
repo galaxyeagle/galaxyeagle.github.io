@@ -7,6 +7,7 @@ comments: false
 
 
 My name is Raman Butta.
+I am an enthusiast in web apps, AI, bioinformatics, economics & poetry. I have over a decade of experience working in the government sector in India as a Senior Engineer, Civil Servant & Magistrate.
 My CV is [here](https://1drv.ms/w/c/8d48620dce1c6bce/Ea85opjtILdHj8Is3F-P3KMB3pgSVIA2wQoZy9vVJreYqQ?e=S0FHQu).
 My Linktree is [here](https://linktr.ee/rbutta).
 _Galaxy Eagle_ is my initiative to spread knowledge and ideas straight from the shoulder.
