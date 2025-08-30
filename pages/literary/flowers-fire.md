@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Flowers within Fire
-date : 2025-08-29
+date : 2025-08-30
 ---
 
 Soldiers are humans, with flesh, blood and emotions.
