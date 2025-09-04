@@ -7,7 +7,7 @@ date : 2025-09-04
 O master forgive me if I am late:
 The hills were too steep and often misled my eyes.
 Strong friends who could’ve burned the woods for my way,
-unchained themselves in early selfless sacrifice.
+were lost in early selfless sacrifice.
 
 I must be looking too haste for your repose,
 for you’d dressed me in your distilled strengths.
