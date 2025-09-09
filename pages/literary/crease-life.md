@@ -17,4 +17,4 @@ do I deserve the agreed dividends?
 There are too many so dear to me,
 who wait in what my unmet promise stirs.
 If I did melt my soul to burn the wick of hope,
-could you pass the light and be my mirror?
+can you pass the light and be my mirror?
