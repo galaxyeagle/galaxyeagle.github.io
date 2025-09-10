@@ -18,8 +18,8 @@ Unlike Estimation, in **Hypothesis testing** on a parameter, we have a pre-idea 
 In hypothesis testing, you often look for a single numeric value called **test statistic** and if it lies in the **region of acceptance**, then you accept H0, and if it lies in the **critical region**, you reject H0. If we incorrectly reject H0, it's called a **Type 1 error**, and if we incorrectly accept H0, it's called **Type 2 error**. It's difficult to minimise both errors simultaneously, so we need to see which is practically more critical and then focus on minimizing that type of error.
 
 We have 2 probabilities:
-Alpha (α): Probability of Type 1 error; False positive rate
-Beta (β): Probability of Type 2 error; False negative rate
+Alpha (α):  Probability of Type 1 error; False positive rate
+Beta (β):  Probability of Type 2 error; False negative rate
 
 Commonly, $\alpha$ (called **significance level**) is set at 0.05 (5%), meaning a 5% risk of Type 1 error is tolerated in the test decision. $\beta$ is often set between 0.10 and 0.20 (10% to 20%), reflecting the risk of Type 2 error. The lower the $\beta$, the higher the power of the test (1−β).
 
@@ -97,3 +97,58 @@ In R, you can use the built-in `t.test()` function to perform a t-test on a nume
 ```R
 t.test(x, mu)
 ```
+# Normality Tests
+
+Normality tests check if the data follows a **normal (Gaussian) distribution**. This is important because many parametric tests, including z-test and t-test, assume normality.
+
+A normality test’s null hypothesis $H_0$ states that the data is normally distributed; rejecting it means data significantly deviates from normal.
+
+
+## 1. Boxplot
+
+-   A **boxplot** is a simple graphical tool that displays the distribution of data through quartiles and highlights outliers.
+-   It helps visually assess symmetry and detect skewness or extreme values—signs the data may not be normal.
+-  `boxplot(x)`
+
+
+## 2. Q-Q Plot (Quantile-Quantile Plot)
+
+-   A **Q-Q plot** graphs the quantiles of the data against the quantiles of a normal distribution.
+-   You first use `qqnorm()` to generate the basic Q-Q plot of your data.
+-   Then, you use `qqline()` to add the reference line to this plot.
+-   You then look at the resulting plot: if the data points from `qqnorm()` fall closely along the `qqline()`, it indicates that the data is approximately normally distributed. Deviations from the line suggest that the data does not follow a normal distribution
+
+## 3. Shapiro-Wilk Test
+
+-   A **statistical test specifically designed to test normality**, especially effective for **small to medium-sized samples (<2000)**.
+-  Null hypothesis: sample comes from a normal distribution.
+-   A **p-value > 0.05** suggests the data is likely normal; **p-value < 0.05** suggests non-normality.
+-   The **W statistic** measures how well your sample data fits a normal distribution, with values closer to 1 indicating better fit.
+- `shapiro.test(your_data_vector)` function in R is used for this purpose.
+
+
+## 4. Kolmogorov- Smirnov Test
+
+`ks.test(x, "pnorm", mean=mean(x), sd=sd(x))`
+
+Here also the null hypothesis is that the sample is normally distributed. A **p-value** > 0.05 indicates acceptance of the null hypothesis. A **D-value** is also generated which represents the maximum distance between your sample's cumulative distribution function (CDF) and the CDF of a perfect normal distribution. A larger D-value indicates a greater deviation from normality.
+This test is used for larger datasets cf. Shapiro-Wilks.
+
+## 5. Lilliefors (Kolmogorov-Smirnov) Test
+
+This is a variant of the earlier K-S test and may give a slightly different p-value.
+```r
+install.packages(nortest)
+library(nortest)
+lillie.test(your_data_vector)
+```
+----------
+***To conclude :***
+
+1.  Use **boxplots or Q-Q plots** for a quick visual check of normality.
+2.  Confirm with **Shapiro-Wilk test** for small/medium datasets, or **K-S test** for larger datasets.
+3.  Interpret **p-values**:
+    -   p>0.05 → Fail to reject normality (data may be normal)
+    -   p<0.05 → Reject normality (non-normal data)
+
+---
