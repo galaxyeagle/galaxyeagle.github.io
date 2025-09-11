@@ -35,7 +35,7 @@ We have 2 probabilities:
 Alpha (α):  Probability of Type 1 error; False positive rate
 Beta (β):  Probability of Type 2 error; False negative rate
 
-Commonly, $\alpha$ (called **significance level**) is set at 0.05 (5%), meaning a 5% risk of Type 1 error is tolerated in the test decision. $\beta$ is often set between 0.10 and 0.20 (10% to 20%), reflecting the risk of Type 2 error. The lower the $\beta$, the higher the power of the test (1−β).
+Commonly, $$\alpha$$ (called **significance level**) is set at 0.05 (5%), meaning a 5% risk of Type 1 error is tolerated in the test decision. $$\beta$$ is often set between 0.10 and 0.20 (10% to 20%), reflecting the risk of Type 2 error. The lower the $$\beta$$, the higher the power of the test (1−β).
 
 ## Types of Hypothesis Tests
 
@@ -43,8 +43,8 @@ Commonly, $\alpha$ (called **significance level**) is set at 0.05 (5%), meaning 
 
 A **z test** tests a **hypothesis of population mean based on a sample mean**. It is a type of hypothesis test which tests if the "actual" sample mean is **significantly** different from a "hypothesized" population mean. It's a fun fact that even if the difference between these 2 means may be substantial, it may not be statistically significant if the region of acceptance is not breached !
 
-In z-test,  $H_0$ = sample mean is statistically similar to population mean
-and $H_1$= sample mean is statistically different (+ or -) from the population mean
+In z-test,  $$H_0$$ = sample mean is statistically similar to population mean
+and $$H_1$$= sample mean is statistically different (+ or -) from the population mean
 
 ### Assumptions
 The z-test assumes :
@@ -55,11 +55,11 @@ The z-test assumes :
 ### Key Features
 
 
-- The **z-test statistic** ($z$) is calculated as:
+- The **z-test statistic** ($$z$$) is calculated as:
   $$
   z = \frac{\overline{x}-\mu}{\sigma/\sqrt{n}}
   $$
-  where $\overline{x}$ is the "actual" sample mean, $\mu$ is the "hypothesized" population mean, $\sigma$ is the "known/guessed" population standard deviation, and $n$ is the sample size. The quantity $({\sigma/\sqrt{n}})$ is also called **standard error** of the mean.
+  where $$\overline{x}$$ is the "actual" sample mean, $$\mu$$ is the "hypothesized" population mean, $$\sigma$$ is the "known/guessed" population standard deviation, and $$n$$ is the sample size. The quantity $$({\sigma/\sqrt{n}})$$ is also called **standard error** of the mean.
 - The result (z-score) tells how many standard deviations the sample mean is from the population mean.
 
 ### Types of Z Tests
@@ -71,16 +71,16 @@ The z-test assumes :
 ### Practical Steps
 
 1. State the null and alternative hypothesis.
-2. Choose the significance level ($\alpha$) and use it to find the critical value from the z-table.
-3. Calculate the z statistic using the formula for $z$.
+2. Choose the significance level ($$\alpha$$) and use it to find the critical value from the z-table.
+3. Calculate the z statistic using the formula for $$z$$.
 4. Compare the statistic with the critical value to decide to accept or reject the null hypothesis.
-5. Alternatively, compare the p-value (tail area after $z$) with $\alpha$ (tail area after critical value) to decide to accept ($p$>$\alpha$) or reject the null hypothesis
+5. Alternatively, compare the p-value (tail area after $$z$$) with $$\alpha$$ (tail area after critical value) to decide to accept ($$p$$>$$\alpha$$) or reject the null hypothesis
 
-In essence, we are converting our chosen parameter into a $z$ score having a standard-normal $\mathcal{N}$(0,1) distribution. Graphically, the distribution of $z$ would be as follows :
+In essence, we are converting our chosen parameter into a $$z$$ score having a standard-normal $$\mathcal{N}$$(0,1) distribution. Graphically, the distribution of $$z$$ would be as follows :
 
 ![img](https://i.postimg.cc/4xfrnd25/Screenshot-2025-09-06-at-02-22-31-Python-Playground-Programiz.png)
 
-The midpoint $z$=0 denotes perfect compliance with the null hypothesis $H_0$. The area other than critical region is the region of acceptance. Again note that z-test is mainly limited to **testing a hypothesis of population mean based on a sample mean**.
+The midpoint $$z$$=0 denotes perfect compliance with the null hypothesis $$H_0$$. The area other than critical region is the region of acceptance. Again note that z-test is mainly limited to **testing a hypothesis of population mean based on a sample mean**.
 
 
 ### R function
@@ -105,7 +105,7 @@ Like the z-test, the t-test allows you to transform your data into a score fitti
   $$
   t = \frac{\overline{x} - \mu}{s / \sqrt{n}}
   $$
-  where $s$ is the sample standard deviation and is usually larger than the population standard deviation $\sigma$ used in z-test.
+  where $$s$$ is the sample standard deviation and is usually larger than the population standard deviation $$\sigma$$ used in z-test.
 
 In R, you can use the built-in `t.test()` function to perform a t-test on a numeric column:
 ```R
@@ -115,7 +115,7 @@ t.test(x, mu)
 
 Normality tests check if the data follows a **normal (Gaussian) distribution**. This is important because many parametric tests, including z-test and t-test, assume normality.
 
-A normality test’s null hypothesis $H_0$ states that the data is normally distributed; rejecting it means data significantly deviates from normal.
+A normality test’s null hypothesis $$H_0$$ states that the data is normally distributed; rejecting it means data significantly deviates from normal.
 
 
 ## 1. Boxplot
