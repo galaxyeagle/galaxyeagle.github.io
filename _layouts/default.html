@@ -1,89 +1,39 @@
 <html>
+    <head>
+        <link rel="icon" type="image/jpg" href="/favicon.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+        <script
+            id="MathJax-script"
+            async
+            src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+        ></script>
 
-				<link rel="icon" type="image/jpg" href="/favicon.jpg">
-			  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div id="bg-image"></div>
+    </head>
 
-			  <script type="text/javascript" id="MathJax-script" async
-			  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-			  </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-T8EJ89GXH2"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-				 
-				
-  		<div id="bg-image"></div>
+        gtag("config", "G-T8EJ89GXH2");
+    </script>
 
-</head>
+    {%- include head.html -%}
 
+    <body class="body-css">
+        <div>{%- include header.html -%}</div>
 
+        <div class="main-content">{{ content }}</div>
 
-
-
-
-
-
-
-
-
-							<!-- Google tag (gtag.js) -->
-						<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8EJ89GXH2"></script>
-						<script>
-						  window.dataLayer = window.dataLayer || [];
-						  function gtag(){dataLayer.push(arguments);}
-						  gtag('js', new Date());
-
-						  gtag('config', 'G-T8EJ89GXH2');
-						</script> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-{%- include head.html -%}
-
-  
- 
- 
-  <body class="body-css">
-
-
-				<div>
-		    {%- include header.html -%}
-		    </div>
-
-
-
-		    <div class="main-content">
-		    		{{ content }}
-				</div>
-
-
-
-		    <div>
-		    	{%- include footer.html -%}
-				</div>
-
-
-
-  </body>
-		 
-</html> 
-	
-																		
-
-
-																		
-	
-	
-
-   
-
-  
+        <div>{%- include footer.html -%}</div>
+    </body>
+</html>
