@@ -3,6 +3,20 @@ layout : page
 title: Statistical Inference
 date : 2025-09-05
 ---
+<style>
+  html {
+    background: #ffffff no-repeat center center fixed;
+    background-size: cover;
+  }
+  #bg-image {
+    display: none; /* Hide video on this page */
+  }
+  .body-css {
+    color: black; /* Set default text color for body for this page only */
+  }
+</style>
+
+
 # Introduction
 
 In **statistical inference**, a **parameter** is a fixed, unknown numerical value that describes a characteristic of an entire population. You can study the **characteristics/estimators** (eg. mean, SD, proportion, etc.) of the parameter on a **sample** of the population. You can do parameter **estimation**.
@@ -60,7 +74,7 @@ The z-test assumes :
 2. Choose the significance level ($\alpha$) and use it to find the critical value from the z-table.
 3. Calculate the z statistic using the formula for $z$.
 4. Compare the statistic with the critical value to decide to accept or reject the null hypothesis.
-5. Alternatively, compare the p-value (tail area after $z)$ with $\alpha$ (tail area after critical value) to decide to accept ($p$>$\alpha$) or reject the null hypothesis
+5. Alternatively, compare the p-value (tail area after $z$) with $\alpha$ (tail area after critical value) to decide to accept ($p$>$\alpha$) or reject the null hypothesis
 
 In essence, we are converting our chosen parameter into a $z$ score having a standard-normal $\mathcal{N}$(0,1) distribution. Graphically, the distribution of $z$ would be as follows :
 
