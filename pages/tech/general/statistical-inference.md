@@ -18,38 +18,37 @@ date : 2025-09-05
   a:hover { color: red; }
 
   pre, code {
-    background-color: #585858;  /* dark theme */
-    color: #f0f0f0;
-    border-radius: 6px;
+      color: #FF0099;
   }
 
 </style>
 
 
-
 # Table of Contents
 
-1. [Introduction](#introduction)
-2. [Parameter Estimation](#parameter-estimation)
-3. [Hypothesis Testing](#hypothesis-testing)
-4. [Normality Tests](#normality-tests)
-   4.1 [Boxplot](#1-boxplot)
-   4.2 [Q-Q Plot (Quantile-Quantile Plot)](#2-q-q-plot-quantile-quantile-plot)
-   4.3 [Shapiro-Wilk Test](#3-shapiro-wilk-test)
-   4.4 [Kolmogorov-Smirnov Test](#4-kolmogorov--smirnov-test)
-   4.5 [Lilliefors (Kolmogorov-Smirnov) Test](#5-lilliefors-kolmogorov-smirnov-test)
-5. [Types of Hypothesis Tests](#types-of-hypothesis-tests)
-   5.1 [Z Test](#1-z-test)
-       5.1.1 [Assumptions](#assumptions)
-       5.1.2 [Key Features](#key-features)
-       5.1.3 [Practical Steps](#practical-steps)
-       5.1.4 [R function](#r-function)
-   5.2 [T Test](#2-t-test)
-       5.2.1 [Types of T Tests](#types-of-t-tests)
-             5.2.1.1 [One-sample t test](#one-sample-t-test)
-             5.2.1.2 [Two-sample t test](#two-sample-t-test)
-                      5.2.1.2.1 [Independent samples t test](#independent-samples-t-test)
-                      5.2.1.2.2 [Paired t test](#paired-t-test)
+- [Introduction](#introduction)
+- [Parameter Estimation](#parameter-estimation)
+- [Hypothesis Testing](#hypothesis-testing)
+- [Normality Tests](#normality-tests)
+  - [Boxplot](#1-boxplot)
+  - [Q-Q Plot (Quantile-Quantile Plot)](#2-q-q-plot-quantile-quantile-plot)
+  - [Shapiro-Wilk Test](#3-shapiro-wilk-test)
+  - [Kolmogorov-Smirnov Test](#4-kolmogorov--smirnov-test)
+  - [Lilliefors (Kolmogorov-Smirnov) Test](#5-lilliefors-kolmogorov-smirnov-test)
+- [Types of Hypothesis Tests](#types-of-hypothesis-tests)
+  - [Z Test](#1-z-test)
+    - [Assumptions](#assumptions)
+    - [Key Features](#key-features)
+    - [Practical Steps](#practical-steps)
+    - [R function](#r-function)
+  - [T Test](#2-t-test)
+    - [Types of T Tests](#types-of-t-tests)
+      - [One-sample t test](#one-sample-t-test)
+      - [Two-sample t test](#two-sample-t-test)
+        - [Independent samples t test](#independent-samples-t-test)
+        - [Paired t test](#paired-t-test)
+
+
 
 
 
