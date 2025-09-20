@@ -47,9 +47,17 @@ date : 2025-09-05
       - [Two-sample t test](#two-sample-t-test)
         - [Independent samples t test](#independent-samples-t-test)
         - [Paired t test](#paired-t-test)
+- [One-Way ANOVA Test](#3-one-way-anova-test)
+  - [Key Concepts and Hypotheses](#key-concepts-and-hypotheses)
+  - [Assumptions for One-Way ANOVA](#assumptions-for-one-way-anova)
+  - [Core Idea: Partitioning Variance](#core-idea-partitioning-variance)
+  - [Calculations Step-by-Step](#calculations-step-by-step)
+  - [Decision Rule](#decision-rule)
+  - [Code Example](#code-example)
+- [Multi-way ANOVA](#multi-way-anova)
+- [Completely Randomized Design (CRD)](#completely-randomized-design-crd)
 
-
-
+***
 
 
 
@@ -166,7 +174,22 @@ The z-test assumes :
 In essence, we are converting our chosen parameter into a $$z$$ score having a standard-normal $$\mathcal{N}$$(0,1) distribution. Graphically, the distribution of $$z$$ would be as follows :
 
 <img class="exim" src="https://i.postimg.cc/4xfrnd25/Screenshot-2025-09-06-at-02-22-31-Python-Playground-Programiz.png">
-<style> .exim{float:left; width:300px; height:200px; padding-right:20px} </style>
+<style>
+    .exim {
+    float: left;
+    width: 25%;
+    height: 200px;
+    padding-right: 20px;
+    }
+
+    @media (max-width: 560px) {
+    .exim {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+    }
+    }
+</style>
 
 The midpoint $$z$$=0 denotes perfect compliance with the null hypothesis $$H_0$$. The area other than critical region is the region of acceptance. Again note that z-test is mainly limited to **testing a hypothesis of population mean based on a sample mean**.
 
@@ -232,3 +255,262 @@ The output of the `t.test()` function is a dataframe with columns like `output$s
 
 
   **Note on two-sample t-tests** : In these tests, by default we assume that the experimenter has no indication of a directional hypothesis (e.g., no prior evidence suggesting the values of sample-1 are greater than sample-2). Thus `alternative = "two.sided"` argument is assumed by default. However if we have a directional research question like "Is the new drug better than the old one?", then we can specify `alternative = "greater"` or `alternative = "less"` depending on the direction of the hypothesis, and its called a ***one-tailed/one-sided*** test.
+
+
+
+## 3. One way ANOVA Test
+
+Consider a dataset having 3 groups of data, each with a different mean. We want to test if the means of these groups are significantly different from each other.
+
+This is an example of a multi-category dataset. When you perform multiple t-tests for many-category data instead of one ANOVA test, the **probability of making a Type I error (false positive)** increases due to the cumulative effect of multiple comparisons.
+
+Here's why:
+
+- For each individual t-test, the significance level $$\alpha$$ (e.g., 0.05) is the probability of falsely rejecting the null hypothesis (Type I error).
+- If you perform, say, $$m$$ independent t-tests, the probability of **not making a Type I error in any one test** is $$1 - \alpha$$.
+- The probability of **not making any Type I errors in all $$m$$ tests** is $$(1 - \alpha)^m$$.
+- Therefore, the probability of **making at least one Type I error across all tests** is:
+
+$$
+1 - (1 - \alpha)^m
+$$
+
+- For example, with $$\alpha = 0.05$$ and 6 tests (like 4 groups → 6 pairwise tests), this probability becomes:
+
+$$
+1 - (1 - 0.05)^6 = 1 - 0.95^6 \approx 0.265
+$$
+
+which means a 26.5% chance of one or more false positives among the tests—much higher than the nominal 5%.
+
+***
+
+### Why ANOVA helps
+
+- ANOVA (Analysis of Variance) performs **one overall test** by comparing all groups simultaneously.
+- The Type I error rate for this single test stays controlled at $$\alpha$$ (e.g., 5%), avoiding inflation caused by multiple comparisons.
+- If ANOVA is significant, you can then perform **post hoc tests with corrections** to identify specific group differences while controlling overall error.
+
+***
+
+### Key Concepts and Hypotheses
+
+- **Null Hypothesis (H0):** All group means are equal.
+
+  $$ H_0: \mu_1 = \mu_2 = \mu_3 = \dots = \mu_k $$
+
+- **Alternative Hypothesis (Ha):** At least one group mean is different.
+
+  $$ H_a: \text{At least one } \mu_i \ne \mu_j $$ for some $$i \neq j$$
+
+This means that if you reject $$H_0$$, you conclude that not all groups have the same mean.
+
+***
+
+### Assumptions for One-Way ANOVA
+
+1. **Independence:** Observations are independent within and across groups.
+2. **Normality:** The dependent variable is approximately normally distributed in each group.
+3. **Homogeneity of Variance:** The variances in each group are approximately equal.
+
+You can check these with normality tests (Shapiro-Wilk), visualization (Q-Q plots), and variance tests (Levene’s test).
+
+***
+
+### Core Idea: Partitioning Variance
+
+ANOVA decomposes total variation in the data into two components:
+
+1. **Between-Groups Variance (Variance due to group differences):**
+   - How much the group means differ from the overall mean.
+2. **Within-Groups Variance (Variance within each group):**
+   - How much individual observations differ from their respective group means.
+
+***
+
+### Calculations Step-by-Step
+
+1. **Calculate the Grand Mean ($$ \bar{x} $$)**: The mean of all data points combined.
+
+2. **Calculate the Group Means ($$ \bar{x}_i $$)**: The mean of each group $$i$$, for $$i = 1, 2, \dots, k$$.
+
+3. **Sum of Squares Between Groups (SSB):**
+
+   $$
+   SSB = \sum_{i=1}^k n_i (\bar{x}_i - \bar{x})^2
+   $$
+
+   where $$n_i$$ is the number of observations in group $$i$$.
+
+4. **Sum of Squares Within Groups (SSW):**
+
+   $$
+   SSW = \sum_{i=1}^k \sum_{j=1}^{n_i} (x_{ij} - \bar{x}_i)^2
+   $$
+
+5. **Total Sum of Squares (SST):**
+
+   $$
+   SST = \sum_{i=1}^k \sum_{j=1}^{n_i} (x_{ij} - \bar{x})^2 = SSB + SSW
+   $$
+
+6. **Degrees of Freedom:**
+
+   - Between groups degrees of freedom: $$df_b = k - 1$$
+   - Within groups degrees of freedom: $$df_w = N - k$$
+   - Total degrees of freedom: $$df_t = N - 1$$
+
+7. **Mean Squares:**
+
+   - Mean Square Between (MSB): $$MSB = \frac{SSB}{df_b}$$
+   - Mean Square Within (MSW): $$MSW = \frac{SSW}{df_w}$$
+
+8. **F-statistic:**
+
+   $$
+   F = \frac{MSB}{MSW}
+   $$
+
+   This ratio measures how large the variance between groups is compared to variance within groups. A large $$F$$ suggests group means differ more than expected by chance.
+
+***
+
+### Decision Rule
+
+- Compare the **calculated $$F$$-statistic** to the **critical $$F$$-value** from the $$F$$-distribution table at chosen significance level $$\alpha$$ (usually 0.05) and degrees of freedom $$(df_b, df_w)$$.
+
+- Alternatively, compute the **p-value** for the observed $$F$$.
+
+- **If** $$F_{calculated} > F_{critical}$$ or $$p \leq \alpha$$, **reject** $$H_0$$ (means differ).
+
+- **Otherwise**, do not reject $$H_0$$ (no evidence of differences).
+
+***
+
+### Code example
+
+```r
+# Load data
+data <- read.csv("One way anova.csv")
+
+# Check data
+head(data)
+# Expected columns: rhr (numeric), age.group (factor or character)
+
+# Convert group variable to factor if needed
+data$age.group <- as.factor(data$age.group)
+
+
+# Subset data by group
+gr_A <- subset(data, age.group == "A")$rhr
+gr_B <- subset(data, age.group == "B")$rhr
+gr_C <- subset(data, age.group == "C")$rhr
+
+
+# Test normality of each group
+shapiro.test(gr_A)
+shapiro.test(gr_B)
+shapiro.test(gr_C)
+
+qqnorm(gr_A)
+qqline(gr_A)
+
+qqnorm(gr_B)
+qqline(gr_B)
+
+qqnorm(gr_C)
+qqline(gr_C)
+
+# Display statistical summary of each group
+library(dplyr)
+data %>%
+  group_by(age.group) %>%
+  summarise(
+    count = n(),
+    mean = mean(rhr, na.rm = TRUE),
+    sd = sd(rhr, na.rm = TRUE)
+  )
+
+# Shortcut for normality test of all groups
+library(dplyr)
+data %>%
+  group_by(age.group) %>%
+  summarise(
+   p_value = shapiro.test(rhr)$p.value
+  )
+
+
+# Leveny test to check the homogeneity of variance assumption in ANOVA
+# Homogeneity of variance is assumed if p > 0.05
+library(car)
+leveneTest(rhr ~ age.group, data = data)
+
+
+# Perform One-Way ANOVA: to test if the effect of age.group on rhr is statistically significant
+anova_result <- aov(rhr ~ age.group, data = data)
+
+# Summary of ANOVA test
+summary(anova_result)
+# F value may be > 1. Still, a p-value of greater than 0.05 confirms that F value is not statistically significant.
+```
+### Multi-way ANOVA
+
+If there is more than one column/group which influences the value column `rhr`, then we'll run :
+```r
+aov(rhr ~ gr1+gr2, data= data)
+```
+Note that if the dataset is in the form of a data frame or matrix, you'll need to convert it to a pivot table before running the aov:
+```r
+library(tidyverse)
+long_df <- pivot_longer(rbd, cols = B1:B5, names_to = 'blocks', values_to = 'value')
+```
+This would convert this:
+```
+Variety,B1,B2,B3,B4,B5
+A,20,26,30,28,23
+B,6,12,10,9,7
+C,12,15,16,14,14
+D,17,10,20,23,20
+E,28,26,23,33,30
+F,70,62,56,64,75
+```
+
+to
+
+```
+Variety,blocks,value
+A,B1,20
+A,B2,26
+A,B3,30
+A,B4,28
+A,B5,23
+B,B1,6
+B,B2,12
+B,B3,10
+B,B4,9
+B,B5,7
+C,B1,12
+C,B2,15
+C,B3,16
+C,B4,14
+C,B5,14
+D,B1,17
+D,B2,10
+D,B3,20
+D,B4,23
+D,B5,20
+E,B1,28
+E,B2,26
+E,B3,23
+E,B4,33
+E,B5,30
+F,B1,70
+F,B2,62
+F,B3,56
+F,B4,64
+F,B5,75
+```
+which is suitable for running ANOVA.
+
+
+## 4. Completely Randomized Design (CRD)
