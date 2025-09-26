@@ -530,7 +530,7 @@ These are also called Distributin-free tests. They work on non-normal (often sma
 
 This is an alternative to the Independent Sample T-Test.
 
-$H_0$ = Median of the 2 groups are similar
+$$H_0$$ = Median of the 2 groups are similar
 
 Given two independent samples, group 1 with size $$n_1$$, and group 2 with size $$n_2$$:
 
@@ -547,7 +547,7 @@ Given two independent samples, group 1 with size $$n_1$$, and group 2 with size 
 
 4. The final test statistic is $$U = \min(U_1, U_2)$$.
 
-5. Compare $$U$$ to critical values from table. If $U$ $\le$ $U_{table}$, we reject $H_0$ meaning that the 2 groups have stat. different medians.
+5. Compare $$U$$ to critical values from table. If $$U$$ $\le$ $$U_{table}$$, we reject $$H_0$$ meaning that the 2 groups have stat. different medians.
 
 ### R code:
 
@@ -570,7 +570,7 @@ This is an alternative to the parametric Paired T-Test.
 Given paired data, for each pair:
 
 1. **Calculate the difference** for each pair: $$ d_i = y_i - x_i $$.
-2. **Test statistic**: $$ W = \min(N_{+}, N_{-}) $$ where $N_+$ is the no. of +ve differences and $N_-$ is the no. of -ve differences.
+2. **Test statistic**: $$ W = \min(N_{+}, N_{-}) $$ where $$N_+$$ is the no. of +ve differences and $$N_-$$ is the no. of -ve differences.
 3. **Decision:** Compare $$ W $$ to table critical value (given $$ n $$ and α) or interpret p-value. Reject $$ H_0 $$ if $$ W $$ is less than table value or p-value is below α.
 
 ## 3. Wilcoxon Signed Rank Test
