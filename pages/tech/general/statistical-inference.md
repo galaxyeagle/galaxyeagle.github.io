@@ -1,7 +1,7 @@
 ---
 layout : page
 title: Statistical Inference
-date : 2025-09-05
+date : 2025-09-26
 ---
 <style>
   html {
@@ -56,6 +56,12 @@ date : 2025-09-05
   - [Code Example](#code-example)
 - [Multi-way ANOVA](#multi-way-anova)
 - [Completely Randomized Design (CRD)](#completely-randomized-design-crd)
+
+* [Non-Parametric Hypothesis Testing](#non-parametric-hypothesis-testing)
+  * [Mann-Whitney U Test (Wilcoxon Rank-Sum Test)](#1-mann-whitney-u-test-wilcoxon-rank-sum-test)
+  * [Wilcoxon Sign Test](#2-wilcoxon-signed-test)
+  * [Wilcoxon Signed-Rank Test](#3-wilcoxon-signed-rank-test)
+  * [Kruskal-Wallis Test](#4-kruskal-wallis-kw-test)
 
 ***
 
@@ -138,7 +144,7 @@ lillie.test(your_data_vector)
 
 ---
 
-# Types of Hypothesis Tests
+# Parametric Hypothesis Tests
 
 ##  1.   Z Test
 
@@ -514,3 +520,128 @@ which is suitable for running ANOVA.
 
 
 ## 4. Completely Randomized Design (CRD)
+
+
+# Non Parametric Hypothesis Testing
+
+These are also called Distributin-free tests. They work on non-normal (often small data) data and in ALL cases of ordinal data. They generally require lesser assumptions.
+
+## 1. Mann Whitney U-Test (Wilcoxon Rank-Sum Test)
+
+This is an alternative to the Independent Sample T-Test.
+
+$H_0$ = Median of the 2 groups are similar
+
+Given two independent samples, group 1 with size $$n_1$$, and group 2 with size $$n_2$$:
+
+1. **Rank all values together** (lowest gets rank 1, highest gets rank $$n_1 + n_2$$). If tied values, use average rank.
+2. **Sum ranks for each group:** Let $$R_1$$ be the sum for group 1, $$R_2$$ for group 2.
+3. **Calculate the U statistics:**
+
+   $$
+   U_1 = n_1 n_2 + \frac{n_1(n_1 + 1)}{2} - R_1
+   $$
+   $$
+   U_2 = n_1 n_2 + \frac{n_2(n_2 + 1)}{2} - R_2
+   $$
+
+4. The final test statistic is $$U = \min(U_1, U_2)$$.
+
+5. Compare $$U$$ to critical values from table. If $U$ $\le$ $U_{table}$, we reject $H_0$ meaning that the 2 groups have stat. different medians.
+
+### R code:
+
+To compare two independent groups, e.g., groups based on col1 with numeric outcomes in col2:
+
+```r
+# Assuming df$col1 is grouping variable, df$col2 is numeric response
+wilcox.test(col2 ~ col1, data = df, paired = FALSE)
+```
+If you want to compare two separate numeric vectors, for example df$col1 and df$col2 directly:
+
+```r
+wilcox.test(df$col1, df$col2, paired = FALSE)
+```
+
+## 2. Wilcoxon Signed Test
+
+This is an alternative to the parametric Paired T-Test. 
+
+Given paired data, for each pair:
+
+1. **Calculate the difference** for each pair: $$ d_i = y_i - x_i $$.
+2. **Test statistic**: $$ W = \min(N_{+}, N_{-}) $$ where $N_+$ is the no. of +ve differences and $N_-$ is the no. of -ve differences.
+3. **Decision:** Compare $$ W $$ to table critical value (given $$ n $$ and α) or interpret p-value. Reject $$ H_0 $$ if $$ W $$ is less than table value or p-value is below α.
+
+## 3. Wilcoxon Signed Rank Test
+
+The sign test can be made more robust when paired data differences can be meaningfully ranked by absolute magnitude. Adding some ranking logic, the process becomes:
+
+Given paired data, for each pair:
+
+1. **Calculate the difference** for each pair: $$ d_i = y_i - x_i $$.
+2. **Remove zero differences** ($$ d_i = 0 $$) from consideration; let remaining pairs have $$ n $$ values.
+3. For all nonzero differences, **take the absolute value** and **rank** them (lowest to highest). Average ranks for ties.
+4. **Assign ranks their original sign** (+ for positive, − for negative differences).
+5. **Sum positive ranks ($$T_{+}$$)** and **sum negative ranks ($$T_{-}$$)**.
+6. **Test statistic**: $$ W = \min(T_{+}, T_{-}) $$ for small samples ($$ n \leq 30 $$).
+7. For large $$ n $$, use asymptotic normal approximation for $$ Z $$-score or p-value.
+8. **Decision:** Compare $$ W $$ to table critical value (given $$ n $$ and α) or interpret p-value. Reject $$ H_0 $$ if $$ W $$ is less than table value or p-value is below α.
+
+### R code :
+
+To compare two independent groups, e.g., groups based on col1 with numeric outcomes in col2:
+
+```r
+# Assuming df$col1 is grouping variable, df$col2 is numeric response
+wilcox.test(col2 ~ col1, data = df, paired = TRUE)
+```
+If you want to compare two separate numeric vectors, for example df$col1 and df$col2 directly:
+
+```r
+wilcox.test(df$col1, df$col2, paired = TRUE)
+```
+
+If you are certain of the direction of change, e.g. col2 having lesser values than col1, then you can specify $H_1$ and do a one-sided test:
+
+```r
+wilcox.test(df$col1, df$col2, paired=TRUE, alternative="greater")
+```
+
+## 4. Kruskal-Wallis (KW) Test
+
+This is the alternative to the One-way ANOVA test for no. of studied groups (k) > 2 .
+
+Given $$ k $$ independent groups with sample sizes $$ n_1, n_2, ..., n_k $$, total sample size $$ N = \sum_{i=1}^k n_i $$:
+
+1. Combine all data values from all groups and assign ranks $$ R_{ij} $$ (average ranks for ties) across the entire pooled data.
+2. Calculate the sum of ranks for each group:
+
+$$
+R_i = \sum_{j=1}^{n_i} R_{ij}
+$$
+
+3. The Kruskal-Wallis test statistic $$ H $$ is computed as:
+
+$$
+H = \frac{12}{N(N+1)} \sum_{i=1}^k \frac{R_i^2}{n_i} - 3(N+1)
+$$
+
+4. For large samples, $$ H $$ approximately follows a chi-square distribution with $$ k-1 $$ degrees of freedom.
+5. **Decision rule:** Reject the null hypothesis $$ H_0 $$ (that all group medians are equal) if
+
+$$
+p\text{-value} < \alpha
+$$
+
+or if the computed $$ H $$ exceeds the critical chi-square value for $$ k-1 $$ degrees of freedom at significance level $$ \alpha $$.
+
+
+### R code:
+
+For comparing more than two independent groups stored in col1 with numeric response col2:
+
+```r
+kruskal.test(col2 ~ col1, data = df)
+```
+
