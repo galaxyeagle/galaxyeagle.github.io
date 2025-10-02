@@ -547,7 +547,7 @@ Given two independent samples, group 1 with size $$n_1$$, and group 2 with size 
 
 4. The final test statistic is $$U = \min(U_1, U_2)$$.
 
-5. Compare $$U$$ to critical values from table. If $$U$$ $\le$ $$U_{table}$$, we reject $$H_0$$ meaning that the 2 groups have stat. different medians.
+5. Compare $$U$$ to critical values from table. If $$U$$ $$\le$$ $$U_{table}$$, we reject $$H_0$$ meaning that the 2 groups have stat. different medians.
 
 ### R code:
 
@@ -602,7 +602,7 @@ If you want to compare two separate numeric vectors, for example df$col1 and df$
 wilcox.test(df$col1, df$col2, paired = TRUE)
 ```
 
-If you are certain of the direction of change, e.g. col2 having lesser values than col1, then you can specify $H_1$ and do a one-sided test:
+If you are certain of the direction of change, e.g. col2 having lesser values than col1, then you can specify $$H_1$$ and do a one-sided test:
 
 ```r
 wilcox.test(df$col1, df$col2, paired=TRUE, alternative="greater")
