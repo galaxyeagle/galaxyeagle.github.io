@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shipwrecked
-date : 2025-10-03
+date : 2025-10-02
 ---
 
 I reach to the end of the show.
