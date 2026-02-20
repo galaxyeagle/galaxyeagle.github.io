@@ -21,10 +21,10 @@ succumbed to one assault of death.
 
 And much has it left grief behind,  
 much extinction for all time.  
-Has not death yet paved his way  
+Has not Death yet paved his way  
 to drown in the deepest tide ?
 
-Long time a gay you lived, O death,  
+Long time a gay you lived, O Death,  
 and cut our lives full through;  
 here under the illimitable skies  
 I am pledged to murder you.  

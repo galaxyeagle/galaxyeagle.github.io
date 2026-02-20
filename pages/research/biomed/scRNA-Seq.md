@@ -1,40 +1,8 @@
 ---
 layout: page
 title: scRNA-Seq Tutorial
-date: 2026-02-17
+date: 2026-02-20
 ---
-
-<style>
-html, body {
-    background-color: white;
-    color: black;
-    margin: 0;
-}
-
-/* Inline code */
-code {
-    background-color: #f0ebebff;
-    padding: 2px 4px;
-    border-radius: 4px;
-    color: black;
-}
-
-/* Code blocks */
-pre {
-    background-color: #f0ebebff;
-    padding: 12px;
-    border-radius: 8px;
-    overflow-x: auto;
-}
-
-/* Ensure text inside code blocks stays black */
-pre code {
-    background: none;
-    color: black;
-}
-
-</style>
-
 
 # I. Introduction
 
