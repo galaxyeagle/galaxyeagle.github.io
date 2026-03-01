@@ -6,7 +6,11 @@ date: 2026-03-02
 
 # Introduction
 
-The {% include tooltip.html 
-   term="mitochondria" 
-   definition="The powerhouse of the cell that produces ATP via oxidative phosphorylation." 
-%} is essential for cellular respiration.
+The 
+<span class="tooltip">
+  androgen receptor
+  <span class="tooltiptext">
+    A nuclear steroid receptor transcription factor activated by androgens like testosterone.
+  </span>
+</span>
+plays a central role in prostate cancer..
