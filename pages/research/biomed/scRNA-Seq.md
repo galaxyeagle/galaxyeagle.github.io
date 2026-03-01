@@ -191,6 +191,15 @@ pbmc = ScaleData(pbmc, features = all.genes)
 pbmc@assays$RNA@scale.data[1:20, 1:5]
 ```
 
+**NOTE :**
+
+We can model scRNA-seq counts as a Negative Binomial (NB) distributed random variable. This captures overdispersion (variance > mean) in such count data which a Poisson distribution doesn't. SCTransform method developed by Hafemeister & Satija (2019) uses this concept.
+
+Here you can replace the `NormalizeData -> FindVariableFeatures -> ScaleData` steps with this single step:
+```r
+pbmc <- SCTransform(pbmc, vars.to.regress = c("percent.mt"), verbose = FALSE)
+```
+
 # IV. Dimensionality Reduction with Batch Integration
 
 ## Step 1 : PCA
@@ -322,7 +331,7 @@ DimPlot(pbmc, reduction = "umap", group.by = c("orig.ident", "seurat_clusters"),
 
 **Identifying markers of each cluster relative to all other clusters**
 
-When the code runs `pbmc.markers <- FindAllMarkers(pbmc, ...)`, it performs a differential expression analysis (typically a Wilcoxon Rank Sum test) for every gene. This test compares the expression of a gene in one cluster against its expression in all other clusters combined. It will generate a large output `pbmc.markers` and takes some time and RAM.
+When the code runs `pbmc.markers <- FindAllMarkers(pbmc, ...)`, it performs a differential expression analysis (typically a Wilcoxon Rank Sum test) for every gene. This test compares the expression of a gene in one cluster against its expression in all other clusters combined. It will generate a large output `pbmc.markers` and takes a good amount of time and RAM.
 
 ```r
 pbmc.markers = FindAllMarkers(pbmc, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
@@ -400,6 +409,7 @@ cellchat <- createCellChat(object = data.input, meta = meta, group.by = "cell_ty
 # Set the database (you already did this correctly for human)
 CellChatDB <- CellChatDB.human
 cellchat@DB <- CellChatDB
+showDatabaseCategory(CellChatDB)
 ```
 
 # XI. Seurat preprocessing
@@ -507,3 +517,8 @@ netAnalysis_signalingRole_scatter(cellchat)
 # Or visualize for a SPECIFIC pathway (e.g., TGFb)
 netAnalysis_signalingRole_scatter(cellchat, signaling = "TGFb")
 ```
+
+
+
+
+<img src = "https://pasteimg.com/images/2026/02/21/Distplot-on-binomial-Poisson-and-negative-binomial-distributions-The-y-axis-is-the.png">
