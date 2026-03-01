@@ -34,7 +34,7 @@ a:hover { color: white; }
 .tooltip {
   position: relative;
   cursor: help;
-  border-bottom: 1px dotted rgba(248, 236, 4, 0.4);
+  border-bottom: 1px dotted rgba(225, 210, 8, 0.973);
 }
 
 /* Tooltip box */
@@ -44,7 +44,7 @@ a:hover { color: white; }
 
   position: absolute;
   bottom: 130%;
-  left: 50%;
+  left: 90%;
   transform: translateX(-50%) translateY(5px);
 
   max-width: min(280px, 90vw);
@@ -87,8 +87,6 @@ a:hover { color: white; }
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
-
-
 
 
 
