@@ -29,35 +29,64 @@ a:hover { color: white; }
 
 
 
-/* Tooltip functionality */
+/* ----Tooltip functionality---- */
 
 .tooltip {
   position: relative;
-  cursor: pointer;
-  border-bottom: 1px dotted #555;
+  cursor: help;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
 }
 
+/* Tooltip box */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 240px;
-  background-color: #222;
-  color: #fff;
-  padding: 8px;
-  border-radius: 6px;
-  position: absolute;
-  bottom: 125%;
-  left: 50%;
-  transform: translateX(-50%);
   opacity: 0;
-  transition: opacity 0.3s;
-  z-index: 100;
+
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%) translateY(5px);
+
+  max-width: min(280px, 90vw);
+  width: max-content;
+
+  padding: 10px 14px;
+  border-radius: 10px;
+
+  background: rgba(20, 20, 20, 0.85);
+  color: rgba(255, 255, 255, 0.92);
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: left;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 1000;
 }
 
+/* Small arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(20, 20, 20, 0.85) transparent transparent transparent;
+}
+
+/* Hover state */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
-
 
 
 
