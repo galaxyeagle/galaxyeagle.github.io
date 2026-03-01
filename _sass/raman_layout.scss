@@ -29,12 +29,12 @@ a:hover { color: white; }
 
 
 
-/* ----Tooltip functionality---- */
+/* ----Tooltip functionality --- */
 
 .tooltip {
   position: relative;
   cursor: help;
-  color: #f5a171;
+  border-bottom: 1px dotted rgba(248, 236, 4, 0.4);
 }
 
 /* Tooltip box */
