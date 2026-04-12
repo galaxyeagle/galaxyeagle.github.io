@@ -32,6 +32,8 @@ CNVs are generally more prevalent and disastrous. However it varies from gene to
 
 In high level regulator genes like TP53, its a mix : point mutations often act as the "first hit", while CNVs frequently act as the "second hit" or later events that accelerate tumor growth. 
 
+To illustrate how common CNVs are in cancers, an average tumor sample consists of approximately 17% genome amplification and 16% deletion, compared to less than 0.35% and 0.1%, respectively, in normal samples
+
 ### LOF
 
 If TSGs or regulators that control TSGs like TP53, RB1, BRCA1, BRCA2, APC, PTEN, etc., are LOF-mutated, the brakes on controlled cell division are lifted.

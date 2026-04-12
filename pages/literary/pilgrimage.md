@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Our pilgrimage
-date:   2025-11-05
+date:   2025-11-30
 ---
 
 Everytime I smile, you smile with me.
