@@ -27,7 +27,8 @@ I ask no mercy, bargain, oath, nor debt;
 I merely offer what few men would let.
 Sometimes God tests us and if we pass,
 all doubts rive down like a wall of glass.
-But if we surrender like we’ve almost done, the race is abandoned before it is won.
+But if we surrender like we’ve almost done,
+the race is abandoned before it is won.
 
 For now I’m wedged at the crossroads of life,
 Hanging by the cliff of one last surprise.

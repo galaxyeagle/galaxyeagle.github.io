@@ -13,7 +13,7 @@ And how it binds two souls in times of woe.
 Uncertainity’s the highway on which we ply,
 Yet we stand tall in the haze which seers decry.
 
-But care we not, what more can fate snatch;
+But care we not, what more can fate snatch?
 The will to power buries the devil’s hatch.
 
 And though yond lightning shatters the sky in shreds,
