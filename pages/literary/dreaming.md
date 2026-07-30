@@ -13,7 +13,7 @@ who will never return.
 Why hold on to the past?
 When past itself has moved on?
 And even when the past was present,
-wasn’t I a known stranger ?
+wasn’t I a stranger ?
 So why these mayavi flashbacks?
 Is the devil playing games?
 Sadist rogue !
