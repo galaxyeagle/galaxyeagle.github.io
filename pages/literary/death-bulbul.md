@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Daeth of a Bulbul
+title: Death of a Bulbul
 date : 2025-05-20
 ---
 
 Poor bird -
 you lie near the tracks,
 rested on the open grave of senseless ballasts.
-Perhaps struck down 
+Perhaps struck down
 by a train’s wheel,
 rushing blindly in unemotional speed.
 
@@ -24,9 +24,7 @@ But I can rewind your life.
 It looks like you were a simple and kind soul:
 For death don’t come easy to the crooked.
 You were hardworking and strong,
-for you died on the field and where few 
-but the brave 
-dare to glide.
+for you died on the field, poor Yorick !
 
 Death makes one look so helpless.
 You might have sketched the mighty skies
