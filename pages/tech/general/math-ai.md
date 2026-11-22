@@ -73,7 +73,7 @@ $$
 
 because the primes not exceeding 10 are 2, 3, 5 and 7.
 
-As $x$ increases, $\pi(x)$ increases, but at a progressively slower rate relative to $x$.
+As $$x$$ increases, $$\pi(x)$$ increases, but at a progressively slower rate relative to $$x$$.
 
 The Prime Number Theorem establishes that:
 
@@ -81,11 +81,11 @@ $$
 \boxed{\pi(x) \sim \frac{x}{\ln x}}
 $$
 
-The symbol $\sim$ means that the ratio of the two expressions approaches one as $x$ approaches infinity:
+The symbol $$\sim$$ means that the ratio of the two expressions approaches one as $$x$$ approaches infinity:
 
 $$
-\lim_{x \to \infty}
-\frac{\pi(x)}{x/\ln x} = 1
+\lim_{x\to\infty}
+\frac{\pi(x)}{x/\ln x}=1
 $$
 
 This gives us an increasingly accurate approximation of how many primes exist below a sufficiently large number.
@@ -104,9 +104,9 @@ Consider:
 
 $$
 \zeta(s) =
-1 + \frac{1}{2^s} +
-\frac{1}{3^s} +
-\frac{1}{4^s} + \cdots
+1+\frac{1}{2^s}+
+\frac{1}{3^s}+
+\frac{1}{4^s}+\cdots
 $$
 
 This is called the **Riemann zeta function**.
@@ -115,32 +115,32 @@ More compactly:
 
 $$
 \boxed{
-\zeta(s) = \sum_{n=1}^{\infty}\frac{1}{n^s}
+\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}
 }
 $$
 
-Initially, this infinite series converges when the real part of $s$ is greater than one.
+Initially, this infinite series converges when the real part of $$s$$ is greater than one.
 
-For example, when $s=2$:
+For example, when $$s=2$$:
 
 $$
-\zeta(2) =
+\zeta(2)=
 1+\frac14+\frac19+\frac1{16}+\cdots
 $$
 
 Its value is:
 
 $$
-\zeta(2) = \frac{\pi^2}{6}
+\zeta(2)=\frac{\pi^2}{6}
 $$
 
-Here, $\pi$ is the familiar mathematical constant, not the prime-counting function.
+Here, $$\pi$$ is the familiar mathematical constant, not the prime-counting function.
 
 But what makes the zeta function particularly interesting is Euler's product formula:
 
 $$
 \boxed{
-\zeta(s) =
+\zeta(s)=
 \prod_{p\text{ prime}}
 \frac{1}{1-p^{-s}}
 }
@@ -172,28 +172,28 @@ The distribution of primes is therefore encoded in the analytical behaviour of a
 
 ## 3. Why complex numbers enter the picture
 
-So far, we have treated $s$ as a real number.
+So far, we have treated $$s$$ as a real number.
 
-Riemann took the problem further by allowing $s$ to be a complex number:
+Riemann took the problem further by allowing $$s$$ to be a complex number:
 
 $$
-s = \sigma + it
+s=\sigma+it
 $$
 
 where:
 
-- $\sigma$ is the real part.
-- $t$ is the imaginary part.
-- $i=\sqrt{-1}$.
+- $$\sigma$$ is the real part.
+- $$t$$ is the imaginary part.
+- $$i=\sqrt{-1}$$.
 
 A complex number can be represented as a point in a two-dimensional plane:
 
 - The horizontal axis represents the real component.
 - The vertical axis represents the imaginary component.
 
-The zeta function can be extended through a mathematical technique called **analytic continuation**. This extends its definition beyond the region where the original infinite series converges, covering the entire complex plane except for a pole at $s=1$.
+The zeta function can be extended through a mathematical technique called **analytic continuation**. This extends its definition beyond the region where the original infinite series converges, covering the entire complex plane except for a pole at $$s=1$$.
 
-Once extended, the function has zeros: complex values of $s$ for which:
+Once extended, the function has zeros: complex values of $$s$$ for which:
 
 $$
 \zeta(s)=0
@@ -214,7 +214,7 @@ $$
 These occur inside a region of the complex plane called the critical strip:
 
 $$
-0 < \operatorname{Re}(s) < 1
+0<\operatorname{Re}(s)<1
 $$
 
 The Riemann Hypothesis makes a precise assertion about the location of every non-trivial zero:
@@ -264,10 +264,10 @@ The first few non-trivial zeros occur approximately at:
 
 $$
 \begin{aligned}
-s_1 &= \frac12 + 14.134725i \\
-s_2 &= \frac12 + 21.022040i \\
-s_3 &= \frac12 + 25.010858i \\
-s_4 &= \frac12 + 30.424876i
+s_1&=\frac12+14.134725i\\
+s_2&=\frac12+21.022040i\\
+s_3&=\frac12+25.010858i\\
+s_4&=\frac12+30.424876i
 \end{aligned}
 $$
 
@@ -288,7 +288,7 @@ The distribution of the zeros of the zeta function determines how accurately we 
 Recall the Prime Number Theorem:
 
 $$
-\pi(x) \sim \frac{x}{\ln x}
+\pi(x)\sim\frac{x}{\ln x}
 $$
 
 It describes the average distribution of primes.
@@ -303,12 +303,12 @@ $$
 \psi(x)=\sum_{n\leq x}\Lambda(n)
 $$
 
-where $\Lambda(n)$ is the von Mangoldt function:
+where $$\Lambda(n)$$ is the von Mangoldt function:
 
 $$
 \Lambda(n)=
 \begin{cases}
-\ln p & \text{if } n=p^k,\quad p\text{ prime},\ k\geq1\\
+\ln p & \text{if }n=p^k,\quad p\text{ prime},\ k\geq1\\
 0 & \text{otherwise}
 \end{cases}
 $$
@@ -317,11 +317,11 @@ A standard equivalent formulation of RH is:
 
 $$
 \boxed{
-\psi(x)=x+O\left(\sqrt{x}\ln^2 x\right)
+\psi(x)=x+O\left(\sqrt{x}\ln^2x\right)
 }
 $$
 
-The $O$-notation describes an asymptotic bound: the magnitude of the error is bounded by a constant multiple of the indicated expression for sufficiently large $x$.
+The $$O$$-notation describes an asymptotic bound: the magnitude of the error is bounded by a constant multiple of the indicated expression for sufficiently large $$x$$.
 
 This is a much stronger statement about the accuracy of our understanding of prime distribution.
 
